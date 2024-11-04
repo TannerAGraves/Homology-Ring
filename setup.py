@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="homology-ring-pipeline",
+    name="HomologyRing",
     version="0.1",
     author="Tanner Aaron Graves",
     author_email="tanner.graves1@gmail.com",
@@ -15,6 +15,7 @@ setup(
         "pandas>=1.1",
         "numpy>=1.19",
         "matplotlib>=3.3",
+        "requests",
         "plotly>=4.14",
         "scipy>=1.5",
         "networkx>=2.5",
