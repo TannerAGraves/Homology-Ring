@@ -1,0 +1,66 @@
+\begin{thebibliography}{1}
+
+\bibitem{genes12101471}
+Michael Cargill, Rasika Venkataraman, and Stanley Lee.
+\newblock Dead-box rna helicases and genome stability.
+\newblock {\em Genes}, 12(10), 2021.
+
+\bibitem{Carmeliet1998}
+P.~Carmeliet, Y.~Dor, J.~M. Herbert, D.~Fukumura, K.~Brusselmans, M.~Dewerchin,
+  M.~Neeman, F.~Bono, R.~Abramovitch, P.~Maxwell, C.~J. Koch, P.~Ratcliffe,
+  L.~Moons, R.~K. Jain, D.~Collen, and E.~Keshert.
+\newblock Role of hif-1alpha in hypoxia-mediated apoptosis, cell proliferation
+  and tumour angiogenesis.
+\newblock {\em Nature}, 394(6692):485--490, 1998.
+
+\bibitem{ring}
+Alessio Del Conte, Giorgia~F Camagni, Damiano Clementel, Giovanni Minervini,
+  Alexander~Miguel Monzon, Carlo Ferrari, Damiano Piovesan, and Silvio C~E
+  Tosatto.
+\newblock {RING 4.0: faster residue interaction networks with novel interaction
+  types across over 35,000 different chemical structures}.
+\newblock {\em Nucleic Acids Research}, 52(W1):W306--W312, 04 2024.
+
+\bibitem{alphafold}
+John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov,
+  Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin
+  {\v{Z}}{\'\i}dek, Anna Potapenko, et~al.
+\newblock Highly accurate protein structure prediction with {AlphaFold}.
+\newblock {\em Nature}, 596(7873):583--589, 2021.
+
+\bibitem{Min2002}
+Jung-Hyun Min, Haifeng Yang, Mircea Ivan, Frank Gertler, William G~Jr Kaelin,
+  and Nikola~P Pavletich.
+\newblock Structure of an hif-1alpha -pvhl complex: hydroxyproline recognition
+  in signaling.
+\newblock {\em Science}, 296(5574):1886--1889, 2002.
+\newblock Epub 2002 May 9.
+
+\bibitem{placeholder}
+Author Name.
+\newblock Article title.
+\newblock {\em Journal Name}, 10:1--10, 2024.
+
+\bibitem{Ohh1999}
+M~Ohh, Y~Takagi, T~Aso, C.~E. Stebbins, N.~P. Pavletich, B~Zbar, R.~C. Conaway,
+  J.~W. Conaway, and W.~G.~Jr Kaelin.
+\newblock {Synthetic peptides define critical contacts between elongin C,
+  elongin B, and the von Hippel-Lindau protein}.
+\newblock {\em J Clin Invest}, 104(11):1583--1591, 1999.
+
+\bibitem{Tabaro2016}
+Francesco Tabaro, Giovanni Minervini, Faiza Sundus, Federica Quaglia, Emanuela
+  Leonardi, Damiano Piovesan, and Silvio C.~E. Tosatto.
+\newblock {VHLdb: A database of von Hippel-Lindau protein interactors and
+  mutations}.
+\newblock {\em Scientific Reports}, 6(1):31128, 2016.
+
+\bibitem{Yehorova2024}
+Dariia Yehorova, Rory~M Crean, Peter~M Kasson, and Shina C~L Kamerlin.
+\newblock Key interaction networks: Identifying evolutionarily conserved
+  non-covalent interaction networks across protein families.
+\newblock {\em Protein Science}, 33(3):e4911, Mar 2024.
+\newblock © 2024 The Authors. Protein Science published by Wiley Periodicals
+  LLC on behalf of The Protein Society.
+
+\end{thebibliography}

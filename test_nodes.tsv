@@ -1,0 +1,676 @@
+u	node_type	color	x	y	z	consensus	identifier	EIDN	db_code	pdbx_description
+234	RES	#1f77b4	50.162	22.158	41.143	Val				
+238	RES	#1f77b4	46.473	27.092	40.624	Leu				
+236	RES	#1f77b4	45.94	23.365	44.595	Leu				
+240	RES	#1f77b4	43.972	28.604	45.499	Lys				
+191	RES	#1f77b4	34.593	22.764	38.089	Leu				
+217	RES	#1f77b4	34.007	16.028	39.347	Gln				
+183	RES	#1f77b4	45.235	19.696	32.527	Phe				
+186	RES	#1f77b4	41.383	22.559	32.113	Pro				
+439	RES	#1f77b4				Glu				
+442	RES	#1f77b4				Lys				
+471	RES	#1f77b4				Lys				
+544	RES	#1f77b4				Asp				
+152	RES	#1f77b4	53.576	25.502	23.261	Pro				
+155	RES	#1f77b4	48.712	27.303	23.544	Gln				
+419	RES	#1f77b4				Leu				
+531	RES	#1f77b4				Gly				
+565	RES	#1f77b4				Thr				
+569	RES	#1f77b4				Ala				
+537	RES	#1f77b4				Val				
+540	RES	#1f77b4				Val				
+221	RES	#1f77b4	45.497	8.781	37.265	Leu				
+308	RES	#1f77b4	48.882	11.25	32.938	Asp				
+159	RES	#1f77b4	41.134	25.503	24.64	Pro				
+459	RES	#1f77b4				Ile				
+609	RES	#1f77b4				Leu				
+220	RES	#1f77b4	43.382	11.998	37.47	Val				
+306	RES	#1f77b4	42.741	12.41	32.988	Val				
+232	RES	#1f77b4	47.847	17.776	43.701	Gln				
+584	RES	#1f77b4				Asp				
+587	RES	#1f77b4				Ile				
+122	RES	#1f77b4	46.247	33.235	28.831	Phe				
+142	RES	#1f77b4	47.956	31.284	37.056	Ile				
+168	RES	#1f77b4	38.6	14.216	24.326	Asp				
+408	RES	#1f77b4	39.768	13.067	19.976	Pro				
+469	RES	#1f77b4				Lys				
+473	RES	#1f77b4				Asp				
+429	RES	#1f77b4				Gln				
+599	RES	#1f77b4				Ile				
+151	RES	#1f77b4	54.013	27.163	26.675	Ser				
+154	RES	#1f77b4	49.291	25.198	26.679	Gln				
+496	RES	#1f77b4				Ser				
+519	RES	#1f77b4				Ser				
+559	RES	#1f77b4				Ile				
+595	RES	#1f77b4				Tyr				
+125	RES	#1f77b4	41.583	31.797	26.495	Met				
+464	RES	#1f77b4				Ile				
+522	RES	#1f77b4				Leu				
+432	RES	#1f77b4				Val				
+579	RES	#1f77b4				Val				
+131	RES	#1f77b4	39.384	31.567	31.536	Leu				
+139	RES	#1f77b4	43.769	33.466	35.896	Leu				
+302	RES	#1f77b4	32.972	12.592	37.635	Ile				
+335	RES	#1f77b4	32.589	5.883	35.041	Leu				
+472	RES	#1f77b4				Ala				
+523	RES	#1f77b4				Ile				
+412	RES	#1f77b4	51.578	15.309	19.04	Leu				
+568	RES	#1f77b4				Arg				
+513	RES	#1f77b4				Glu				
+516	RES	#1f77b4				Ser				
+470	RES	#1f77b4				Arg				
+474	RES	#1f77b4				Trp				
+510	RES	#1f77b4				Ile				
+215	RES	#1f77b4	31.35	16.242	44.821	Gly				
+300	RES	#1f77b4	28.458	9.588	39.848	Arg				
+425	RES	#1f77b4				Glu				
+564	RES	#1f77b4				Arg				
+557	RES	#1f77b4				Asn				
+560	RES	#1f77b4				His				
+231	RES	#1f77b4	49.823	17.005	40.496	Ile				
+545	RES	#1f77b4				Leu				
+577	RES	#1f77b4				Asn				
+227	RES	#1f77b4	53.669	12.107	40.642	Leu				
+230	RES	#1f77b4	53.067	16.788	42.434	Gln				
+467	RES	#1f77b4				Asn				
+546	RES	#1f77b4				Pro				
+135	RES	#1f77b4				Arg				
+242	RES	#1f77b4	38.731	29.79	43.624	Met				
+222	RES	#1f77b4	49.279	8.914	37.516	Ala				
+280	RES	#1f77b4	47.606	5.639	41.148	Thr				
+147	RES	#1f77b4	53.312	31.877	34.725	Phe				
+286	RES	#1f77b4	40.234	0.318	45.597	Asp				
+291	RES	#1f77b4	35.019	0.533	48.81	Arg				
+143	RES	#1f77b4	49.612	34.709	37.535	Tyr				
+146	RES	#1f77b4	54.356	32.81	38.27	Gly				
+157	RES	#1f77b4	45.672	22.124	24.372	Ala				
+251	RES	#1f77b4	39.802	21.04	46.672	Lys				
+275	RES	#1f77b4	36.379	18.406	43.691	His				
+150	RES	#1f77b4	51.627	29.944	27.732	Pro				
+602	RES	#1f77b4				Met				
+479	RES	#1f77b4				Met				
+484	RES	#1f77b4				Phe				
+310	RES	#1f77b4	49.891	6.821	30.192	Ala				
+314	RES	#1f77b4	50.873	0.847	30.979	Leu				
+281	RES	#1f77b4	45.2	3.245	39.294	Pro				
+509	RES	#1f77b4				Ser				
+512	RES	#1f77b4				Lys				
+498	RES	#1f77b4				Leu				
+507	RES	#1f77b4				Arg				
+452	RES	#1f77b4				Tyr				
+455	RES	#1f77b4				Leu				
+161	RES	#1f77b4	40.244	20.699	26.911	Ile				
+169	RES	#1f77b4	42.265	15.127	23.986	Leu				
+465	RES	#1f77b4				Phe				
+561	RES	#1f77b4				Arg				
+368	RES	#1f77b4	42.352	13.578	28.388	Leu				
+505	RES	#1f77b4				Lys				
+508	RES	#1f77b4				Glu				
+548	RES	#1f77b4				Asn				
+288	RES	#1f77b4	35.833	3.028	43.964	Ile				
+326	RES	#1f77b4	38.048	2.153	36.367	Ile				
+193	RES	#1f77b4	32.942	24.906	42.944	Ile				
+411	RES	#1f77b4	48.386	17.237	19.792	Ile				
+312	RES	#1f77b4	54.472	4.717	32.151	Arg				
+315	RES	#1f77b4	54.572	-0.194	31.237	Asp				
+396	RES	#1f77b4	49.276	-0.027	24.082	Glu				
+555	RES	#1f77b4				Arg				
+594	RES	#1f77b4				Tyr				
+170	RES	#1f77b4	45.458	13.19	23.297	Ile				
+369	RES	#1f77b4	45.446	11.419	27.907	Leu				
+287	RES	#1f77b4	38.61	3.658	46.547	Met				
+297	RES	#1f77b4	34.91	7.622	45.807	Leu				
+167	RES	#1f77b4	36.649	17.445	23.854	Arg				
+515	RES	#1f77b4				Arg				
+239	RES	#1f77b4	43.066	26.766	42.322	Gly				
+586	RES	#1f77b4				Arg				
+590	RES	#1f77b4				Asp				
+153	RES	#1f77b4	51.396	22.705	24.673	Ile				
+258	RES	#1f77b4				Gly				
+261	RES	#1f77b4				Val				
+511	RES	#1f77b4				Leu				
+466	RES	#1f77b4				Cys				
+543	RES	#1f77b4				Tyr				
+253	RES	#1f77b4	42.741	14.81	47.354	His				
+274	RES	#1f77b4	36.901	16.911	47.202	Val				
+461	RES	#1f77b4				Gln				
+520	RES	#1f77b4				Arg				
+226	RES	#1f77b4	55.021	11.046	44.061	Glu				
+181	RES	#1f77b4	49.318	23.047	34.505	Ala				
+185	RES	#1f77b4	43.767	24.644	34.253	Ile				
+260	RES	#1f77b4				Pro				
+264	RES	#1f77b4				Glu				
+431	RES	#1f77b4				Tyr				
+235	RES	#1f77b4	46.296	21.92	41.111	Ile				
+323	RES	#1f77b4	42.657	1.397	34.211	Ile				
+428	RES	#1f77b4				Lys				
+575	RES	#1f77b4				Ala				
+313	RES	#1f77b4	51.17	3.484	33.687	Met				
+448	RES	#1f77b4				Leu				
+578	RES	#1f77b4				Phe				
+402	RES	#1f77b4	40.719	4.146	20.587	Lys				
+571	RES	#1f77b4				Arg				
+285	RES	#1f77b4	40.272	1.27	41.898	Phe				
+180	RES	#1f77b4	50.632	19.417	34.555	Thr				
+184	RES	#1f77b4	45.051	21.458	35.943	Ala				
+256	RES	#1f77b4	47.926	7.094	47.297	Ile				
+265	RES	#1f77b4				Gln				
+542	RES	#1f77b4				Asn				
+526	RES	#1f77b4				Asp				
+503	RES	#1f77b4				Pro				
+316	RES	#1f77b4	54.018	-0.67	35.004	Arg				
+581	RES	#1f77b4				Asn				
+585	RES	#1f77b4				Ile				
+532	RES	#1f77b4				Leu				
+371	RES	#1f77b4	52.084	10.774	27.257	Ser				
+407	RES	#1f77b4	36.934	11.782	17.762	Asp				
+536	RES	#1f77b4				Gln				
+327	RES	#1f77b4	36.857	3.429	32.984	Tyr				
+404	RES	#1f77b4	38.154	5.417	25.633	Phe				
+255	RES	#1f77b4	44.582	8.753	46.611	Cys				
+278	RES	#1f77b4	44.44	12.19	41.898	Val				
+225	RES	#1f77b4	52.36	8.357	44.481	Arg				
+283	RES	#1f77b4	44.569	3.009	44.846	Arg				
+269	RES	#1f77b4				Leu				
+188	RES	#1f77b4	39.752	23.964	37.268	Leu				
+409	RES	#1f77b4	41.822	16.183	19.421	Ile				
+521	RES	#1f77b4				Val				
+423	RES	#1f77b4				Thr				
+530	RES	#1f77b4				Arg				
+533	RES	#1f77b4				Asp				
+156	RES	#1f77b4	47.294	24.277	21.695	Gln				
+160	RES	#1f77b4	39.964	22.09	23.362	Leu				
+397	RES	#1f77b4	48.69	3.733	24.57	Val				
+233	RES	#1f77b4	50.394	20.468	44.587	Lys				
+237	RES	#1f77b4	48.298	26.294	43.87	Ala				
+317	RES	#1f77b4	51.209	-3.133	34.224	Gly				
+558	RES	#1f77b4				Tyr				
+591	RES	#1f77b4				Ile				
+601	RES	#1f77b4				Glu				
+228	RES	#1f77b4	50.137	12.086	42.169	Ala				
+305	RES	#1f77b4	39.051	11.559	33.48	Leu				
+367	RES	#1f77b4	38.973	11.806	28.566	Thr				
+524	RES	#1f77b4				Ala				
+309	RES	#1f77b4	52.063	9.551	31.715	Glu				
+171	RES	#1f77b4	48.546	15.258	24.06	Ala				
+567	RES	#1f77b4				Gly				
+570	RES	#1f77b4				Gly				
+187	RES	#1f77b4	39.899	20.858	35.166	Val				
+325	RES	#1f77b4	38.021	-1.417	35.086	Asp				
+266	RES	#1f77b4				Ile				
+270	RES	#1f77b4				Gln				
+121	RES	#1f77b4	48.287	34.346	25.815	Ser				
+296	RES	#1f77b4	35.006	5.981	49.267	Lys				
+441	RES	#1f77b4				Trp				
+444	RES	#1f77b4				Asp				
+607	RES	#1f77b4				Ala				
+610	RES	#1f77b4				Ile				
+600	RES	#1f77b4				Gln				
+136	RES	#1f77b4				Glu				
+189	RES	#1f77b4	37.954	25.976	34.591	Gln				
+218	RES	#1f77b4	37.442	15.067	37.967	Ala				
+319	RES	#1f77b4	48.182	-0.957	35.079	Phe				
+514	RES	#1f77b4				Phe				
+435	RES	#1f77b4				Glu				
+580	RES	#1f77b4				Thr				
+328	RES	#1f77b4	34.082	0.846	33.088	Ser				
+588	RES	#1f77b4				Leu				
+592	RES	#1f77b4				Glu				
+399	RES	#1f77b4	44.757	1.109	22.001	Glu				
+403	RES	#1f77b4	38.727	2.406	23.29	Lys				
+307	RES	#1f77b4	45.421	9.766	32.323	Leu				
+424	RES	#1f77b4				Leu				
+311	RES	#1f77b4	52.964	5.134	28.658	Asp				
+277	RES	#1f77b4	40.944	13.077	43.185	Val				
+284	RES	#1f77b4	41.782	4.687	42.841	Leu				
+449	RES	#1f77b4				Cys				
+268	RES	#1f77b4				Arg				
+528	RES	#1f77b4				Ala				
+534	RES	#1f77b4				Val				
+451	RES	#1f77b4				Leu				
+401	RES	#1f77b4	42.73	6.127	23.148	Ala				
+576	RES	#1f77b4				Ile				
+589	RES	#1f77b4				Arg				
+219	RES	#1f77b4	39.669	12.011	38.395	Leu				
+140	RES	#1f77b4	44.522	34.83	39.373	Lys				
+241	RES	#1f77b4	41.894	31.7	44.69	Tyr				
+166	RES	#1f77b4	35.084	19.396	26.773	Gly				
+366	RES	#1f77b4	35.678	13.726	28.796	Gln				
+597	RES	#1f77b4				Thr				
+137	RES	#1f77b4	39.719	33.468	39.831	Glu				
+276	RES	#1f77b4	39.304	16.414	42.252	Ile				
+141	RES	#1f77b4	46.055	31.458	40.357	Gly				
+267	RES	#1f77b4				Arg				
+229	RES	#1f77b4	51.399	14.401	44.955	Gln				
+398	RES	#1f77b4	47.075	4.049	21.151	Leu				
+224	RES	#1f77b4	53.296	6.818	41.112	Thr				
+163	RES	#1f77b4	35.491	22.992	25.506	Ser				
+299	RES	#1f77b4	31.848	7.868	40.104	Leu				
+463	RES	#1f77b4				Ile				
+138	RES	#1f77b4	41.672	30.889	37.766	Leu				
+145	RES	#1f77b4	51.979	30.803	40.44	Tyr				
+410	RES	#1f77b4	45.417	15.089	18.771	Arg				
+539	RES	#1f77b4				Leu				
+574	RES	#1f77b4				Val				
+254	RES	#1f77b4	45.688	12.481	46.551	Ala				
+214	RES	#1f77b4	30.874	19.487	46.753	Arg				
+499	RES	#1f77b4				His				
+502	RES	#1f77b4				Met				
+438	RES	#1f77b4				Arg				
+158	RES	#1f77b4	43.955	24.373	26.926	Ile				
+443	RES	#1f77b4				Leu				
+289	RES	#1f77b4	35.307	-0.576	45.163	Glu				
+535	RES	#1f77b4				Pro				
+324	RES	#1f77b4	40.091	-0.369	31.998	Tyr				
+518	RES	#1f77b4				Ser				
+414	RES	#1f77b4				Lys				
+279	RES	#1f77b4	46.096	8.799	42.502	Gly				
+370	RES	#1f77b4	48.967	12.755	28.174	Phe				
+506	RES	#1f77b4				Glu				
+454	RES	#1f77b4				Thr				
+529	RES	#1f77b4				Ala				
+495	RES	#1f77b4				Val				
+144	RES	#1f77b4	50.208	34.07	41.258	Ala				
+172	RES	#1f77b4	52.147	14.18	23.429	Gln				
+413	RES	#1f77b4				Val				
+460	RES	#1f77b4				Gly				
+538	RES	#1f77b4				Ser				
+292	RES	#1f77b4	32.59	3.361	47.881	Arg				
+298	RES	#1f77b4	31.671	7.968	43.916	Asn				
+563	RES	#1f77b4				Gly				
+556	RES	#1f77b4				Glu				
+475	RES	#1f77b4				Leu				
+547	RES	#1f77b4				Asn				
+643	CHAIN	#2ca02c	3.065257386658473	24.350358174923073	30.064699323232663	CHN	P38919	0.0	DDX48_HUMAN	Probable ATP-dependent RNA helicase DDX48
+562	RES	#1f77b4				Ile				
+282	RES	#1f77b4	45.377	0.578	42.068	Gly				
+303	RES	#1f77b4	32.856	14.47	34.295	Lys				
+541	RES	#1f77b4				Ile				
+192	RES	#1f77b4	31.286	23.734	39.693	Glu				
+373	RES	#1f77b4	55.602	8.43	23.94	Thr				
+517	RES	#1f77b4				Gly				
+416	RES	#1f77b4				Asp				
+485	RES	#1f77b4				Thr				
+527	RES	#1f77b4				Val				
+458	RES	#1f77b4				Thr				
+162	RES	#1f77b4	38.039	23.446	28.369	Leu				
+504	RES	#1f77b4				Gln				
+453	RES	#1f77b4				Asp				
+304	RES	#1f77b4	36.612	14.499	33.456	Met				
+477	RES	#1f77b4				Glu				
+480	RES	#1f77b4				Arg				
+430	RES	#1f77b4				Phe				
+427	RES	#1f77b4				Ile				
+598	RES	#1f77b4				Ala				
+593	RES	#1f77b4				Gln				
+434	RES	#1f77b4				Val				
+445	RES	#1f77b4				Ala				
+176	RES	#1f77b4	56.977	19.103	33.512	Gly				
+400	RES	#1f77b4	43.48	2.927	25.098	Leu				
+525	RES	#1f77b4				Thr				
+173	RES	#1f77b4	53.944	15.97	26.247	Ala				
+329	RES	#1f77b4	32.883	2.328	36.428	Tyr				
+372	RES	#1f77b4	55.706	11.482	26.226	Ala				
+262	RES	#1f77b4				Gly				
+406	RES	#1f77b4	35.455	9.683	20.595	Arg				
+605	RES	#1f77b4				Asn				
+608	RES	#1f77b4				Asp				
+223	RES	#1f77b4	51.939	6.134	37.578	Pro				
+462	RES	#1f77b4				Ala				
+476	RES	#1f77b4				Thr				
+497	RES	#1f77b4				Ser				
+481	RES	#1f77b4				Ala				
+483	RES	#1f77b4				Gly				
+182	RES	#1f77b4	47.666	22.296	31.136	Ala				
+337	RES	#1f77b4	29.389	7.053	29.408	Pro				
+190	RES	#1f77b4	35.241	23.271	34.33	Gln				
+179	RES	#1f77b4	52.16	19.841	31.074	Lys				
+650	LIG	#d62728	-44.6614435483871	4.276282258064515	25.37076612903226	LIG	PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER	7.0		PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER
+646	CHAIN	#2ca02c	-74.68779556856187	5.5537270066889635	31.412719063545154	CHN	P61326	3.0	MGN_HUMAN	Protein mago nashi homolog
+648	CHAIN	#2ca02c	-70.37749088566073	14.575159208059983	32.85207682755389	CHN	O15234	5.0	CASC3_HUMAN	Protein CASC3
+322	RES	#1f77b4	42.918	-1.735	36.431	Gln				
+573	RES	#1f77b4				Gly				
+468	RES	#1f77b4				Thr				
+273	RES	#1f77b4	34.022	15.028	48.88	Gly				
+336	RES	#1f77b4	29.649	7.473	33.197	Pro				
+149	RES	#1f77b4	53.165	33.33	28.677	Lys				
+271	RES	#1f77b4				Asn				
+250	RES	#1f77b4	39.187	24.2	44.593	Leu				
+113	RES	#1f77b4				Asn				
+178	RES	#1f77b4	53.792	23.2	31.888	Gly				
+374	RES	#1f77b4	52.746	6.865	22.029	Met				
+405	RES	#1f77b4	37.816	8.332	23.236	Met				
+216	RES	#1f77b4	34.246	14.723	42.911	Pro				
+450	RES	#1f77b4				Asp				
+379	RES	#1f77b4	53.321	3.103	21.936	Pro				
+148	RES	#1f77b4	53.412	34.769	32.209	Thr				
+213	RES	#1f77b4	28.893	21.443	44.144	Gly				
+415	RES	#1f77b4				Arg				
+119	RES	#1f77b4	46.235	31.069	21.436	Val				
+604	RES	#1f77b4				Pro				
+647	CHAIN	#2ca02c	-74.22344596443227	6.483501367989056	30.214662790697673	CHN	Q9Y5S9	4.0	RBM8A_HUMAN	RNA-binding protein 8A
+118	RES	#1f77b4	47.029	28.494	18.741	Pro				
+174	RES	#1f77b4	56.994	15.431	28.461	Gln				
+177	RES	#1f77b4	55.014	21.829	35.223	Thr				
+120	RES	#1f77b4	49.458	32.705	22.611	Lys				
+418	RES	#1f77b4				Glu				
+395	RES	#1f77b4	50.786	0.556	20.653	His				
+257	RES	#1f77b4	47.415	4.872	50.379	Gly				
+440	RES	#1f77b4				Glu				
+259	RES	#1f77b4				Thr				
+301	RES	#1f77b4	29.642	13.192	39.37	Lys				
+611	RES	#1f77b4				Leu				
+117	RES	#1f77b4	43.974	27.174	16.878	Lys				
+478	RES	#1f77b4				Lys				
+596	RES	#1f77b4				Gly				
+501	RES	#1f77b4				Asp				
+123	RES	#1f77b4	43.995	36.357	28.741	Asp				
+116	RES	#1f77b4				Pro				
+433	RES	#1f77b4				Leu				
+612	RES	#1f77b4				Glu				
+482	RES	#1f77b4				Ala				
+249	RES	#1f77b4	38.257	27.353	46.535	Gly				
+603	RES	#1f77b4				Pro				
+606	RES	#1f77b4				Leu				
+109	RES	#1f77b4				Val				
+110	RES	#1f77b4				Arg				
+320	RES	#1f77b4	46.165	-1.527	31.858	Glu				
+365	RES	#1f77b4	32.926	11.634	30.407	Arg				
+582	RES	#1f77b4				Asp				
+115	RES	#1f77b4				Cys				
+252	RES	#1f77b4	41.965	18.1	45.635	Cys				
+98	RES	#1f77b4				Ser				
+102	RES	#1f77b4				Ile				
+426	RES	#1f77b4				Gly				
+572	RES	#1f77b4				Lys				
+175	RES	#1f77b4	57.035	15.509	32.263	Thr				
+321	RES	#1f77b4	43.543	-3.865	33.306	Asp				
+132	RES	#1f77b4	37.631	32.514	34.764	Ser				
+417	RES	#1f77b4				Thr				
+655	LIG	#d62728	3.327433	3.4453560000000003	10.163242	LIG	PHOSPHATE ION	12.0		PHOSPHATE ION
+654	LIG	#d62728	6.792662666666668	-2.873801666666667	19.966544666666667	LIG	TRIETHYLENE GLYCOL	11.0		TRIETHYLENE GLYCOL
+656	LIG	#d62728	11.761168988095239	3.0821850000000004	41.27464113095238	LIG	1,2-ETHANEDIOL	13.0		1,2-ETHANEDIOL
+124	RES	#1f77b4	42.553	35.322	25.35	Glu				
+130	RES	#1f77b4	38.271	32.882	28.097	Gly				
+194	RES	#1f77b4	29.716	25.095	45.015	Gln				
+272	RES	#1f77b4	33.071	16.524	52.243	Glu				
+657	CHAIN	#2ca02c	15.857006764069265	40.83930898268398	-8.087150974025974	CHN	P17844	14.0	DDX5_HUMAN	Probable ATP-dependent RNA helicase DDX5
+209	RES	#1f77b4				Asp				
+97	RES	#1f77b4				Asn				
+101	RES	#1f77b4				Glu				
+90	RES	#1f77b4				Gln				
+93	RES	#1f77b4				Val				
+659	LIG	#d62728	27.709079365079365	19.123404761904762	17.098179894179896	LIG	ADENOSINE-5'-DIPHOSPHATE	16.0		ADENOSINE-5'-DIPHOSPHATE
+243	RES	#1f77b4				Pro				
+94	RES	#1f77b4				Asp				
+658	LIG	#d62728	21.209600000000002	41.37084	4.51796	LIG	SULFATE ION	15.0		SULFATE ION
+108	RES	#1f77b4				Thr				
+92	RES	#1f77b4				Val				
+210	RES	#1f77b4				Leu				
+99	RES	#1f77b4				Lys				
+96	RES	#1f77b4				Arg				
+318	RES	#1f77b4				Gly				
+211	RES	#1f77b4				Glu				
+362	RES	#1f77b4				Arg				
+95	RES	#1f77b4				Leu				
+68	RES	#1f77b4				Asp				
+64	RES	#1f77b4				Glu				
+71	RES	#1f77b4				Ala				
+89	RES	#1f77b4				Arg				
+65	RES	#1f77b4				His				
+583	RES	#1f77b4				Glu				
+57	RES	#1f77b4				Phe				
+364	RES	#1f77b4	29.418	10.849	28.893	Asn				
+91	RES	#1f77b4				Glu				
+457	RES	#1f77b4				Gly				
+66	RES	#1f77b4				Pro				
+86	RES	#1f77b4				Arg				
+88	RES	#1f77b4				Thr				
+87	RES	#1f77b4				Leu				
+24	RES	#1f77b4				Pro				
+663	LIG	#d62728	63.894125	64.695125	22.185125	LIG	BERYLLIUM TRIFLUORIDE ION	20.0		BERYLLIUM TRIFLUORIDE ION
+60	RES	#1f77b4				Asn				
+18	RES	#1f77b4				Trp				
+19	RES	#1f77b4				Asp				
+23	RES	#1f77b4				Leu				
+62	RES	#1f77b4				Tyr				
+61	RES	#1f77b4				Phe				
+59	RES	#1f77b4				Lys				
+649	LIG	#d62728	22.471384615384615	33.88415384615385	18.881153846153843	LIG	MAGNESIUM ION	6.0		MAGNESIUM ION
+363	RES	#1f77b4				Pro				
+20	RES	#1f77b4				Met				
+114	RES	#1f77b4				Gly				
+22	RES	#1f77b4				Glu				
+436	RES	#1f77b4				Glu				
+665	CHAIN	#2ca02c	4.702764521356855	5.828159695156323	-56.493418601118606	CHN	Q9NR30	22.0	DDX21_HUMAN	Nucleolar RNA helicase 2
+456	RES	#1f77b4				Ser				
+500	RES	#1f77b4				Gly				
+331	RES	#1f77b4				Tyr				
+666	LIG	#d62728	7.881318840579711	-7.353748792270532	-33.81266666666667	LIG	ADENOSINE MONOPHOSPHATE	23.0		ADENOSINE MONOPHOSPHATE
+332	RES	#1f77b4				Lys				
+447	RES	#1f77b4				Val				
+195	RES	#1f77b4				Leu				
+133	RES	#1f77b4	39.033	35.509	36.661	Glu				
+330	RES	#1f77b4				Ala				
+446	RES	#1f77b4				Ala				
+212	RES	#1f77b4				Arg				
+667	CHAIN	#2ca02c	-4.995933007541153	8.68410846367584	-0.09898503688551763	CHN	Q9NVP1	24.0	DDX18_HUMAN	ATP-dependent RNA helicase DDX18
+248	RES	#1f77b4				His				
+196	RES	#1f77b4				Gln				
+247	RES	#1f77b4				Asn				
+669	CHAIN	#2ca02c	7.3613962735347584	13.423985834841014	126.98051436638042	CHN	Q9UJV9	26.0	DDX41_HUMAN	ATP-dependent RNA helicase DDX41
+437	RES	#1f77b4				Ser				
+670	LIG	#d62728	13.731444444444444	-24.484555555555556	-0.9717777777777779	LIG	(2S)-2-hydroxybutanedioic acid	27.0		(2S)-2-hydroxybutanedioic acid
+207	RES	#1f77b4				Arg				
+245	RES	#1f77b4				Asp				
+244	RES	#1f77b4				Glu				
+128	RES	#1f77b4				Glu				
+100	RES	#1f77b4				Ser				
+129	RES	#1f77b4				Phe				
+263	RES	#1f77b4				Lys				
+295	RES	#1f77b4				Pro				
+112	RES	#1f77b4				Gly				
+6	RES	#1f77b4				Glu				
+10	RES	#1f77b4				Lys				
+674	CHAIN	#2ca02c	181.50095544936028	191.68944381069832	219.48641328811468	CHN	O75533	31.0	SF3B1_HUMAN	Splicing factor 3B subunit 1
+14	RES	#1f77b4				Val				
+80	RES	#1f77b4				Ala				
+1	RES	#1f77b4				Gln				
+5	RES	#1f77b4				Glu				
+4	RES	#1f77b4				Leu				
+8	RES	#1f77b4				Met				
+293	RES	#1f77b4				Ser				
+12	RES	#1f77b4				Lys				
+16	RES	#1f77b4				Asn				
+11	RES	#1f77b4				Arg				
+13	RES	#1f77b4				Ser				
+21	RES	#1f77b4				Asn				
+9	RES	#1f77b4				Arg				
+76	RES	#1f77b4				Leu				
+15	RES	#1f77b4				Leu				
+79	RES	#1f77b4				Tyr				
+77	RES	#1f77b4				Asp				
+17	RES	#1f77b4				Lys				
+2	RES	#1f77b4				Asn				
+0	RES	#1f77b4				Asp				
+74	RES	#1f77b4				Asp				
+83	RES	#1f77b4				Leu				
+7	RES	#1f77b4				Glu				
+3	RES	#1f77b4				Lys				
+81	RES	#1f77b4				Gln				
+341	RES	#1f77b4				Asp				
+350	RES	#1f77b4				Cys				
+349	RES	#1f77b4				Val				
+352	RES	#1f77b4				Ala				
+353	RES	#1f77b4				Thr				
+616	RES	#1f77b4				Asp				
+348	RES	#1f77b4				Ile				
+339	RES	#1f77b4				Thr				
+340	RES	#1f77b4				Ser				
+357	RES	#1f77b4				Phe				
+696	LIG	#d62728	35.938336235955056	54.627446348314606	29.53333679775281	LIG	Q9BUQ8	53.0	DDX23_HUMAN	Probable ATP-dependent RNA helicase DDX23
+208	RES	#1f77b4				Pro				
+344	RES	#1f77b4				Arg				
+347	RES	#1f77b4				Val				
+63	RES	#1f77b4				Val				
+672	LIG	#d62728	33.38977777777777	32.013444444444445	28.40833333333333	LIG	GLYCEROL	29.0		GLYCEROL
+356	RES	#1f77b4				Ser				
+359	RES	#1f77b4				Val				
+361	RES	#1f77b4				Lys				
+698	LIG	#d62728	43.3775	70.017	19.5565	LIG	MERCURY (II) ION	55.0		MERCURY (II) ION
+345	RES	#1f77b4				Leu				
+342	RES	#1f77b4				Gly				
+354	RES	#1f77b4				Leu				
+422	RES	#1f77b4				Ser				
+346	RES	#1f77b4				Gln				
+111	RES	#1f77b4				Gly				
+700	LIG	#d62728	-14.894333333333334	-3.5171666666666663	5.075333333333334	LIG	ETHANOL	57.0		ETHANOL
+202	RES	#1f77b4				Ala				
+206	RES	#1f77b4				Asn				
+200	RES	#1f77b4				Leu				
+204	RES	#1f77b4				Lys				
+338	RES	#1f77b4				Val				
+203	RES	#1f77b4				Met				
+201	RES	#1f77b4				Arg				
+205	RES	#1f77b4				Glu				
+621	RES	#1f77b4				Trp				
+199	RES	#1f77b4				Ala				
+198	RES	#1f77b4				Glu				
+702	CHAIN	#2ca02c	16.275292835714072	-4.876751754626575	17.040971038166894	CHN	Q9UHI6	59.0	DDX20_HUMAN	Probable ATP-dependent RNA helicase DDX20
+703	CHAIN	#2ca02c	-29.448116289595653	6.010520208870636	0.1733461228758877	CHN	Q9UHL0	60.0	DDX25_HUMAN	ATP-dependent RNA helicase DDX25
+660	LIG	#d62728	-7.357600000000001	3.4985999999999997	10.752600000000001	LIG	CHLORIDE ION	17.0		CHLORIDE ION
+554	RES	#1f77b4				Asp				
+695	LIG	#d62728	120.86633333333333	126.00216666666667	121.6225	LIG	ZINC ION	52.0		ZINC ION
+704	CHAIN	#2ca02c	31.400071851392713	28.239997472180214	29.670184446050076	CHN	Q9UMR2	61.0	DD19B_HUMAN	ATP-dependent RNA helicase DDX19B
+85	RES	#1f77b4				Asn				
+552	RES	#1f77b4				Glu				
+84	RES	#1f77b4				Leu				
+82	RES	#1f77b4				Ser				
+553	RES	#1f77b4				Pro				
+551	RES	#1f77b4				Gly				
+705	CHAIN	#2ca02c	46.18809651802077	57.067044441050705	65.34027489309713	CHN	P35658	62.0	NU214_HUMAN	Nuclear pore complex protein Nup214
+165	RES	#1f77b4				Pro				
+164	RES	#1f77b4				Glu				
+290	RES	#1f77b4				Lys				
+42	RES	#1f77b4				Glu				
+45	RES	#1f77b4				Glu				
+49	RES	#1f77b4				Cys				
+103	RES	#1f77b4				Thr				
+628	RES	#1f77b4				Ser				
+613	RES	#1f77b4				Lys				
+706	CHAIN	#2ca02c	9.03992363383339	0.11544990356209883	-2.5902195787805544	CHN	A3RJH1	63.0	A3RJH1_HUMAN	ATP-dependent RNA helicase DDX1
+56	RES	#1f77b4				Met				
+105	RES	#1f77b4				Lys				
+35	RES	#1f77b4				Gly				
+624	RES	#1f77b4				Lys				
+50	RES	#1f77b4				Arg				
+40	RES	#1f77b4				Ser				
+38	RES	#1f77b4				Cys				
+67	RES	#1f77b4				Glu				
+46	RES	#1f77b4				Trp				
+27	RES	#1f77b4				Ser				
+47	RES	#1f77b4				His				
+625	RES	#1f77b4				Ser				
+28	RES	#1f77b4				Ala				
+41	RES	#1f77b4				Arg				
+29	RES	#1f77b4				Phe				
+31	RES	#1f77b4				Ile				
+51	RES	#1f77b4				Ala				
+32	RES	#1f77b4				Gly				
+126	RES	#1f77b4				Gly				
+34	RES	#1f77b4				Asp				
+37	RES	#1f77b4				Cys				
+127	RES	#1f77b4				Glu				
+55	RES	#1f77b4				Leu				
+618	RES	#1f77b4				Tyr				
+614	RES	#1f77b4				Ala				
+107	RES	#1f77b4				Gly				
+44	RES	#1f77b4				Lys				
+106	RES	#1f77b4				Phe				
+26	RES	#1f77b4				Gly				
+52	RES	#1f77b4				Thr				
+25	RES	#1f77b4				Lys				
+48	RES	#1f77b4				Gly				
+626	RES	#1f77b4				Gln				
+53	RES	#1f77b4				Lys				
+104	RES	#1f77b4				Asp				
+39	RES	#1f77b4				Gln				
+637	RES	#1f77b4				Ala				
+36	RES	#1f77b4				Leu				
+627	RES	#1f77b4				His				
+619	RES	#1f77b4				Ile				
+641	RES	#1f77b4				Gln				
+639	RES	#1f77b4				Ile				
+54	RES	#1f77b4				Gly				
+381	RES	#1f77b4				Thr				
+388	RES	#1f77b4				Pro				
+385	RES	#1f77b4				Val				
+493	RES	#1f77b4				Phe				
+421	RES	#1f77b4				Asn				
+390	RES	#1f77b4				Asn				
+393	RES	#1f77b4				Thr				
+383	RES	#1f77b4				His				
+384	RES	#1f77b4				His				
+394	RES	#1f77b4				Asp				
+392	RES	#1f77b4				Lys				
+378	RES	#1f77b4				Val				
+635	RES	#1f77b4				Leu				
+617	RES	#1f77b4				Gly				
+491	RES	#1f77b4				His				
+494	RES	#1f77b4				Ser				
+391	RES	#1f77b4				Pro				
+488	RES	#1f77b4				Lys				
+420	RES	#1f77b4				Ala				
+386	RES	#1f77b4				Val				
+640	RES	#1f77b4				Ser				
+622	RES	#1f77b4				Tyr				
+631	RES	#1f77b4				Ile				
+632	RES	#1f77b4				Glu				
+358	RES	#1f77b4				Asp				
+382	RES	#1f77b4				Val				
+629	RES	#1f77b4				Gly				
+486	RES	#1f77b4				Pro				
+360	RES	#1f77b4				Lys				
+710	CHAIN	#2ca02c	19.982854493653797	-1.5704719797010043	119.27697470153537	CHN	Q53EL6	67.0	PDCD4_HUMAN	Programmed cell death protein 4
+712	CHAIN	#2ca02c	5.009365519796932	-12.010972821537216	13.835445736225582	CHN	Q86TM3	69.0	DDX53_HUMAN	Probable ATP-dependent RNA helicase DDX53
+620	RES	#1f77b4				Val				
+623	RES	#1f77b4				Asn				
+58	RES	#1f77b4				Glu				
+30	RES	#1f77b4				Ala				
+33	RES					Ser				
+43	RES					Val				
+69	RES					Asp				
+70	RES					Glu				
+72	RES					Asp				
+73	RES					Leu				
+75	RES					Pro				
+78	RES	#1f77b4				Ala				
+134	RES					Asp				
+197	RES	#1f77b4				Ile				
+246	RES					Ser				
+294	RES	#1f77b4				Pro				
+333	RES	#1f77b4				Lys				
+334	RES					Asp				
+343	RES					Lys				
+351	RES	#1f77b4				Ser				
+355	RES	#1f77b4				His				
+375	RES					Asp				
+376	RES					Leu				
+377	RES					Ser				
+380	RES					Asp				
+387	RES	#1f77b4				Val				
+389	RES	#1f77b4				Val				
+487	RES					Asp				
+489	RES					Lys				
+490	RES	#1f77b4				Gly				
+492	RES					Gln				
+549	RES					Glu				
+550	RES					Asp				
+566	RES	#1f77b4				Cys				
+615	RES	#1f77b4				Pro				
+630	RES	#1f77b4				Asn				
+633	RES	#1f77b4				Glu				
+634	RES	#1f77b4				His				
+636	RES	#1f77b4				Asn				
+638	RES					Thr				
+642	RES	#1f77b4				Val				

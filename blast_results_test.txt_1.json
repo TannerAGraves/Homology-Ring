@@ -1,0 +1,2812 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "pdb"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.001,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "query",
+          "query_len": 88,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8BB2|K",
+                  "accession": "8BB2_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BB3|K",
+                  "accession": "8BB3_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BB4|O",
+                  "accession": "8BB4_O",
+                  "title": "Chain O, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BB5|B",
+                  "accession": "8BB5_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 98,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 177.178,
+                  "score": 448,
+                  "evalue": 3.92785e-59,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 3,
+                  "hit_to": 98,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8IJ1|C",
+                  "accession": "8IJ1_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8IJ1|H",
+                  "accession": "8IJ1_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8JE1|C",
+                  "accession": "8JE1_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8JE1|H",
+                  "accession": "8JE1_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8JE2|C",
+                  "accession": "8JE2_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 98,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.792,
+                  "score": 447,
+                  "evalue": 4.14951e-59,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 3,
+                  "hit_to": 98,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|8FY0|C",
+                  "accession": "8FY0_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8RWZ|D",
+                  "accession": "8RWZ_D",
+                  "title": "Chain D, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8RX0|D",
+                  "accession": "8RX0_D",
+                  "title": "Chain D, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.792,
+                  "score": 447,
+                  "evalue": 4.29654e-59,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 2,
+                  "hit_to": 97,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|6I7Q|C",
+                  "accession": "6I7Q_C",
+                  "title": "Chain C, Elongin-C [Bos taurus]",
+                  "taxid": 9913
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.792,
+                  "score": 447,
+                  "evalue": 4.58911e-59,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 2,
+                  "hit_to": 97,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|21730759|pdb|1LM8|C",
+                  "accession": "1LM8_C",
+                  "title": "Chain C, ELONGIN C"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.792,
+                  "score": 447,
+                  "evalue": 5.13161e-59,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 1,
+                  "hit_to": 96,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|6I7R|C",
+                  "accession": "6I7R_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 98,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.792,
+                  "score": 447,
+                  "evalue": 5.22551e-59,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 3,
+                  "hit_to": 98,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|2C9W|C",
+                  "accession": "2C9W_C",
+                  "title": "Chain C, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|2IZV|C",
+                  "accession": "2IZV_C",
+                  "title": "Chain C, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3DCG|B",
+                  "accession": "3DCG_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3DCG|D",
+                  "accession": "3DCG_D",
+                  "title": "Chain D, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZNG|B",
+                  "accession": "3ZNG_B",
+                  "title": "Chain B, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZNG|E",
+                  "accession": "3ZNG_E",
+                  "title": "Chain E, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZRC|B",
+                  "accession": "3ZRC_B",
+                  "title": "Chain B, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZRC|E",
+                  "accession": "3ZRC_E",
+                  "title": "Chain E, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZRC|H",
+                  "accession": "3ZRC_H",
+                  "title": "Chain H, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZRC|K",
+                  "accession": "3ZRC_K",
+                  "title": "Chain K, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZRF|B",
+                  "accession": "3ZRF_B",
+                  "title": "Chain B, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZRF|E",
+                  "accession": "3ZRF_E",
+                  "title": "Chain E, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZRF|H",
+                  "accession": "3ZRF_H",
+                  "title": "Chain H, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZRF|K",
+                  "accession": "3ZRF_K",
+                  "title": "Chain K, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZTC|B",
+                  "accession": "3ZTC_B",
+                  "title": "Chain B, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZTC|E",
+                  "accession": "3ZTC_E",
+                  "title": "Chain E, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZTC|H",
+                  "accession": "3ZTC_H",
+                  "title": "Chain H, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZTC|K",
+                  "accession": "3ZTC_K",
+                  "title": "Chain K, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZTD|B",
+                  "accession": "3ZTD_B",
+                  "title": "Chain B, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZTD|E",
+                  "accession": "3ZTD_E",
+                  "title": "Chain E, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZTD|H",
+                  "accession": "3ZTD_H",
+                  "title": "Chain H, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZTD|K",
+                  "accession": "3ZTD_K",
+                  "title": "Chain K, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZUN|B",
+                  "accession": "3ZUN_B",
+                  "title": "Chain B, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZUN|E",
+                  "accession": "3ZUN_E",
+                  "title": "Chain E, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZUN|H",
+                  "accession": "3ZUN_H",
+                  "title": "Chain H, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|3ZUN|K",
+                  "accession": "3ZUN_K",
+                  "title": "Chain K, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4AJY|C",
+                  "accession": "4AJY_C",
+                  "title": "Chain C, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4AWJ|B",
+                  "accession": "4AWJ_B",
+                  "title": "Chain B, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4AWJ|E",
+                  "accession": "4AWJ_E",
+                  "title": "Chain E, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4AWJ|H",
+                  "accession": "4AWJ_H",
+                  "title": "Chain H, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4AWJ|K",
+                  "accession": "4AWJ_K",
+                  "title": "Chain K, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4B95|B",
+                  "accession": "4B95_B",
+                  "title": "Chain B, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4B95|E",
+                  "accession": "4B95_E",
+                  "title": "Chain E, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4B95|H",
+                  "accession": "4B95_H",
+                  "title": "Chain H, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4B95|K",
+                  "accession": "4B95_K",
+                  "title": "Chain K, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4B9K|B",
+                  "accession": "4B9K_B",
+                  "title": "Chain B, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4B9K|H",
+                  "accession": "4B9K_H",
+                  "title": "Chain H, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4B9K|K",
+                  "accession": "4B9K_K",
+                  "title": "Chain K, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4BKS|B",
+                  "accession": "4BKS_B",
+                  "title": "Chain B, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4BKS|E",
+                  "accession": "4BKS_E",
+                  "title": "Chain E, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4BKS|H",
+                  "accession": "4BKS_H",
+                  "title": "Chain H, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4BKS|K",
+                  "accession": "4BKS_K",
+                  "title": "Chain K, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4BKT|B",
+                  "accession": "4BKT_B",
+                  "title": "Chain B, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4BKT|E",
+                  "accession": "4BKT_E",
+                  "title": "Chain E, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4BKT|H",
+                  "accession": "4BKT_H",
+                  "title": "Chain H, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4BKT|K",
+                  "accession": "4BKT_K",
+                  "title": "Chain K, Transcription Elongation Factor B Polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9C|B",
+                  "accession": "4W9C_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9C|E",
+                  "accession": "4W9C_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9C|H",
+                  "accession": "4W9C_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9C|K",
+                  "accession": "4W9C_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9D|B",
+                  "accession": "4W9D_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9D|E",
+                  "accession": "4W9D_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9D|H",
+                  "accession": "4W9D_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9D|K",
+                  "accession": "4W9D_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9E|B",
+                  "accession": "4W9E_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9E|E",
+                  "accession": "4W9E_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9E|H",
+                  "accession": "4W9E_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9E|K",
+                  "accession": "4W9E_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9G|B",
+                  "accession": "4W9G_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9G|E",
+                  "accession": "4W9G_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9G|H",
+                  "accession": "4W9G_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9G|K",
+                  "accession": "4W9G_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9H|H",
+                  "accession": "4W9H_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9H|K",
+                  "accession": "4W9H_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9I|B",
+                  "accession": "4W9I_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9I|E",
+                  "accession": "4W9I_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9I|H",
+                  "accession": "4W9I_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9I|K",
+                  "accession": "4W9I_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9J|B",
+                  "accession": "4W9J_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9J|E",
+                  "accession": "4W9J_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9J|H",
+                  "accession": "4W9J_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9J|K",
+                  "accession": "4W9J_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9K|B",
+                  "accession": "4W9K_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9K|E",
+                  "accession": "4W9K_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9K|H",
+                  "accession": "4W9K_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9K|K",
+                  "accession": "4W9K_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9L|B",
+                  "accession": "4W9L_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9L|E",
+                  "accession": "4W9L_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9L|H",
+                  "accession": "4W9L_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9L|K",
+                  "accession": "4W9L_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5BO4|C",
+                  "accession": "5BO4_C",
+                  "title": "Chain C, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5BO4|F",
+                  "accession": "5BO4_F",
+                  "title": "Chain F, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5BO4|I",
+                  "accession": "5BO4_I",
+                  "title": "Chain I, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5BO4|L",
+                  "accession": "5BO4_L",
+                  "title": "Chain L, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5BO4|O",
+                  "accession": "5BO4_O",
+                  "title": "Chain O, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5BO4|R",
+                  "accession": "5BO4_R",
+                  "title": "Chain R, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5LLI|B",
+                  "accession": "5LLI_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5LLI|E",
+                  "accession": "5LLI_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5LLI|H",
+                  "accession": "5LLI_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5LLI|K",
+                  "accession": "5LLI_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5N4W|C",
+                  "accession": "5N4W_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVV|B",
+                  "accession": "5NVV_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVV|E",
+                  "accession": "5NVV_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVV|H",
+                  "accession": "5NVV_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVV|K",
+                  "accession": "5NVV_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVW|B",
+                  "accession": "5NVW_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVW|E",
+                  "accession": "5NVW_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVW|H",
+                  "accession": "5NVW_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVW|K",
+                  "accession": "5NVW_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVX|B",
+                  "accession": "5NVX_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVX|E",
+                  "accession": "5NVX_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVX|H",
+                  "accession": "5NVX_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVX|K",
+                  "accession": "5NVX_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVY|B",
+                  "accession": "5NVY_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVY|E",
+                  "accession": "5NVY_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVY|H",
+                  "accession": "5NVY_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVY|K",
+                  "accession": "5NVY_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVZ|B",
+                  "accession": "5NVZ_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVZ|E",
+                  "accession": "5NVZ_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVZ|H",
+                  "accession": "5NVZ_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NVZ|K",
+                  "accession": "5NVZ_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW0|B",
+                  "accession": "5NW0_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW0|E",
+                  "accession": "5NW0_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW0|H",
+                  "accession": "5NW0_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW0|K",
+                  "accession": "5NW0_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW1|B",
+                  "accession": "5NW1_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW1|E",
+                  "accession": "5NW1_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW1|H",
+                  "accession": "5NW1_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW1|K",
+                  "accession": "5NW1_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW2|B",
+                  "accession": "5NW2_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW2|E",
+                  "accession": "5NW2_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW2|H",
+                  "accession": "5NW2_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5NW2|K",
+                  "accession": "5NW2_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5T35|C",
+                  "accession": "5T35_C",
+                  "title": "Chain C, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5T35|G",
+                  "accession": "5T35_G",
+                  "title": "Chain G, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMI|B",
+                  "accession": "6FMI_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMI|E",
+                  "accession": "6FMI_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMJ|B",
+                  "accession": "6FMJ_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMJ|E",
+                  "accession": "6FMJ_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMJ|H",
+                  "accession": "6FMJ_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMJ|K",
+                  "accession": "6FMJ_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMK|B",
+                  "accession": "6FMK_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMK|E",
+                  "accession": "6FMK_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMK|H",
+                  "accession": "6FMK_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6FMK|K",
+                  "accession": "6FMK_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFX|B",
+                  "accession": "6GFX_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFY|B",
+                  "accession": "6GFY_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFY|E",
+                  "accession": "6GFY_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFY|H",
+                  "accession": "6GFY_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFY|K",
+                  "accession": "6GFY_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFZ|B",
+                  "accession": "6GFZ_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFZ|E",
+                  "accession": "6GFZ_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFZ|H",
+                  "accession": "6GFZ_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GFZ|K",
+                  "accession": "6GFZ_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMN|B",
+                  "accession": "6GMN_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMN|E",
+                  "accession": "6GMN_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMN|H",
+                  "accession": "6GMN_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMN|K",
+                  "accession": "6GMN_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMQ|H",
+                  "accession": "6GMQ_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMQ|K",
+                  "accession": "6GMQ_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMR|C",
+                  "accession": "6GMR_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMX|B",
+                  "accession": "6GMX_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMX|H",
+                  "accession": "6GMX_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMX|K",
+                  "accession": "6GMX_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6HAX|C",
+                  "accession": "6HAX_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6HAX|G",
+                  "accession": "6HAX_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6HAY|C",
+                  "accession": "6HAY_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6HAY|G",
+                  "accession": "6HAY_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6HR2|C",
+                  "accession": "6HR2_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6HR2|G",
+                  "accession": "6HR2_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6I4X|C",
+                  "accession": "6I4X_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6I5J|C",
+                  "accession": "6I5J_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6I5J|F",
+                  "accession": "6I5J_F",
+                  "title": "Chain F, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6I5N|C",
+                  "accession": "6I5N_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6I5N|F",
+                  "accession": "6I5N_F",
+                  "title": "Chain F, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6SIS|C",
+                  "accession": "6SIS_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6SIS|G",
+                  "accession": "6SIS_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6V9H|D",
+                  "accession": "6V9H_D",
+                  "title": "Chain D, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7JTO|K",
+                  "accession": "7JTO_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7JTP|K",
+                  "accession": "7JTP_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7Q2J|B",
+                  "accession": "7Q2J_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7Z6L|C",
+                  "accession": "7Z6L_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7Z76|B",
+                  "accession": "7Z76_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7Z77|B",
+                  "accession": "7Z77_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLM|C",
+                  "accession": "7ZLM_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLM|F",
+                  "accession": "7ZLM_F",
+                  "title": "Chain F, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLM|I",
+                  "accession": "7ZLM_I",
+                  "title": "Chain I, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLM|L",
+                  "accession": "7ZLM_L",
+                  "title": "Chain L, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLN|C",
+                  "accession": "7ZLN_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLO|C",
+                  "accession": "7ZLO_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLP|C",
+                  "accession": "7ZLP_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLR|C",
+                  "accession": "7ZLR_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLS|C",
+                  "accession": "7ZLS_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLS|F",
+                  "accession": "7ZLS_F",
+                  "title": "Chain F, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLS|I",
+                  "accession": "7ZLS_I",
+                  "title": "Chain I, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZLS|L",
+                  "accession": "7ZLS_L",
+                  "title": "Chain L, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZNT|B",
+                  "accession": "7ZNT_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7ZNT|E",
+                  "accession": "7ZNT_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDI|B",
+                  "accession": "8BDI_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDI|E",
+                  "accession": "8BDI_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDI|H",
+                  "accession": "8BDI_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDI|K",
+                  "accession": "8BDI_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDJ|B",
+                  "accession": "8BDJ_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDJ|E",
+                  "accession": "8BDJ_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDJ|H",
+                  "accession": "8BDJ_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDJ|K",
+                  "accession": "8BDJ_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDL|B",
+                  "accession": "8BDL_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDL|E",
+                  "accession": "8BDL_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDL|H",
+                  "accession": "8BDL_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDL|K",
+                  "accession": "8BDL_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDM|B",
+                  "accession": "8BDM_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDM|E",
+                  "accession": "8BDM_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDM|H",
+                  "accession": "8BDM_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDM|K",
+                  "accession": "8BDM_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDN|B",
+                  "accession": "8BDN_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDN|E",
+                  "accession": "8BDN_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDN|H",
+                  "accession": "8BDN_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDN|K",
+                  "accession": "8BDN_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDO|B",
+                  "accession": "8BDO_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDO|E",
+                  "accession": "8BDO_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDS|B",
+                  "accession": "8BDS_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDT|C",
+                  "accession": "8BDT_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDT|G",
+                  "accession": "8BDT_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDX|C",
+                  "accession": "8BDX_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BDX|G",
+                  "accession": "8BDX_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8BEB|B",
+                  "accession": "8BEB_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQE|B",
+                  "accession": "8CQE_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQE|E",
+                  "accession": "8CQE_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQE|H",
+                  "accession": "8CQE_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQE|K",
+                  "accession": "8CQE_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQK|B",
+                  "accession": "8CQK_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQK|E",
+                  "accession": "8CQK_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQK|H",
+                  "accession": "8CQK_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQK|K",
+                  "accession": "8CQK_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQL|B",
+                  "accession": "8CQL_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQL|E",
+                  "accession": "8CQL_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQL|H",
+                  "accession": "8CQL_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8CQL|K",
+                  "accession": "8CQL_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8P0F|B",
+                  "accession": "8P0F_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8P0F|E",
+                  "accession": "8P0F_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8PC2|C",
+                  "accession": "8PC2_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8PC2|E",
+                  "accession": "8PC2_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QJR|B",
+                  "accession": "8QJR_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QJR|E",
+                  "accession": "8QJR_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QJS|B",
+                  "accession": "8QJS_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QJS|E",
+                  "accession": "8QJS_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QJS|H",
+                  "accession": "8QJS_H",
+                  "title": "Chain H, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QJS|K",
+                  "accession": "8QJS_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QVU|C",
+                  "accession": "8QVU_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QVU|G",
+                  "accession": "8QVU_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QW6|C",
+                  "accession": "8QW6_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QW6|G",
+                  "accession": "8QW6_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QW7|C",
+                  "accession": "8QW7_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8QW7|G",
+                  "accession": "8QW7_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|9EQJ|B",
+                  "accession": "9EQJ_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|9EQJ|E",
+                  "accession": "9EQJ_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|9EQM|B",
+                  "accession": "9EQM_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.792,
+                  "score": 447,
+                  "evalue": 5.29317e-59,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 2,
+                  "hit_to": 97,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|7CJB|C",
+                  "accession": "7CJB_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7CJB|G",
+                  "accession": "7CJB_G",
+                  "title": "Chain G, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7CJB|K",
+                  "accession": "7CJB_K",
+                  "title": "Chain K, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7CJB|O",
+                  "accession": "7CJB_O",
+                  "title": "Chain O, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.407,
+                  "score": 446,
+                  "evalue": 7.39831e-59,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 5,
+                  "hit_to": 100,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|4930145|pdb|1VCB|B",
+                  "accession": "1VCB_B",
+                  "title": "Chain B, PROTEIN (ELONGIN C)"
+                }
+              ],
+              "len": 112,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.407,
+                  "score": 446,
+                  "evalue": 1.23024e-58,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 17,
+                  "hit_to": 112,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "pdb|8QU8|C",
+                  "accession": "8QU8_C",
+                  "title": "Chain C, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "gb|KFO34028.1|",
+                  "accession": "KFO34028",
+                  "title": "Transcription elongation factor B polypeptide 1, partial [Fukomys damarensis]",
+                  "taxid": 885580
+                },
+                {
+                  "id": "gb|KFQ21147.1|",
+                  "accession": "KFQ21147",
+                  "title": "Transcription elongation factor B polypeptide 1, partial [Merops nubicus]",
+                  "taxid": 57421
+                },
+                {
+                  "id": "gb|KFQ29400.1|",
+                  "accession": "KFQ29400",
+                  "title": "Transcription elongation factor B polypeptide 1, partial [Mesitornis unicolor]",
+                  "taxid": 54374
+                },
+                {
+                  "id": "gb|KFQ48442.1|",
+                  "accession": "KFQ48442",
+                  "title": "Transcription elongation factor B polypeptide 1, partial [Pelecanus crispus]",
+                  "taxid": 36300
+                },
+                {
+                  "id": "gb|KFV63163.1|",
+                  "accession": "KFV63163",
+                  "title": "Transcription elongation factor B polypeptide 1, partial [Dryobates pubescens]",
+                  "taxid": 118200
+                },
+                {
+                  "id": "gb|KTF93289.1|",
+                  "accession": "KTF93289",
+                  "title": "hypothetical protein cypCar_00005224, partial [Cyprinus carpio]",
+                  "taxid": 7962
+                },
+                {
+                  "id": "gb|NWH87350.1|",
+                  "accession": "NWH87350",
+                  "title": "ELOC protein [Aegithalos caudatus]",
+                  "taxid": 73327
+                },
+                {
+                  "id": "gb|NWI87648.1|",
+                  "accession": "NWI87648",
+                  "title": "ELOC protein [Pitta sordida]",
+                  "taxid": 9163
+                },
+                {
+                  "id": "gb|NWR09031.1|",
+                  "accession": "NWR09031",
+                  "title": "ELOC protein [Sinosuthora webbiana]",
+                  "taxid": 337173
+                },
+                {
+                  "id": "gb|NWS03475.1|",
+                  "accession": "NWS03475",
+                  "title": "ELOC protein [Motacilla alba]",
+                  "taxid": 45807
+                },
+                {
+                  "id": "gb|NWS32528.1|",
+                  "accession": "NWS32528",
+                  "title": "ELOC protein [Polioptila caerulea]",
+                  "taxid": 66707
+                },
+                {
+                  "id": "gb|NWS88351.1|",
+                  "accession": "NWS88351",
+                  "title": "ELOC protein [Toxostoma redivivum]",
+                  "taxid": 99882
+                },
+                {
+                  "id": "gb|NWT35013.1|",
+                  "accession": "NWT35013",
+                  "title": "ELOC protein [Cardinalis cardinalis]",
+                  "taxid": 98964
+                },
+                {
+                  "id": "gb|NWT50005.1|",
+                  "accession": "NWT50005",
+                  "title": "ELOC protein [Erythrocercus mccallii]",
+                  "taxid": 107208
+                },
+                {
+                  "id": "gb|NWU01288.1|",
+                  "accession": "NWU01288",
+                  "title": "ELOC protein [Urocynchramus pylzowi]",
+                  "taxid": 571890
+                },
+                {
+                  "id": "gb|NWU34707.1|",
+                  "accession": "NWU34707",
+                  "title": "ELOC protein [Hylia prasina]",
+                  "taxid": 208073
+                },
+                {
+                  "id": "gb|NWU99592.1|",
+                  "accession": "NWU99592",
+                  "title": "ELOC protein [Upupa epops]",
+                  "taxid": 57439
+                },
+                {
+                  "id": "gb|NWX04708.1|",
+                  "accession": "NWX04708",
+                  "title": "ELOC protein [Caloenas nicobarica]",
+                  "taxid": 187106
+                },
+                {
+                  "id": "gb|NXA84059.1|",
+                  "accession": "NXA84059",
+                  "title": "ELOC protein [Thryothorus ludovicianus]",
+                  "taxid": 74200
+                },
+                {
+                  "id": "gb|NXA97828.1|",
+                  "accession": "NXA97828",
+                  "title": "ELOC protein [Melanocharis versteri]",
+                  "taxid": 254552
+                },
+                {
+                  "id": "gb|NXB04803.1|",
+                  "accession": "NXB04803",
+                  "title": "ELOC protein [Cnemophilus loriae]",
+                  "taxid": 254448
+                },
+                {
+                  "id": "gb|NXB54433.1|",
+                  "accession": "NXB54433",
+                  "title": "ELOC protein [Leucopsar rothschildi]",
+                  "taxid": 127929
+                },
+                {
+                  "id": "gb|NXC00780.1|",
+                  "accession": "NXC00780",
+                  "title": "ELOC protein [Orthonyx spaldingii]",
+                  "taxid": 38397
+                },
+                {
+                  "id": "gb|NXC44568.1|",
+                  "accession": "NXC44568",
+                  "title": "ELOC protein [Penelope pileata]",
+                  "taxid": 1118817
+                },
+                {
+                  "id": "gb|NXF87190.1|",
+                  "accession": "NXF87190",
+                  "title": "ELOC protein [Eubucco bourcierii]",
+                  "taxid": 91767
+                },
+                {
+                  "id": "gb|NXG26584.1|",
+                  "accession": "NXG26584",
+                  "title": "ELOC protein [Grallaria varia]",
+                  "taxid": 117165
+                },
+                {
+                  "id": "gb|NXH07624.1|",
+                  "accession": "NXH07624",
+                  "title": "ELOC protein [Loxia leucoptera]",
+                  "taxid": 96539
+                },
+                {
+                  "id": "gb|NXH62570.1|",
+                  "accession": "NXH62570",
+                  "title": "ELOC protein [Rhabdornis inornatus]",
+                  "taxid": 237438
+                },
+                {
+                  "id": "gb|NXI10666.1|",
+                  "accession": "NXI10666",
+                  "title": "ELOC protein [Irena cyanogastra]",
+                  "taxid": 175120
+                },
+                {
+                  "id": "gb|NXI48867.1|",
+                  "accession": "NXI48867",
+                  "title": "ELOC protein [Chloroceryle aenea]",
+                  "taxid": 176938
+                },
+                {
+                  "id": "gb|NXI91671.1|",
+                  "accession": "NXI91671",
+                  "title": "ELOC protein [Psophia crepitans]",
+                  "taxid": 54359
+                },
+                {
+                  "id": "gb|NXK18339.1|",
+                  "accession": "NXK18339",
+                  "title": "ELOC protein [Arenaria interpres]",
+                  "taxid": 54971
+                },
+                {
+                  "id": "gb|NXK33884.1|",
+                  "accession": "NXK33884",
+                  "title": "ELOC protein [Piprites chloris]",
+                  "taxid": 114369
+                },
+                {
+                  "id": "gb|NXL12854.1|",
+                  "accession": "NXL12854",
+                  "title": "ELOC protein [Setophaga kirtlandii]",
+                  "taxid": 298831
+                },
+                {
+                  "id": "gb|NXL87695.1|",
+                  "accession": "NXL87695",
+                  "title": "ELOC protein [Alectura lathami]",
+                  "taxid": 81907
+                },
+                {
+                  "id": "gb|NXM21888.1|",
+                  "accession": "NXM21888",
+                  "title": "ELOC protein [Ploceus nigricollis]",
+                  "taxid": 441696
+                },
+                {
+                  "id": "gb|NXM61598.1|",
+                  "accession": "NXM61598",
+                  "title": "ELOC protein [Illadopsis cleaveri]",
+                  "taxid": 201329
+                },
+                {
+                  "id": "gb|NXM98462.1|",
+                  "accession": "NXM98462",
+                  "title": "ELOC protein [Sylvia borin]",
+                  "taxid": 73324
+                },
+                {
+                  "id": "gb|NXN90752.1|",
+                  "accession": "NXN90752",
+                  "title": "ELOC protein [Bombycilla garrulus]",
+                  "taxid": 125297
+                },
+                {
+                  "id": "gb|NXN99148.1|",
+                  "accession": "NXN99148",
+                  "title": "ELOC protein [Rhinopomastus cyanomelas]",
+                  "taxid": 113115
+                },
+                {
+                  "id": "gb|NXO23218.1|",
+                  "accession": "NXO23218",
+                  "title": "ELOC protein [Cisticola juncidis]",
+                  "taxid": 52622
+                },
+                {
+                  "id": "gb|NXO43301.1|",
+                  "accession": "NXO43301",
+                  "title": "ELOC protein [Helopsaltes ochotensis]",
+                  "taxid": 3150915
+                },
+                {
+                  "id": "gb|NXO84839.1|",
+                  "accession": "NXO84839",
+                  "title": "ELOC protein [Sitta europaea]",
+                  "taxid": 50251
+                },
+                {
+                  "id": "gb|NXO93035.1|",
+                  "accession": "NXO93035",
+                  "title": "ELOC protein [Certhia brachydactyla]",
+                  "taxid": 73330
+                },
+                {
+                  "id": "gb|NXQ03020.1|",
+                  "accession": "NXQ03020",
+                  "title": "ELOC protein [Vidua macroura]",
+                  "taxid": 187451
+                },
+                {
+                  "id": "gb|NXQ12927.1|",
+                  "accession": "NXQ12927",
+                  "title": "ELOC protein [Peucedramus taeniatus]",
+                  "taxid": 135441
+                },
+                {
+                  "id": "gb|NXQ40745.1|",
+                  "accession": "NXQ40745",
+                  "title": "ELOC protein [Catharus fuscescens]",
+                  "taxid": 159581
+                },
+                {
+                  "id": "gb|NXQ78199.1|",
+                  "accession": "NXQ78199",
+                  "title": "ELOC protein [Quiscalus mexicanus]",
+                  "taxid": 64278
+                },
+                {
+                  "id": "gb|NXQ96928.1|",
+                  "accession": "NXQ96928",
+                  "title": "ELOC protein [Sagittarius serpentarius]",
+                  "taxid": 56258
+                },
+                {
+                  "id": "gb|NXR56330.1|",
+                  "accession": "NXR56330",
+                  "title": "ELOC protein [Hippolais icterina]",
+                  "taxid": 68497
+                },
+                {
+                  "id": "gb|NXR63719.1|",
+                  "accession": "NXR63719",
+                  "title": "ELOC protein [Rhadina sibilatrix]",
+                  "taxid": 2585818
+                },
+                {
+                  "id": "gb|NXR73112.1|",
+                  "accession": "NXR73112",
+                  "title": "ELOC protein [Pycnonotus jocosus]",
+                  "taxid": 182897
+                },
+                {
+                  "id": "gb|NXS28059.1|",
+                  "accession": "NXS28059",
+                  "title": "ELOC protein [Pomatostomus ruficeps]",
+                  "taxid": 9176
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.022,
+                  "score": 445,
+                  "evalue": 1.25923e-58,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 16,
+                  "hit_to": 111,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|8EBN|D",
+                  "accession": "8EBN_D",
+                  "title": "Chain D, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|8EBN|F",
+                  "accession": "8EBN_F",
+                  "title": "Chain F, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.407,
+                  "score": 446,
+                  "evalue": 1.53206e-58,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 26,
+                  "hit_to": 121,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "pdb|4JGH|C",
+                  "accession": "4JGH_C",
+                  "title": "Chain C, Transcription elongation factor B polypeptide 1 [Mus musculus]",
+                  "taxid": 10090
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 174.096,
+                  "score": 440,
+                  "evalue": 5.62012e-58,
+                  "identity": 87,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 1,
+                  "hit_to": 96,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIPLELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEI LELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "pdb|4B9K|E",
+                  "accession": "4B9K_E",
+                  "title": "Chain E, TRANSCRIPTION ELONGATION FACTOR B POLYPEPTIDE 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9F|B",
+                  "accession": "4W9F_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9F|E",
+                  "accession": "4W9F_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9F|H",
+                  "accession": "4W9F_H",
+                  "title": "Chain H, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9F|K",
+                  "accession": "4W9F_K",
+                  "title": "Chain K, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9H|B",
+                  "accession": "4W9H_B",
+                  "title": "Chain B, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|4W9H|E",
+                  "accession": "4W9H_E",
+                  "title": "Chain E, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMQ|B",
+                  "accession": "6GMQ_B",
+                  "title": "Chain B, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMQ|E",
+                  "accession": "6GMQ_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6GMX|E",
+                  "accession": "6GMX_E",
+                  "title": "Chain E, Elongin-C [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 173.711,
+                  "score": 439,
+                  "evalue": 7.88302e-58,
+                  "identity": 87,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 87,
+                  "hit_from": 2,
+                  "hit_to": 96,
+                  "align_len": 95,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLD",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLD",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLD"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "pdb|2MA9|C",
+                  "accession": "2MA9_C",
+                  "title": "Chain C, Transcription elongation factor B polypeptide 1 [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 164.851,
+                  "score": 416,
+                  "evalue": 2.52514e-54,
+                  "identity": 83,
+                  "positive": 83,
+                  "query_from": 3,
+                  "query_to": 85,
+                  "hit_from": 1,
+                  "hit_to": 91,
+                  "align_len": 91,
+                  "gaps": 8,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANF",
+                  "hseq": "VKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANF",
+                  "midline": "VKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANF"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|15988489|pdb|1HV2|A",
+                  "accession": "1HV2_A",
+                  "title": "Chain A, ELONGIN C"
+                }
+              ],
+              "len": 99,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 2.04268e-17,
+                  "identity": 36,
+                  "positive": 55,
+                  "query_from": 2,
+                  "query_to": 86,
+                  "hit_from": 5,
+                  "hit_to": 97,
+                  "align_len": 93,
+                  "gaps": 8,
+                  "qseq": "YVKLISSDGHEFIVKREHALTSGTIKAMLSGP-----NEVNFREIPSHVLSKVCMYFTYKVRYTNSS---TEIPEFPIAPEIALELLMAANFL",
+                  "hseq": "FVTLVSKDDKEYEISRSAAMISPTLKAMIEGPFRESKGRIELKQFDSHILEKAVEYLNYNLKYSGVSEDDDEIPEFEIPTEMSLELLLAADYL",
+                  "midline": "+V L+S D  E+ + R  A+ S T+KAM+ GP       +  ++  SH+L K   Y  Y ++Y+  S    EIPEF I  E++LELL+AA++L"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "pdb|5ZB2|B",
+                  "accession": "5ZB2_B",
+                  "title": "Chain B, Elongin-C [Saccharomyces cerevisiae S288C]",
+                  "taxid": 559292
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 3.04186e-14,
+                  "identity": 33,
+                  "positive": 51,
+                  "query_from": 2,
+                  "query_to": 86,
+                  "hit_from": 19,
+                  "hit_to": 101,
+                  "align_len": 88,
+                  "gaps": 8,
+                  "qseq": "YVKLISSDGHEFIVKREHALTSGTIKAMLSGPNEVNFREIPSHVLSKVCMYFTYKVRYTNSS---TEIPEFPIAPEIALELLMAANFL",
+                  "hseq": "FVTLVSKDDKEYEISRSAAMISPTLKA-----GRIELKQFDSHILEKAVEYLNYNLKYSGVSEDDDEIPEFEIPTEMSLELLLAADYL",
+                  "midline": "+V L+S D  E+ + R  A+ S T+KA       +  ++  SH+L K   Y  Y ++Y+  S    EIPEF I  E++LELL+AA++L"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "pdb|6M90|B",
+                  "accession": "6M90_B",
+                  "title": "Chain B, Skp1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6M91|B",
+                  "accession": "6M91_B",
+                  "title": "Chain B, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6M92|B",
+                  "accession": "6M92_B",
+                  "title": "Chain B, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6M93|B",
+                  "accession": "6M93_B",
+                  "title": "Chain B, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6M94|B",
+                  "accession": "6M94_B",
+                  "title": "Chain B, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 38.5058,
+                  "score": 88,
+                  "evalue": 0.000251339,
+                  "identity": 34,
+                  "positive": 47,
+                  "query_from": 3,
+                  "query_to": 87,
+                  "hit_from": 3,
+                  "hit_to": 92,
+                  "align_len": 92,
+                  "gaps": 9,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLS--GPNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIP----EFPIAPEIAL-ELLMAANFLD",
+                  "hseq": "IKLQSSDGEIFEVDVEIAKQSVTIKTMLEDLGMDPVPLPNVNAAILKKVIQWCTH--HKDDPPDDIPVWDQEFLKVDQGTLFELILAANYLD",
+                  "midline": "+KL SSDG  F V  E A  S TIK ML   G + V    + + +L KV  + T+     +   +IP    EF    +  L EL++AAN+LD"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "pdb|1P22|B",
+                  "accession": "1P22_B",
+                  "title": "Chain B, Skp1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6WNX|B",
+                  "accession": "6WNX_B",
+                  "title": "Chain B, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6WNX|E",
+                  "accession": "6WNX_E",
+                  "title": "Chain E, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|6WNX|H",
+                  "accession": "6WNX_H",
+                  "title": "Chain H, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 38.5058,
+                  "score": 88,
+                  "evalue": 0.000253825,
+                  "identity": 34,
+                  "positive": 47,
+                  "query_from": 3,
+                  "query_to": 87,
+                  "hit_from": 4,
+                  "hit_to": 93,
+                  "align_len": 92,
+                  "gaps": 9,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLS--GPNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIP----EFPIAPEIAL-ELLMAANFLD",
+                  "hseq": "IKLQSSDGEIFEVDVEIAKQSVTIKTMLEDLGMDPVPLPNVNAAILKKVIQWCTH--HKDDPPDDIPVWDQEFLKVDQGTLFELILAANYLD",
+                  "midline": "+KL SSDG  F V  E A  S TIK ML   G + V    + + +L KV  + T+     +   +IP    EF    +  L EL++AAN+LD"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "pdb|5IBK|A",
+                  "accession": "5IBK_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1,S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5IBK|D",
+                  "accession": "5IBK_D",
+                  "title": "Chain D, S-phase kinase-associated protein 1,S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 38.1206,
+                  "score": 87,
+                  "evalue": 0.000392501,
+                  "identity": 37,
+                  "positive": 49,
+                  "query_from": 3,
+                  "query_to": 87,
+                  "hit_from": 6,
+                  "hit_to": 99,
+                  "align_len": 94,
+                  "gaps": 9,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLS--GPNEVNFREIPSHVLSKVCMYFT-YKVRYTNSST-EIP----EFPIAPEIAL-ELLMAANFLD",
+                  "hseq": "IKLQSSDGEIFEVDVEIAKQSVTIKTMLEDLGMDPVPLPNVNAAILKKVIQWCTHHKDDPGGSGTDDIPVWDQEFLKVDQGTLFELILAANYLD",
+                  "midline": "+KL SSDG  F V  E A  S TIK ML   G + V    + + +L KV  + T +K     S T +IP    EF    +  L EL++AAN+LD"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "pdb|1FQV|B",
+                  "accession": "1FQV_B",
+                  "title": "Chain B, SKP1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|1FQV|D",
+                  "accession": "1FQV_D",
+                  "title": "Chain D, SKP1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|1FQV|F",
+                  "accession": "1FQV_F",
+                  "title": "Chain F, SKP1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|1FQV|H",
+                  "accession": "1FQV_H",
+                  "title": "Chain H, SKP1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|1FQV|J",
+                  "accession": "1FQV_J",
+                  "title": "Chain J, SKP1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|1FQV|L",
+                  "accession": "1FQV_L",
+                  "title": "Chain L, SKP1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|1FQV|N",
+                  "accession": "1FQV_N",
+                  "title": "Chain N, SKP1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|1FQV|P",
+                  "accession": "1FQV_P",
+                  "title": "Chain P, SKP1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|2OVP|A",
+                  "accession": "2OVP_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1A [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|2OVQ|A",
+                  "accession": "2OVQ_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1A [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|2OVR|A",
+                  "accession": "2OVR_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1A [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|7Z8V|S",
+                  "accession": "7Z8V_S",
+                  "title": "Chain S, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 38.1206,
+                  "score": 87,
+                  "evalue": 0.000401851,
+                  "identity": 35,
+                  "positive": 47,
+                  "query_from": 3,
+                  "query_to": 87,
+                  "hit_from": 4,
+                  "hit_to": 97,
+                  "align_len": 94,
+                  "gaps": 9,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLS--GPNEVNFREIPSHVLSKVCMYFTYKVRYTNSS--TEIP----EFPIAPEIAL-ELLMAANFLD",
+                  "hseq": "IKLQSSDGEIFEVDVEIAKQSVTIKTMLEDLGMDPVPLPNVNAAILKKVIQWCTHHKDDPGGSGTDDIPVWDQEFLKVDQGTLFELILAANYLD",
+                  "midline": "+KL SSDG  F V  E A  S TIK ML   G + V    + + +L KV  + T+       S   +IP    EF    +  L EL++AAN+LD"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "pdb|3L2O|A",
+                  "accession": "3L2O_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5VZT|A",
+                  "accession": "5VZT_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5VZT|C",
+                  "accession": "5VZT_C",
+                  "title": "Chain C, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5VZU|A",
+                  "accession": "5VZU_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                },
+                {
+                  "id": "pdb|5VZU|C",
+                  "accession": "5VZU_C",
+                  "title": "Chain C, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 38.1206,
+                  "score": 87,
+                  "evalue": 0.000414427,
+                  "identity": 35,
+                  "positive": 47,
+                  "query_from": 3,
+                  "query_to": 87,
+                  "hit_from": 4,
+                  "hit_to": 97,
+                  "align_len": 94,
+                  "gaps": 9,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLS--GPNEVNFREIPSHVLSKVCMYFTYKVRYTNSS--TEIP----EFPIAPEIAL-ELLMAANFLD",
+                  "hseq": "IKLQSSDGEIFEVDVEIAKQSVTIKTMLEDLGMDPVPLPNVNAAILKKVIQWCTHHKDDPGGSGTDDIPVWDQEFLKVDQGTLFELILAANYLD",
+                  "midline": "+KL SSDG  F V  E A  S TIK ML   G + V    + + +L KV  + T+       S   +IP    EF    +  L EL++AAN+LD"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "pdb|5V4B|A",
+                  "accession": "5V4B_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1,S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 38.1206,
+                  "score": 87,
+                  "evalue": 0.000427396,
+                  "identity": 35,
+                  "positive": 47,
+                  "query_from": 3,
+                  "query_to": 87,
+                  "hit_from": 4,
+                  "hit_to": 97,
+                  "align_len": 94,
+                  "gaps": 9,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLS--GPNEVNFREIPSHVLSKVCMYFTYKVRYTNSS--TEIP----EFPIAPEIAL-ELLMAANFLD",
+                  "hseq": "IKLQSSDGEIFEVDVEIAKQSVTIKTMLEDLGMDPVPLPNVNAAILKKVIQWCTHHKDDPGGSGTDDIPVWDQEFLKVDQGTLFELILAANYLD",
+                  "midline": "+KL SSDG  F V  E A  S TIK ML   G + V    + + +L KV  + T+       S   +IP    EF    +  L EL++AAN+LD"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "pdb|7T1Z|A",
+                  "accession": "7T1Z_A",
+                  "title": "Chain A, S-phase kinase-associated protein 1 [Homo sapiens]",
+                  "taxid": 9606
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 37.7354,
+                  "score": 86,
+                  "evalue": 0.000558143,
+                  "identity": 33,
+                  "positive": 45,
+                  "query_from": 3,
+                  "query_to": 87,
+                  "hit_from": 4,
+                  "hit_to": 97,
+                  "align_len": 94,
+                  "gaps": 9,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLSG---PNEVNFREIP-----SHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIAL-ELLMAANFLD",
+                  "hseq": "IKLQSSDGEIFEVDVEIAKQSVTIKTMLEDLGMDDEGDDDPVPLPNVNAAILKKVIQWCTHHKDDPGGSGTDQEFLKVDQGTLFELILAANYLD",
+                  "midline": "+KL SSDG  F V  E A  S TIK ML      +E +   +P     + +L KV  + T+       S    EF    +  L EL++AAN+LD"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 158397,
+            "db_len": 44148846,
+            "hsp_len": 57,
+            "eff_space": 1130417573,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+idx	accession	name	source_database	pfam	total	cumsum	result_num	selected_pfam	name_pfam
+84	CL0103	Gal_mutarotase	pfam	37	37	3087	7	PF04349	"Periplasmic glucan biosynthesis protein, MdoG"
+32	CL0044	Ferritin	pfam	29	29	1875	12	PF06175	tRNA-(MS[2]IO[6]A)-hydroxylase (MiaE)
+100	CL0123	HTH	pfam	507	507	4041	495	PF22564	HAAS
+224	CL0266	PH	pfam	107	107	7064	8	PF03525	Meiotic recombination protein Rec7 N-terminal domain
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	59	PF02463	RecF/RecN/SMC N terminal domain
+48	CL0062	APC	pfam	21	21	2305	20	PF16983	Molybdate transporter of MFS superfamily
+25	CL0036	TIM_barrel	pfam	193	193	1742	17	PF00449	"Urease alpha-subunit, N-terminal domain"
+165	CL0198	HHH	pfam	38	38	5947	1	PF00730	HhH-GPD superfamily base excision DNA repair protein
+97	CL0117	uPAR_Ly6_toxin	pfam	13	13	3525	4	PF05444	Domain of unknown function (DUF753)
+19	CL0028	AB_hydrolase	pfam	81	81	1399	17	PF03283	Pectinacetylesterase
+442	CL0524	MPT63-MPB63	pfam	5	5	8684	3	PF16729	Domain of unknown function (DUF5067)
+25	CL0036	TIM_barrel	pfam	193	193	1742	125	PF07505	Protein of unknown function (DUF5131)
+182	CL0220	EF_hand	pfam	44	44	6337	33	PF20742	Family of unknown function (DUF5580) middle domain
+426	CL0504	Phage_barrel	pfam	40	40	8614	38	PF22255	"Baseplate hub protein gp44-like, second domain"
+34	CL0046	Thiolase	pfam	19	19	1901	17	PF22621	"CurL-like, PKS C-terminal"
+466	CL0551	BCLiA	pfam	9	9	8815	1	PF02180	Bcl-2 homology region 4
+14	CL0022	LRR	pfam	20	20	1011	10	PF13516	Leucine Rich repeat
+12	CL0020	TPR	pfam	401	401	840	201	PF12862	Anaphase-promoting complex subunit 5
+12	CL0020	TPR	pfam	401	401	840	196	PF12765	HEAT repeat associated with sister chromatid cohesion
+41	CL0054	Knottin_1	pfam	15	15	2075	0	PF00304	Gamma-thionin family
+615	CL0725	Apolipoprotein	pfam	6	6	9488	1	PF04691	Apolipoprotein C-I (ApoC-1)
+357	CL0413	Toprim-like	pfam	12	12	8228	2	PF09664	Protein of unknown function C-terminus (DUF2399)
+131	CL0159	E-set	pfam	431	431	4948	308	PF18997	Domain of unknown function (DUF5727)
+34	CL0046	Thiolase	pfam	19	19	1901	10	PF08541	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III C terminal
+169	CL0202	GBD	pfam	108	108	6077	28	PF07828	PA-IL-like protein
+330	CL0382	DNA-mend	pfam	10	10	8109	6	PF13009	Putative integrase
+44	CL0057	Met_repress	pfam	55	55	2202	6	PF05509	TraY domain
+140	CL0170	Peptidase_MD	pfam	7	7	5159	1	PF01427	D-ala-D-ala dipeptidase
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	122	PF06733	DEAD_2
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	256	PF21448	Deoxynucleotide monophosphate kinase
+435	CL0515	LTXXQ-like	pfam	4	4	8648	3	PF16231	Domain of unknown function (DUF4890)
+477	CL0571	30K_movement	pfam	7	7	8879	4	PF03300	"Tenuivirus non-structural, movement protein NS4"
+34	CL0046	Thiolase	pfam	19	19	1901	5	PF02801	"Beta-ketoacyl synthase, C-terminal domain"
+179	CL0214	UBA	pfam	31	31	6200	19	PF18561	Endoribonuclease Regnase 1/ ZC3H12 C-terminal domain
+676	CL0790	Cas9_WED-like	pfam	2	2	9712	0	PF18061	CRISPR-Cas9 WED domain
+144	CL0174	TetR_C	pfam	57	57	5296	55	PF22568	"Tetracyclin repressor-like, C-terminal domain"
+29	CL0041	Death	pfam	19	19	1832	18	PF22080	"Dark, CARD domain"
+398	CL0469	l-integrase_N	pfam	9	9	8430	7	PF21400	Ndc10 N-terminal domain
+25	CL0036	TIM_barrel	pfam	193	193	1742	90	PF03102	NeuB family
+20	CL0029	Cupin	pfam	75	75	1474	48	PF12851	Oxygenase domain of the 2OGFeDO superfamily
+27	CL0039	HUP	pfam	32	32	1801	14	PF01902	Diphthamide synthase
+131	CL0159	E-set	pfam	431	431	4948	239	PF17116	Type 9 secretion system plug protein 1st domain
+237	CL0280	PIN	pfam	30	30	7220	24	PF18479	PIN like domain
+61	CL0075	Defensin	pfam	15	15	2820	3	PF00819	"Myotoxin, crotamine"
+137	CL0167	Zn_Beta_Ribbon	pfam	107	107	5129	79	PF14353	CpXC protein
+25	CL0036	TIM_barrel	pfam	193	193	1742	116	PF05691	Raffinose synthase or seed imbibition protein Sip1
+575	CL0682	MBG	pfam	4	4	9330	3	PF18887	MBG domain
+639	CL0751	Secretin_N0	pfam	6	6	9576	0	PF07660	Secretin and TonB N terminus short domain
+49	CL0063	NADP_Rossmann	pfam	278	278	2583	226	PF14314	"Virus-capping methyltransferase, MT domain"
+248	CL0291	KNTase_C	pfam	36	36	7343	5	PF08780	Nucleotidyltransferase substrate binding protein like
+8	CL0014	Glutaminase_I	pfam	20	20	365	1	PF01174	SNO glutamine amidotransferase family
+142	CL0172	Thioredoxin	pfam	71	71	5233	21	PF05988	Bacterial protein of unknown function (DUF899)
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	143	PF08423	Rad51
+5	CL0010	SH3	pfam	172	172	322	37	PF06003	"Survival motor neuron protein (SMN), Tudor domain"
+163	CL0196	DSRM	pfam	15	15	5902	1	PF00333	"Ribosomal protein S5, N-terminal domain"
+19	CL0028	AB_hydrolase	pfam	81	81	1399	48	PF08237	PE-PPE domain
+86	CL0105	Hybrid	pfam	93	93	3204	24	PF02127	Aminopeptidase I zinc metalloprotease (M18)
+25	CL0036	TIM_barrel	pfam	193	193	1742	190	PF22644	BsNagA composite domain
+147	CL0177	PBP	pfam	31	31	5344	29	PF22141	Thiaminase-1 domain
+287	CL0336	FMN-binding	pfam	11	11	7694	5	PF10012	Uncharacterized protein conserved in bacteria (DUF2255)
+100	CL0123	HTH	pfam	507	507	4041	53	PF02319	E2F/DP family winged-helix DNA-binding domain
+154	CL0186	Beta_propeller	pfam	175	175	5663	137	PF16819	Domain of unknown function (DUF5074)
+193	CL0231	MazG	pfam	6	6	6512	2	PF04447	dATP/dGTP pyrophosphohydrolase
+135	CL0165	Cache	pfam	34	34	5020	26	PF17202	Single cache domain 3
+191	CL0229	RING	pfam	81	81	6500	5	PF01428	AN1-like Zinc finger
+102	CL0125	Peptidase_CA	pfam	94	94	4161	77	PF16374	Cycle inhibiting factor (CIF)
+131	CL0159	E-set	pfam	431	431	4948	53	PF04234	CopC domain
+426	CL0504	Phage_barrel	pfam	40	40	8614	28	PF20195	Phage tail protein N-terminal domain
+281	CL0329	S5	pfam	20	20	7649	15	PF10509	Galactokinase galactose-binding signature
+355	CL0411	Vir	pfam	2	2	8214	1	PF06022	Plasmodium variant antigen protein Cir/Yir/Bir
+50	CL0064	CPA_AT	pfam	16	16	2599	11	PF05982	Na+dependent bicarbonate transporter superfamily
+67	CL0083	Omega_toxin	pfam	37	37	2899	28	PF11581	"Antagonist of EGFR signalling, Argos"
+88	CL0108	Actin_ATPase	pfam	40	40	3261	13	PF02782	"FGGY family of carbohydrate kinases, C-terminal domain"
+541	CL0646	T3SS	pfam	5	5	9136	4	PF21439	"Protein MxiC, C-terminal"
+103	CL0126	Peptidase_MA	pfam	80	80	4241	76	PF20565	Probable metallopeptidase family (DUF6775)
+156	CL0188	CH	pfam	11	11	5681	6	PF11971	CAMSAP CH domain
+1	CL0003	SAM	pfam	18	18	47	6	PF09235	"Ste50p, sterile alpha motif"
+100	CL0123	HTH	pfam	507	507	4041	499	PF22939	"GPI inositol-deacylase, winged helix domain"
+109	CL0132	AbrB	pfam	5	5	4307	3	PF14250	AbrB-like transcriptional regulator
+19	CL0028	AB_hydrolase	pfam	81	81	1399	10	PF01764	Lipase (class 3)
+14	CL0022	LRR	pfam	20	20	1011	4	PF07723	Leucine Rich Repeat
+293	CL0343	MHC	pfam	8	8	7728	5	PF16497	MHC-I family domain
+12	CL0020	TPR	pfam	401	401	840	6	PF00806	Pumilio-family RNA binding repeat
+90	CL0110	GT-A	pfam	58	58	3354	20	PF03360	Glycosyltransferase family 43
+10	CL0016	PKinase	pfam	42	42	436	24	PF08757	CotH kinase protein
+218	CL0260	NTP_transf	pfam	42	42	6881	34	PF20750	Poly(A) polymerase nucleotidyltransferase domain
+566	CL0672	p35	pfam	9	9	9295	8	PF21722	Glycine-rich domain
+49	CL0063	NADP_Rossmann	pfam	278	278	2583	236	PF17174	Domain of unknown function (DUF5130)
+142	CL0172	Thioredoxin	pfam	71	71	5233	46	PF13728	F plasmid transfer operon protein
+169	CL0202	GBD	pfam	108	108	6077	7	PF02018	Carbohydrate binding domain
+12	CL0020	TPR	pfam	401	401	840	281	PF18777	Chromosome region maintenance or exportin repeat
+88	CL0108	Actin_ATPase	pfam	40	40	3261	35	PF21522	"Archaeal actin homologue MreB-like, C-terminal"
+170	CL0203	CBD	pfam	7	7	6084	6	PF22321	"Zonadhesin, second cohesin-like domain"
+142	CL0172	Thioredoxin	pfam	71	71	5233	35	PF09695	Bacterial protein of unknown function (YtfJ_HI0045)
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	86	PF03976	Polyphosphate kinase 2 (PPK2)
+135	CL0165	Cache	pfam	34	34	5020	23	PF17157	Gammaproteobacterial periplasmic sensor domain
+198	CL0236	PDDEXK	pfam	161	161	6685	77	PF09562	LlaMI restriction endonuclease
+165	CL0198	HHH	pfam	38	38	5947	26	PF21176	"RecR, helix-hairpin-helix"
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	80	PF03567	Sulfotransferase family
+188	CL0226	M6PR	pfam	5	5	6409	1	PF02157	Mannose-6-phosphate receptor
+368	CL0425	ComplexI-N	pfam	3	3	8265	2	PF10125	"NADH dehydrogenase I, subunit N related protein"
+137	CL0167	Zn_Beta_Ribbon	pfam	107	107	5129	97	PF21344	"Alpha-aminoadipate carrier protein LysW-like, globular domain"
+38	CL0051	NTF2	pfam	58	58	2013	18	PF10429	Nuclear pore RNA shuttling protein Mtr2
+6	CL0012	Histone	pfam	17	17	339	10	PF09123	Domain of unknown function (DUF1931)
+181	CL0219	RNase_H	pfam	91	91	6293	12	PF02075	Crossover junction endodeoxyribonuclease RuvC
+600	CL0708	Polo-box	pfam	9	9	9445	0	PF00659	POLO box duplicated region
+131	CL0159	E-set	pfam	431	431	4948	380	PF22067	Cep192 domain 3
+131	CL0159	E-set	pfam	431	431	4948	319	PF19408	PKD-like domain
+277	CL0324	Homing_endonuc	pfam	7	7	7589	0	PF00961	LAGLIDADG endonuclease
+329	CL0381	Metallo-HOrase	pfam	10	10	8099	5	PF14597	Metallo-beta-lactamase superfamily
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	45	PF01712	Deoxynucleoside kinase
+5	CL0010	SH3	pfam	172	172	322	114	PF18115	DNA repair protein Crb2 Tudor domain
+100	CL0123	HTH	pfam	507	507	4041	59	PF02742	"Iron dependent repressor, metal binding and dimerisation domain"
+279	CL0327	Pilus	pfam	21	21	7618	17	PF22150	Type IV pilin Tt1218
+25	CL0036	TIM_barrel	pfam	193	193	1742	93	PF03437	BtpA family
+154	CL0186	Beta_propeller	pfam	175	175	5663	127	PF16261	Domain of unknown function (DUF4915)
+12	CL0020	TPR	pfam	401	401	840	27	PF03097	BRO1-like domain
+629	CL0740	GCV_T_C	pfam	9	9	9535	2	PF09173	"Initiation factor eIF2 gamma, C terminal"
+246	CL0289	FBD	pfam	3	3	7305	0	PF01571	Aminomethyltransferase folate-binding domain
+12	CL0020	TPR	pfam	401	401	840	62	PF05282	AAR2 C-terminal repeat region
+131	CL0159	E-set	pfam	431	431	4948	259	PF17812	RET Cadherin like domain 3
+58	CL0072	Ubiquitin	pfam	99	99	2788	13	PF02597	ThiS family
+100	CL0123	HTH	pfam	507	507	4041	206	PF09468	Ydr279p protein family (RNase H2 complex component) wHTH domain
+301	CL0351	CHCH	pfam	8	8	7801	3	PF06747	CHCH domain
+86	CL0105	Hybrid	pfam	93	93	3204	90	PF22042	Elongation factor G domain 2
+426	CL0504	Phage_barrel	pfam	40	40	8614	26	PF16838	Caudoviral major tail protein N-terminus
+224	CL0266	PH	pfam	107	107	7064	68	PF17339	PH domain
+181	CL0219	RNase_H	pfam	91	91	6293	25	PF04493	Endonuclease V
+124	CL0149	CoA-acyltrans	pfam	10	10	4461	1	PF00302	Chloramphenicol acetyltransferase
+49	CL0063	NADP_Rossmann	pfam	278	278	2583	150	PF06100	MCRA family
+142	CL0172	Thioredoxin	pfam	71	71	5233	27	PF07449	Hydrogenase-1 expression protein HyaE
+202	CL0240	PFK	pfam	4	4	6711	0	PF00365	Phosphofructokinase
+160	CL0193	MBB	pfam	130	130	5878	54	PF09411	Lipid A 3-O-deacylase (PagL)
+12	CL0020	TPR	pfam	401	401	840	11	PF01417	ENTH domain
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	78	PF03308	Methylmalonyl Co-A mutase-associated GTPase MeaB
+79	CL0097	TypeIII_Chap	pfam	12	12	3012	2	PF05932	Tir chaperone protein (CesT) family
+199	CL0237	HD_PDEase	pfam	16	16	6701	11	PF13875	Domain of unknown function (DUF4202)
+19	CL0028	AB_hydrolase	pfam	81	81	1399	0	PF00135	Carboxylesterase family
+181	CL0219	RNase_H	pfam	91	91	6293	16	PF02870	"6-O-methylguanine DNA methyltransferase, ribonuclease-like domain"
+131	CL0159	E-set	pfam	431	431	4948	269	PF17967	Pullulanase N2 domain
+223	CL0265	HIT	pfam	16	16	6957	9	PF16269	Domain of unknown function (DUF4922)
+58	CL0072	Ubiquitin	pfam	99	99	2788	5	PF00789	UBX domain
+268	CL0315	Gx_transp	pfam	14	14	7487	13	PF20973	Vitamin uptake-like sensor
+191	CL0229	RING	pfam	81	81	6500	45	PF14835	zf-RING of BARD1-type protein
+23	CL0032	Dim_A_B_barrel	pfam	36	36	1542	34	PF22388	Domain of unknown function (DUF6974)
+101	CL0124	Peptidase_PA	pfam	26	26	4067	25	PF17222	Viral cysteine endopeptidase C107
+276	CL0323	Patatin	pfam	6	6	7582	5	PF22690	Fatty acid synthase central AT domain
+63	CL0079	Cystine-knot	pfam	14	14	2836	6	PF03045	DAN domain
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	21	PF00488	MutS domain V
+191	CL0229	RING	pfam	81	81	6500	64	PF18716	Vms1-associating treble clef domain
+38	CL0051	NTF2	pfam	58	58	2013	6	PF05223	NTF2-like N-terminal transpeptidase domain
+454	CL0537	CCCH_zf	pfam	16	16	8749	11	PF21457	"RNA-binding, Nab2-type zinc finger"
+131	CL0159	E-set	pfam	431	431	4948	251	PF17756	RET Cadherin like domain 1
+45	CL0059	6_Hairpin	pfam	48	48	2250	15	PF05426	Alginate lyase
+144	CL0174	TetR_C	pfam	57	57	5296	13	PF16295	"Tetracyclin repressor-like, C-terminal domain"
+49	CL0063	NADP_Rossmann	pfam	278	278	2583	212	PF13450	NAD(P)-binding Rossmann-like domain
+49	CL0063	NADP_Rossmann	pfam	278	278	2583	24	PF01008	Initiation factor 2 subunit family
+262	CL0307	FUSC	pfam	9	9	7447	2	PF06081	Aromatic acid exporter family member 1
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	1	PF00005	ABC transporter
+96	CL0116	Calycin	pfam	51	51	3512	27	PF12702	Lipocalin-like
+25	CL0036	TIM_barrel	pfam	193	193	1742	84	PF02784	"Pyridoxal-dependent decarboxylase, pyridoxal binding domain"
+226	CL0268	Pec_lyase-like	pfam	49	49	7130	48	PF22842	"Pel9A-like, right handed beta helix region"
+166	CL0199	DPBB	pfam	12	12	5959	6	PF06725	3D domain
+179	CL0214	UBA	pfam	31	31	6200	15	PF16577	UBA domain
+13	CL0021	OB	pfam	151	151	991	149	PF22880	Family of unknown function (DUF7019)
+570	CL0677	GHMP_C	pfam	4	4	9312	2	PF18376	Mevalonate 5-diphosphate decarboxylase C-terminal domain
+48	CL0062	APC	pfam	21	21	2305	6	PF01235	Sodium:alanine symporter family
+25	CL0036	TIM_barrel	pfam	193	193	1742	150	PF13320	"Glycoside hydrolase 123, catalytic domain"
+175	CL0209	Bet_v_1_like	pfam	29	29	6157	0	PF00407	Pathogenesis-related protein Bet v 1 family
+42	CL0055	Nucleoplasmin	pfam	59	59	2134	1	PF00500	L1 (late) protein
+154	CL0186	Beta_propeller	pfam	175	175	5663	89	PF13415	"Galactose oxidase, central domain"
+154	CL0186	Beta_propeller	pfam	175	175	5663	76	PF12217	Catalytic beta propeller domain of bacteriophage endosialidase
+224	CL0266	PH	pfam	107	107	7064	56	PF15413	Pleckstrin homology domain
+366	CL0423	AhpD-like	pfam	2	2	8259	1	PF04636	PA26 p53-induced protein (sestrin)
+52	CL0066	Trefoil	pfam	27	27	2646	22	PF18022	Ricin-type beta-trefoil lectin C-terminal domain
+14	CL0022	LRR	pfam	20	20	1011	14	PF18791	Transport inhibitor response 1 protein domain
+183	CL0221	RRM	pfam	40	40	6377	38	PF22877	"Thc1, RRM domain"
+23	CL0032	Dim_A_B_barrel	pfam	36	36	1542	22	PF13816	Haem-containing dehydratase
+438	CL0520	Keratin_assoc	pfam	3	3	8657	0	PF01500	"Keratin, high sulfur B2 protein"
+22	CL0031	Phosphatase	pfam	24	24	1506	8	PF04273	"Beta-lactamase hydrolase-like protein, phosphatase-like domain"
+142	CL0172	Thioredoxin	pfam	71	71	5233	43	PF13409	"Glutathione S-transferase, N-terminal domain"
+137	CL0167	Zn_Beta_Ribbon	pfam	107	107	5129	95	PF21319	"Zinc finger, FCS-type"
+49	CL0063	NADP_Rossmann	pfam	278	278	2583	110	PF03949	"Malic enzyme, NAD binding domain"
+13	CL0021	OB	pfam	151	151	991	115	PF18914	Domain of unknown function (DUF5666)
+179	CL0214	UBA	pfam	31	31	6200	12	PF10440	Ubiquitin-binding WIYLD domain
+318	CL0369	GHD	pfam	61	61	8033	46	PF21331	"Isoamylase, C-terminal"
+131	CL0159	E-set	pfam	431	431	4948	100	PF08441	Integrin alpha Ig-like domain 1
+76	CL0094	Peptidase_ME	pfam	12	12	2995	6	PF16187	Middle or third domain of peptidase_M16
+56	CL0070	ACT	pfam	26	26	2687	0	PF00585	C-terminal regulatory domain of Threonine dehydratase
+15	CL0023	P-loop_NTPase	pfam	265	265	1276	162	PF10609	NUBPL iron-transfer P-loop NTPase
+100	CL0123	HTH	pfam	507	507	4041	468	PF22094	"CED4, winged-helix domain"
+28	CL0040	tRNA_synt_II	pfam	12	12	1813	5	PF03099	Biotin/lipoate A/B protein ligase family
+318	CL0369	GHD	pfam	61	61	8033	18	PF11941	Domain of unknown function (DUF3459)
+86	CL0105	Hybrid	pfam	93	93	3204	20	PF01782	RimM N-terminal domain
+42	CL0055	Nucleoplasmin	pfam	59	59	2134	14	PF01829	Peptidase A6 family
+638	CL0750	ADAM_CR_sf	pfam	5	5	9570	3	PF19236	ADAMTS cysteine-rich domain
+71	CL0089	GlnB-like	pfam	12	12	2958	3	PF06153	Cyclic-di-AMP receptor
+283	CL0331	EpsM	pfam	8	8	7662	0	PF03245	Bacteriophage Rz lysis protein
+392	CL0459	BRCT-like	pfam	12	12	8386	3	PF16589	"BRCT domain, a BRCA1 C-terminus domain"
+310	CL0361	C2H2-zf	pfam	72	72	7915	13	PF09337	H2C2 zinc finger

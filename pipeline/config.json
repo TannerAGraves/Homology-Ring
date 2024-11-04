@@ -1,0 +1,11 @@
+{
+    "acc_type":"UNP",
+    "BLAST_DB_UNP_acc_idx": 1,
+    "BLAST_DB_UNP_delim": "|",
+    "BLAST_DB_PDB_acc_idx": 0,
+    "BLAST_DB_PDB_chain_idx": 2,
+    "BLAST_DB_PDB_delim": " ",
+    "HOM_AFOLD_DIR": "cif/AlphaFold/",
+    "HOM_AFILL_DIR": "cif/AlphaFill/",
+    "HOM_PDB_DIR": "cif/PDB/"
+}

@@ -1,0 +1,26 @@
+* :Zone.Identifier
+__pycache__/
+blast_db/*
+!blast_db/.gitkeep
+cif/AlphaFold/*
+!cif/AlphaFold/.gitkeep
+cif/AlphaFill/*
+!cif/AlphaFill/.gitignore
+cif/PDB/*
+!cif/PDB/.gitignore
+cif/ens/*
+!cif/ens/.gitignore
+cif/trimmed/*
+!cif/trimmed/.gitkeep
+ring_log/*
+!ring_log/.gitkeep
+ring_out/*
+!ring_out/.gitkeep
+query/*
+!query/2h9r.cif
+log/*
+!log/.gitkeep
+mobidb/*
+pasTest
+
+DDX_human_pdb

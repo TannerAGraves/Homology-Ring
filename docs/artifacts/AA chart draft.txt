@@ -1,0 +1,29 @@
+AA chart draft
+
+# Non-polar
+Glycine		GLY	G
+Alanine 	ALA 	A
+Valine		VAL	V
+Cysteine	CYS	C
+Proline		PRO	P
+Leucine		LUE	L
+Methionine	MET	M	Sulfur
+Tryptophan	TRP	W	Aromatic
+Phenylalanine 	PHE	F	Aromatic
+
+
+# Polar
+Serine		SER	S
+Threonine	THR	T
+Tyrosine	TYR	Y	Aromatic
+Asparagine	ASN	N
+Glutamine	GLN	Q
+
+# Positive
+Lysine		LYS	K
+Arginine	ARG	R
+Histidine	HIS	H
+
+# Negative
+Aspartic Acid	ASP	D
+Glutamic Acid	GLU	E

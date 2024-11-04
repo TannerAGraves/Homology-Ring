@@ -1,0 +1,218 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "swissprot"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.001,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "query",
+          "query_len": 88,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|48428903|sp|P83940.1|ELOC_MOUSE",
+                  "accession": "P83940",
+                  "title": "RecName: Full=Elongin-C; Short=EloC; AltName: Full=Elongin 15 kDa subunit; AltName: Full=RNA polymerase II transcription factor SIII subunit C; AltName: Full=SIII p15; AltName: Full=Stromal membrane-associated protein SMAP1B homolog; AltName: Full=Transcription elongation factor B polypeptide 1"
+                }
+              ],
+              "len": 112,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.407,
+                  "score": 446,
+                  "evalue": 4.94537e-58,
+                  "identity": 88,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 88,
+                  "hit_from": 17,
+                  "hit_to": 112,
+                  "align_len": 96,
+                  "gaps": 8,
+                  "qseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP--------NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENETNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "midline": "MYVKLISSDGHEFIVKREHALTSGTIKAMLSGP        NEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|74854345|sp|Q54Q05.1|ELOC_DICDI",
+                  "accession": "Q54Q05",
+                  "title": "RecName: Full=Elongin-C; AltName: Full=RNA polymerase II transcription factor SIII subunit C; AltName: Full=Transcription elongation factor B polypeptide 1"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.8265,
+                  "score": 242,
+                  "evalue": 4.6421e-27,
+                  "identity": 47,
+                  "positive": 67,
+                  "query_from": 3,
+                  "query_to": 88,
+                  "hit_from": 15,
+                  "hit_to": 109,
+                  "align_len": 95,
+                  "gaps": 9,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLSGPN---------EVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC",
+                  "hseq": "LRLYSSTGHEFVLSRKMSYVSGTIKSMLSGDNSNFMEDQNNEIRFREISTPVLEKVIQYFYFKNKYTNSTTDLPEFPINEKVVVDLLLAAHFLDT",
+                  "midline": "++L SS GHEF++ R+ +  SGTIK+MLSG N         E+ FREI + VL KV  YF +K +YTNS+T++PEFPI  ++ ++LL+AA+FLD "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|74625885|sp|Q9USX9.1|ELOC_SCHPO",
+                  "accession": "Q9USX9",
+                  "title": "RecName: Full=Elongin-C"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 75.485,
+                  "score": 184,
+                  "evalue": 2.01733e-18,
+                  "identity": 42,
+                  "positive": 58,
+                  "query_from": 2,
+                  "query_to": 87,
+                  "hit_from": 5,
+                  "hit_to": 96,
+                  "align_len": 93,
+                  "gaps": 8,
+                  "qseq": "YVKLISSDGHEFIVKREHALTSGTIKAML-------SGPNEVNFREIPSHVLSKVCMYFTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLD",
+                  "hseq": "YVRLISGDGFVFILEKEIACLSGTIRAILNEGIFSEAQKNECTFPDIRATLLEKVCEYLHYNYRYKN-QLDIPKFDIPPEMVLELLVTAEYLE",
+                  "midline": "YV+LIS DG  FI+++E A  SGTI+A+L       +  NE  F +I + +L KVC Y  Y  RY N   +IP+F I PE+ LELL+ A +L+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|74676336|sp|Q03071.1|ELOC_YEAST",
+                  "accession": "Q03071",
+                  "title": "RecName: Full=Elongin-C"
+                }
+              ],
+              "len": 99,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 8.21126e-17,
+                  "identity": 36,
+                  "positive": 55,
+                  "query_from": 2,
+                  "query_to": 86,
+                  "hit_from": 5,
+                  "hit_to": 97,
+                  "align_len": 93,
+                  "gaps": 8,
+                  "qseq": "YVKLISSDGHEFIVKREHALTSGTIKAMLSGP-----NEVNFREIPSHVLSKVCMYFTYKVRYTNSS---TEIPEFPIAPEIALELLMAANFL",
+                  "hseq": "FVTLVSKDDKEYEISRSAAMISPTLKAMIEGPFRESKGRIELKQFDSHILEKAVEYLNYNLKYSGVSEDDDEIPEFEIPTEMSLELLLAADYL",
+                  "midline": "+V L+S D  E+ + R  A+ S T+KAM+ GP       +  ++  SH+L K   Y  Y ++Y+  S    EIPEF I  E++LELL+AA++L"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|74692185|sp|Q751F9.1|ELOC_EREGS",
+                  "accession": "Q751F9",
+                  "title": "RecName: Full=Elongin-C"
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.7734,
+                  "score": 151,
+                  "evalue": 2.27989e-13,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 2,
+                  "query_to": 86,
+                  "hit_from": 6,
+                  "hit_to": 98,
+                  "align_len": 93,
+                  "gaps": 8,
+                  "qseq": "YVKLISSDGHEFIVKREHALTSGTIKAMLSGP------NEVNFREIPSHVLSKVCMYFTY--KVRYTNSSTEIPEFPIAPEIALELLMAANFL",
+                  "hseq": "HVTLVSSDGKSFEVPRERAMLSPTLAKMLDSSFAEAKEAKVTLPTIESSMLAKVVEYLEYLEEYKHKDDGEDIPQFEVPPEISLELLLAADYL",
+                  "midline": "+V L+SSDG  F V RE A+ S T+  ML          +V    I S +L+KV  Y  Y  + ++ +   +IP+F + PEI+LELL+AA++L"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|74626243|sp|Q9Y709.1|SKP1_SCHPO",
+                  "accession": "Q9Y709",
+                  "title": "RecName: Full=Suppressor of kinetochore protein 1; AltName: Full=P19/Skp1 homolog"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.0466,
+                  "score": 92,
+                  "evalue": 0.000417171,
+                  "identity": 33,
+                  "positive": 51,
+                  "query_from": 3,
+                  "query_to": 87,
+                  "hit_from": 4,
+                  "hit_to": 109,
+                  "align_len": 107,
+                  "gaps": 23,
+                  "qseq": "VKLISSDGHEFIVKREHALTSGTIKAMLSGPNEVN----FREIPSHVLSKVCMYFTY-------------KVRYTNSSTEIPEFP-----IAPEIALELLMAANFLD",
+                  "hseq": "IKLISSDNEEFVVDQLIAERSMLIKNMLEDVGEINVPIPLPNVSSNVLRKVLEWCEHHKNDLYSGTEEESDIRLK-KSTDIDEWDRKFMAVDQEMLFEIVLASNYLD",
+                  "midline": "+KLISSD  EF+V +  A  S  IK ML    E+N       + S+VL KV  +  +              +R    ST+I E+      +  E+  E+++A+N+LD"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 482816,
+            "db_len": 183558113,
+            "hsp_len": 59,
+            "eff_space": 4506739780,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
