@@ -1,5 +1,0 @@
-{
-	"BlastJSON": [
-		{"File": "blast_results_test.txt_1.json" }
-	]
-}

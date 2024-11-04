@@ -1,5 +1,6 @@
 * :Zone.Identifier
 __pycache__/
+.vscode/
 blast_db/*
 !blast_db/.gitkeep
 cif/AlphaFold/*
@@ -21,6 +22,3 @@ query/*
 log/*
 !log/.gitkeep
 mobidb/*
-pasTest
-
-DDX_human_pdb
