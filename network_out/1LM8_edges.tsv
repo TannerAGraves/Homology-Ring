@@ -1,0 +1,479 @@
+u	v	inter	prob	observations	count	color	inter_class	_crv_idx	_crv_total	_crv_offset
+97	14	VDW	0.7058823529411765	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8je2_C', '8je1_H', '8ij1_H', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	12	tab:gray	inter	0	2	-0.5
+97	14	HBOND	0.9411764705882353	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	16	tab:blue	inter	1	2	0.5
+97	59	VDW	0.4117647058823529	['QUERY_C', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8wqh_E']	7	tab:gray	inter	0	1	0.0
+97	15	VDW	0.29411764705882354	['QUERY_C', '8bb5_B', '8bb3_K', '8je1_H', '8wqg_H']	5	tab:gray	inter	0	1	0.0
+97	63	VDW	0.17647058823529413	['QUERY_C', '6i7q_C', '8wqg_H']	3	tab:gray	inter	0	1	0.0
+97	85	VDW	0.17647058823529413	['QUERY_C', '8bb5_B', '6i7q_C']	3	tab:gray	inter	0	1	0.0
+97	51	VDW	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8ij1_H', '8fy0_C', '8wqh_I', '8wqh_E', '8wqg_H']	11	tab:gray	inter	0	2	-0.5
+97	51	HBOND	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8ij1_H', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_E', '8wqg_H']	11	tab:blue	inter	1	2	0.5
+97	52	VDW	0.7647058823529411	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8fy0_C', '8wqh_I', '8wqh_E', '8wqg_H']	13	tab:gray	inter	0	2	-0.5
+97	52	HBOND	0.5882352941176471	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8ij1_H', '8ij1_C', '8fy0_C', '6i7q_C', '8wqg_H']	10	tab:blue	inter	1	2	0.5
+97	82	VDW	0.5294117647058824	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8fy0_C', '8wqh_I', '8wqh_E']	9	tab:gray	inter	0	2	-0.5
+97	82	HBOND	0.058823529411764705	['8ij1_C']	1	tab:blue	inter	1	2	0.5
+97	86	VDW	0.23529411764705882	['QUERY_C', '8bb4_O', '8bb3_K', '8rx0_D']	4	tab:gray	inter	0	1	0.0
+97	9	VDW	0.23529411764705882	['8bb5_B', '8bb3_K', '8ij1_H', '8fy0_C']	4	tab:gray	inter	0	2	-0.5
+97	9	HBOND	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8ij1_H', '6i7q_C', '8wqh_E']	8	tab:blue	inter	1	2	0.5
+97	11	VDW	0.5882352941176471	['8bb5_B', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8wqg_H']	10	tab:gray	inter	0	5	-2.0
+97	11	PIPISTACK	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	14	tab:orange	inter	1	5	-1.0
+97	11	HBOND	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_C', '8fy0_C', '6i7q_C', '8wqh_E']	11	tab:blue	inter	2	5	0.0
+97	11	IONIC	0.058823529411764705	['8je2_C']	1	tab:red	inter	3	5	1.0
+97	11	PICATION	0.11764705882352941	['8ij1_C', '8wqh_I']	2	tab:green	inter	4	5	2.0
+97	55	VDW	0.17647058823529413	['8bb5_B', '8fy0_C', '8wqg_H']	3	tab:gray	inter	0	1	0.0
+97	13	VDW	0.7058823529411765	['8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_C', '8rx0_D', '8wqh_I', '8wqh_E', '8wqg_H']	12	tab:gray	inter	0	2	-0.5
+97	13	PIPISTACK	0.9411764705882353	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	16	tab:orange	inter	1	2	0.5
+97	2	VDW	0.23529411764705882	['8bb4_O', '8je2_C', '8wqh_E', '8wqg_H']	4	tab:gray	inter	0	1	0.0
+97	16	VDW	0.17647058823529413	['8bb3_K', '8fy0_C', '6i7q_C']	3	tab:gray	inter	0	3	-1.0
+97	16	HBOND	0.29411764705882354	['8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '6i7q_C']	5	tab:blue	inter	1	3	0.0
+97	16	IONIC	0.29411764705882354	['8bb5_B', '8bb3_K', '8bb2_K', '8fy0_C', '6i7q_C']	5	tab:red	inter	2	3	1.0
+97	66	VDW	0.47058823529411764	['8bb3_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '8wqh_E']	8	tab:gray	inter	0	4	-1.5
+97	66	HBOND	0.29411764705882354	['8je2_C', '8je1_C', '8ij1_C', '8rx0_D', '8wqh_E']	5	tab:blue	inter	1	4	-0.5
+97	66	IONIC	0.11764705882352941	['8rx0_D', '8wqh_E']	2	tab:red	inter	2	4	0.5
+97	66	PICATION	0.11764705882352941	['8je1_H', '8ij1_H']	2	tab:green	inter	3	4	1.5
+97	58	VDW	0.23529411764705882	['8bb3_K', '8je2_C', '8je1_H', '8rx0_D']	4	tab:gray	inter	0	1	0.0
+97	77	VDW	0.23529411764705882	['8bb3_K', '8bb2_K', '8fy0_C', '6i7q_C']	4	tab:gray	inter	0	1	0.0
+97	10	VDW	0.11764705882352941	['8bb2_K', '8je2_C']	2	tab:gray	inter	0	1	0.0
+97	12	VDW	0.23529411764705882	['8je2_C', '8rwz_D', '8wqh_E', '8wqg_H']	4	tab:gray	inter	0	2	-0.5
+97	12	HBOND	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8rwz_D', '8fy0_C', '6i7q_C']	8	tab:blue	inter	1	2	0.5
+97	75	VDW	0.23529411764705882	['8je2_C', '8je1_C', '8ij1_H', '8wqg_H']	4	tab:gray	inter	0	1	0.0
+97	62	VDW	0.058823529411764705	['8je1_C']	1	tab:gray	inter	0	1	0.0
+97	67	VDW	0.11764705882352941	['8ij1_H', '8wqh_E']	2	tab:gray	inter	0	2	-0.5
+97	67	HBOND	0.058823529411764705	['QUERY_C']	1	tab:blue	inter	1	2	0.5
+97	78	VDW	0.23529411764705882	['8fy0_C', '6i7q_C', '8wqh_I', '8wqg_H']	4	tab:gray	inter	0	1	0.0
+97	84	VDW	0.058823529411764705	['6i7q_C']	1	tab:gray	inter	0	1	0.0
+97	76	HBOND	0.11764705882352941	['8je2_C', '8wqh_E']	2	tab:blue	inter	0	1	0.0
+14	3	VDW	0.23529411764705882	['8bb5_B', '8rwz_D', '8wqh_I', '8wqg_H']	4	tab:gray	intra	0	1	0.0
+14	4	VDW	0.29411764705882354	['8bb4_O', '8je2_C', '8je1_H', '8ij1_H', '8wqg_H']	5	tab:gray	intra	0	1	0.0
+87	99	VDW	0.4444444444444444	['QUERY_C', '8bb4_O', '8bb3_K', '8bb2_K']	4	tab:gray	inter	0	1	0.0
+87	84	VDW	0.47058823529411764	['QUERY_C', '8bb4_O', '8bb3_K', '8je1_H', '8je1_C', '8ij1_C', '8rwz_D', '6i7q_C']	8	tab:gray	intra	0	2	-0.5
+87	84	HBOND	0.058823529411764705	['8ij1_C']	1	tab:blue	intra	1	2	0.5
+87	53	VDW	0.17647058823529413	['QUERY_C', '8rx0_D', '8wqh_E']	3	tab:gray	intra	0	1	0.0
+87	83	VDW	0.11764705882352941	['8bb4_O', '8je1_C']	2	tab:gray	intra	0	2	-0.5
+87	83	HBOND	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	15	tab:blue	intra	1	2	0.5
+87	90	VDW	0.35294117647058826	['8bb4_O', '8bb3_K', '8ij1_H', '8rx0_D', '8fy0_C', '6i7q_C']	6	tab:gray	intra	0	2	-0.5
+87	90	HBOND	0.17647058823529413	['8je1_H', '6i7q_C', '8wqg_H']	3	tab:blue	intra	1	2	0.5
+87	91	VDW	0.058823529411764705	['8bb4_O']	1	tab:gray	intra	0	2	-0.5
+87	91	HBOND	1.0	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	17	tab:blue	intra	1	2	0.5
+87	79	VDW	0.23529411764705882	['8je2_C', '8wqh_I', '8wqh_E', '8wqg_H']	4	tab:gray	intra	0	1	0.0
+87	57	VDW	0.11764705882352941	['8rx0_D', '8wqg_H']	2	tab:gray	intra	0	1	0.0
+87	56	VDW	0.058823529411764705	['6i7q_C']	1	tab:gray	intra	0	1	0.0
+87	111	VDW	0.125	['8wqh_I']	1	tab:gray	inter	0	1	0.0
+99	79	VDW	0.2222222222222222	['QUERY_C', '8bb4_O']	2	tab:gray	inter	0	1	0.0
+99	76	VDW	0.6666666666666666	['QUERY_C', '8bb4_O', '8bb2_K', '8rx0_D', '8fy0_C', '6i7q_C']	6	tab:gray	inter	0	3	-1.0
+99	76	HBOND	0.7777777777777778	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8fy0_C', '6i7q_C']	7	tab:blue	inter	1	3	0.0
+99	76	IONIC	0.7777777777777778	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8fy0_C', '6i7q_C']	7	tab:red	inter	2	3	1.0
+99	91	VDW	0.4444444444444444	['QUERY_C', '8bb5_B', '8bb4_O', '8fy0_C']	4	tab:gray	inter	0	1	0.0
+99	92	VDW	0.6666666666666666	['QUERY_C', '8bb4_O', '8bb3_K', '8rx0_D', '8fy0_C', '6i7q_C']	6	tab:gray	inter	0	2	-0.5
+99	92	HBOND	0.5555555555555556	['QUERY_C', '8bb5_B', '8bb3_K', '8fy0_C', '6i7q_C']	5	tab:blue	inter	1	2	0.5
+99	88	VDW	0.7777777777777778	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8fy0_C', '6i7q_C']	7	tab:gray	inter	0	1	0.0
+99	77	VDW	0.3333333333333333	['QUERY_C', '8bb4_O', '8fy0_C']	3	tab:gray	inter	0	2	-0.5
+99	77	HBOND	0.7777777777777778	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8fy0_C', '6i7q_C']	7	tab:blue	inter	1	2	0.5
+99	96	VDW	0.4444444444444444	['QUERY_C', '8bb5_B', '8bb3_K', '8fy0_C']	4	tab:gray	inter	0	2	-0.5
+99	96	HBOND	0.8888888888888888	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8rx0_D', '8fy0_C', '6i7q_C']	8	tab:blue	inter	1	2	0.5
+99	74	VDW	0.4444444444444444	['QUERY_C', '8bb5_B', '8fy0_C', '6i7q_C']	4	tab:gray	inter	0	1	0.0
+99	60	VDW	0.6666666666666666	['QUERY_C', '8bb3_K', '8bb2_K', '8rx0_D', '8fy0_C', '6i7q_C']	6	tab:gray	inter	0	2	-0.5
+99	60	HBOND	0.5555555555555556	['QUERY_C', '8bb3_K', '8bb2_K', '8fy0_C', '6i7q_C']	5	tab:blue	inter	1	2	0.5
+99	71	VDW	0.5	['QUERY_C', '8bb4_O', '8bb3_K', '8fy0_C']	4	tab:gray	inter	0	1	0.0
+99	81	VDW	0.2222222222222222	['QUERY_C', '8bb2_K']	2	tab:gray	inter	0	1	0.0
+99	73	VDW	0.4444444444444444	['8bb5_B', '8bb4_O', '8bb3_K', '6i7q_C']	4	tab:gray	inter	0	3	-1.0
+99	73	HBOND	0.2222222222222222	['8bb4_O', '6i7q_C']	2	tab:blue	inter	1	3	0.0
+99	73	IONIC	0.2222222222222222	['8bb4_O', '6i7q_C']	2	tab:red	inter	2	3	1.0
+99	64	VDW	0.3333333333333333	['8bb3_K', '8rx0_D', '8fy0_C']	3	tab:gray	inter	0	1	0.0
+99	57	VDW	0.1111111111111111	['8rx0_D']	1	tab:gray	inter	0	1	0.0
+99	85	VDW	0.1111111111111111	['8fy0_C']	1	tab:gray	inter	0	1	0.0
+99	67	VDW	0.1111111111111111	['8fy0_C']	1	tab:gray	inter	0	1	0.0
+99	70	VDW	0.125	['8fy0_C']	1	tab:gray	inter	0	2	-0.5
+99	70	HBOND	0.125	['QUERY_C']	1	tab:blue	inter	1	2	0.5
+59	55	VDW	0.35294117647058826	['8bb5_B', '8ij1_H', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	6	tab:gray	intra	0	2	-0.5
+59	55	HBOND	1.0	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	17	tab:blue	intra	1	2	0.5
+59	62	VDW	0.11764705882352941	['8bb4_O', '8wqg_H']	2	tab:gray	intra	0	1	0.0
+59	56	VDW	0.5294117647058824	['8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8wqh_E']	9	tab:gray	intra	0	2	-0.5
+59	56	HBOND	0.11764705882352941	['QUERY_C', '8bb4_O']	2	tab:blue	intra	1	2	0.5
+59	103	VDW	0.3333333333333333	['8bb2_K']	1	tab:gray	LIG	0	1	0.0
+59	63	VDW	0.29411764705882354	['8je2_C', '8ij1_C', '8fy0_C', '8wqh_I', '8wqh_E']	5	tab:gray	intra	0	1	0.0
+59	77	VDW	0.058823529411764705	['8je2_C']	1	tab:gray	intra	0	1	0.0
+59	66	VDW	0.058823529411764705	['8je1_H']	1	tab:gray	intra	0	1	0.0
+79	83	VDW	0.058823529411764705	['8bb4_O']	1	tab:gray	intra	0	1	0.0
+79	84	VDW	0.17647058823529413	['8bb3_K', '8wqh_E', '8wqg_H']	3	tab:gray	intra	0	1	0.0
+79	111	VDW	0.375	['8ij1_H', '8ij1_C', '8wqh_I']	3	tab:gray	inter	0	1	0.0
+79	56	VDW	0.058823529411764705	['8fy0_C']	1	tab:gray	intra	0	1	0.0
+23	94	VDW	0.29411764705882354	['QUERY_C', '8bb4_O', '8bb2_K', '8je2_C', '8wqg_H']	5	tab:gray	intra	0	1	0.0
+23	26	VDW	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '6i7q_C', '8wqh_I', '8wqh_E']	14	tab:gray	intra	0	2	-0.5
+23	26	HBOND	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqg_H']	11	tab:blue	intra	1	2	0.5
+23	27	VDW	0.35294117647058826	['QUERY_C', '8je2_C', '8je1_H', '8ij1_H', '8fy0_C', '8wqh_I']	6	tab:gray	intra	0	2	-0.5
+23	27	HBOND	0.9411764705882353	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	16	tab:blue	intra	1	2	0.5
+23	20	VDW	0.17647058823529413	['8bb5_B', '8bb2_K', '8rx0_D']	3	tab:gray	intra	0	2	-0.5
+23	20	HBOND	0.5882352941176471	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8ij1_C', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_E']	10	tab:blue	intra	1	2	0.5
+23	96	VDW	0.1875	['8je1_C', '8rx0_D', '6i7q_C']	3	tab:gray	intra	0	2	-0.5
+23	96	HBOND	0.0625	['8je2_C']	1	tab:blue	intra	1	2	0.5
+23	61	VDW	0.23529411764705882	['8ij1_H', '8rx0_D', '8wqh_I', '8wqh_E']	4	tab:gray	intra	0	1	0.0
+23	95	VDW	0.0625	['8wqh_E']	1	tab:gray	intra	0	1	0.0
+94	90	VDW	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_C', '6i7q_C', '8wqh_E']	8	tab:gray	intra	0	2	-0.5
+94	90	HBOND	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	15	tab:blue	intra	1	2	0.5
+94	25	VDW	0.4117647058823529	['QUERY_C', '8bb4_O', '8bb2_K', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	7	tab:gray	intra	0	1	0.0
+94	46	VDW	0.11764705882352941	['8bb5_B', '8je2_C']	2	tab:gray	intra	0	1	0.0
+94	57	VDW	0.4117647058823529	['8bb5_B', '8bb4_O', '8je1_C', '8ij1_C', '8rx0_D', '8wqh_E', '8wqg_H']	7	tab:gray	intra	0	1	0.0
+94	91	VDW	0.23529411764705882	['8bb4_O', '8je1_H', '8ij1_C', '8wqh_E']	4	tab:gray	intra	0	2	-0.5
+94	91	HBOND	0.058823529411764705	['8rwz_D']	1	tab:blue	intra	1	2	0.5
+94	26	VDW	0.17647058823529413	['8je1_H', '8rx0_D', '8wqg_H']	3	tab:gray	intra	0	1	0.0
+94	49	VDW	0.058823529411764705	['8wqh_E']	1	tab:gray	intra	0	1	0.0
+94	24	HBOND	0.058823529411764705	['8wqh_I']	1	tab:blue	intra	0	1	0.0
+8	47	VDW	0.4117647058823529	['QUERY_C', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8rwz_D', '6i7q_C']	7	tab:gray	intra	0	2	-0.5
+8	47	HBOND	0.058823529411764705	['8wqg_H']	1	tab:blue	intra	1	2	0.5
+8	50	VDW	0.11764705882352941	['QUERY_C', '8bb5_B']	2	tab:gray	intra	0	1	0.0
+8	46	VDW	0.29411764705882354	['8bb5_B', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_E']	5	tab:gray	intra	0	2	-0.5
+8	46	HBOND	0.35294117647058826	['8bb2_K', '8je2_C', '8ij1_C', '8rwz_D', '8fy0_C', '6i7q_C']	6	tab:blue	intra	1	2	0.5
+8	48	VDW	0.058823529411764705	['8bb4_O']	1	tab:gray	intra	0	1	0.0
+8	49	VDW	0.17647058823529413	['8bb3_K', '8je1_C', '8ij1_C']	3	tab:gray	intra	0	2	-0.5
+8	49	HBOND	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	15	tab:blue	intra	1	2	0.5
+8	110	VDW	0.2	['8rx0_D', '8rwz_D']	2	tab:gray	inter	0	1	0.0
+8	51	HBOND	0.058823529411764705	['8wqg_H']	1	tab:blue	intra	0	1	0.0
+47	7	VDW	0.058823529411764705	['QUERY_C']	1	tab:gray	intra	0	1	0.0
+47	10	VDW	0.058823529411764705	['QUERY_C']	1	tab:gray	intra	0	1	0.0
+47	108	VDW	1.0	['8bb3_K']	1	tab:gray	LIG	0	2	-0.5
+47	108	HBOND	1.0	['8bb3_K']	1	tab:blue	LIG	1	2	0.5
+47	110	VDW	0.4	['8je2_C', '8rx0_D', '8rwz_D', '8wqh_I']	4	tab:gray	inter	0	2	-0.5
+47	110	HBOND	0.3	['8je2_C', '8je1_H', '8rx0_D']	3	tab:blue	inter	1	2	0.5
+21	27	VDW	0.5294117647058824	['QUERY_C', '8bb5_B', '8bb2_K', '8je2_C', '8je1_C', '8ij1_C', '8rx0_D', '8wqh_I', '8wqg_H']	9	tab:gray	intra	0	2	-0.5
+21	27	HBOND	0.11764705882352941	['8je2_C', '8wqh_E']	2	tab:blue	intra	1	2	0.5
+21	18	VDW	0.058823529411764705	['QUERY_C']	1	tab:gray	intra	0	2	-0.5
+21	18	HBOND	0.058823529411764705	['8rwz_D']	1	tab:blue	intra	1	2	0.5
+21	17	VDW	0.35294117647058826	['8bb5_B', '8bb4_O', '8bb3_K', '8je1_C', '6i7q_C', '8wqg_H']	6	tab:gray	intra	0	2	-0.5
+21	17	HBOND	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	15	tab:blue	intra	1	2	0.5
+21	30	VDW	0.11764705882352941	['8bb4_O', '8wqh_E']	2	tab:gray	intra	0	1	0.0
+21	24	HBOND	0.058823529411764705	['8rwz_D']	1	tab:blue	intra	0	1	0.0
+27	24	VDW	0.29411764705882354	['QUERY_C', '8bb2_K', '8je1_H', '8rwz_D', '8fy0_C']	5	tab:gray	intra	0	2	-0.5
+27	24	HBOND	0.17647058823529413	['8bb5_B', '8je1_H', '8ij1_C']	3	tab:blue	intra	1	2	0.5
+27	30	VDW	0.35294117647058826	['8bb5_B', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H']	6	tab:gray	intra	0	2	-0.5
+27	30	HBOND	0.11764705882352941	['8je1_C', '8rx0_D']	2	tab:blue	intra	1	2	0.5
+27	31	VDW	0.11764705882352941	['8je2_C', '8fy0_C']	2	tab:gray	intra	0	2	-0.5
+27	31	HBOND	0.5294117647058824	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '8wqg_H']	9	tab:blue	intra	1	2	0.5
+58	61	VDW	0.47058823529411764	['QUERY_C', '8bb2_K', '8je2_C', '8je1_C', '8rx0_D', '8wqh_I', '8wqh_E', '8wqg_H']	8	tab:gray	intra	0	2	-0.5
+58	61	HBOND	0.5882352941176471	['QUERY_C', '8je2_C', '8je1_C', '8ij1_H', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	10	tab:blue	intra	1	2	0.5
+58	54	VDW	0.058823529411764705	['QUERY_C']	1	tab:gray	intra	0	2	-0.5
+58	54	HBOND	1.0	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	17	tab:blue	intra	1	2	0.5
+58	55	VDW	0.5294117647058824	['QUERY_C', '8bb4_O', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8fy0_C', '6i7q_C']	9	tab:gray	intra	0	2	-0.5
+58	55	HBOND	0.5294117647058824	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8rwz_D', '8wqh_E']	9	tab:blue	intra	1	2	0.5
+58	15	VDW	0.11764705882352941	['QUERY_C', '8ij1_C']	2	tab:gray	intra	0	1	0.0
+58	62	VDW	0.17647058823529413	['8bb3_K', '8bb2_K', '8ij1_H']	3	tab:gray	intra	0	1	0.0
+58	13	VDW	0.058823529411764705	['8wqg_H']	1	tab:gray	intra	0	1	0.0
+61	19	VDW	0.47058823529411764	['QUERY_C', '8bb5_B', '8je2_C', '8je1_H', '8ij1_C', '8fy0_C', '8wqh_I', '8wqg_H']	8	tab:gray	intra	0	3	-1.0
+61	19	PIPISTACK	0.058823529411764705	['8je1_H']	1	tab:orange	intra	1	3	0.0
+61	19	HBOND	0.058823529411764705	['8je2_C']	1	tab:blue	intra	2	3	1.0
+61	65	VDW	0.23529411764705882	['QUERY_C', '8bb2_K', '8ij1_H', '8fy0_C']	4	tab:gray	intra	0	2	-0.5
+61	65	HBOND	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_C', '8ij1_H', '8ij1_C', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	14	tab:blue	intra	1	2	0.5
+61	20	VDW	0.23529411764705882	['QUERY_C', '8bb5_B', '8bb4_O', '6i7q_C']	4	tab:gray	intra	0	1	0.0
+61	57	VDW	0.5294117647058824	['8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_H', '8je1_C', '8ij1_C', '8rx0_D', '8fy0_C']	9	tab:gray	intra	0	2	-0.5
+61	57	HBOND	0.9411764705882353	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	16	tab:blue	intra	1	2	0.5
+61	64	VDW	0.29411764705882354	['8bb5_B', '8bb3_K', '8bb2_K', '8wqh_I', '8wqg_H']	5	tab:gray	intra	0	2	-0.5
+61	64	HBOND	0.17647058823529413	['8je1_H', '6i7q_C', '8wqg_H']	3	tab:blue	intra	1	2	0.5
+61	22	VDW	0.11764705882352941	['8ij1_H', '8rx0_D']	2	tab:gray	intra	0	1	0.0
+61	96	VDW	0.125	['8fy0_C', '8wqh_I']	2	tab:gray	intra	0	1	0.0
+61	26	VDW	0.058823529411764705	['6i7q_C']	1	tab:gray	intra	0	1	0.0
+7	11	VDW	0.4117647058823529	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '8je1_H', '8rx0_D', '8fy0_C']	7	tab:gray	intra	0	2	-0.5
+7	11	HBOND	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	14	tab:blue	intra	1	2	0.5
+7	54	VDW	0.4117647058823529	['QUERY_C', '8bb2_K', '8ij1_H', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	7	tab:gray	intra	0	1	0.0
+7	49	VDW	0.29411764705882354	['QUERY_C', '8bb3_K', '8ij1_H', '8ij1_C', '8wqh_I']	5	tab:gray	intra	0	1	0.0
+7	51	VDW	0.5294117647058824	['QUERY_C', '8bb4_O', '8bb3_K', '8je2_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	9	tab:gray	intra	0	2	-0.5
+7	51	HBOND	0.058823529411764705	['8ij1_C']	1	tab:blue	intra	1	2	0.5
+7	50	VDW	0.11764705882352941	['8bb2_K', '8ij1_C']	2	tab:gray	intra	0	2	-0.5
+7	50	HBOND	0.11764705882352941	['8ij1_H', '8wqg_H']	2	tab:blue	intra	1	2	0.5
+7	10	VDW	0.35294117647058826	['8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_C', '6i7q_C']	6	tab:gray	intra	0	2	-0.5
+7	10	HBOND	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '8je1_H', '8ij1_H', '8ij1_C', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	11	tab:blue	intra	1	2	0.5
+7	46	VDW	0.058823529411764705	['8je2_C']	1	tab:gray	intra	0	1	0.0
+7	12	VDW	0.058823529411764705	['8je1_H']	1	tab:gray	intra	0	1	0.0
+7	110	VDW	0.1	['8rwz_D']	1	tab:gray	inter	0	2	-0.5
+7	110	HBOND	0.1	['8rwz_D']	1	tab:blue	inter	1	2	0.5
+7	13	VDW	0.058823529411764705	['6i7q_C']	1	tab:gray	intra	0	1	0.0
+7	45	HBOND	0.058823529411764705	['8je1_H']	1	tab:blue	intra	0	1	0.0
+19	16	VDW	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb4_O', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8wqh_I', '8wqg_H']	11	tab:gray	intra	0	3	-1.0
+19	16	HBOND	0.7058823529411765	['QUERY_C', '8bb3_K', '8bb2_K', '8je2_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	12	tab:blue	intra	1	3	0.0
+19	16	PICATION	0.058823529411764705	['8bb4_O']	1	tab:green	intra	2	3	1.0
+19	65	VDW	0.6470588235294118	['QUERY_C', '8bb4_O', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8rx0_D', '8fy0_C', '8wqh_I', '8wqh_E', '8wqg_H']	11	tab:gray	intra	0	1	0.0
+19	22	VDW	0.29411764705882354	['8bb4_O', '8bb3_K', '8bb2_K', '8je1_H', '8rx0_D']	5	tab:gray	intra	0	1	0.0
+19	105	VDW	0.3333333333333333	['8bb3_K']	1	tab:gray	LIG	0	1	0.0
+19	15	VDW	0.058823529411764705	['8je1_H']	1	tab:gray	intra	0	1	0.0
+15	2	VDW	0.29411764705882354	['8bb5_B', '8bb4_O', '8je2_C', '8fy0_C', '6i7q_C']	5	tab:gray	intra	0	1	0.0
+15	3	VDW	0.4117647058823529	['8je1_H', '8je1_C', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '8wqg_H']	7	tab:gray	intra	0	2	-0.5
+15	3	HBOND	1.0	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	17	tab:blue	intra	1	2	0.5
+15	20	VDW	0.17647058823529413	['8rx0_D', '8wqh_I', '8wqh_E']	3	tab:gray	intra	0	1	0.0
+24	28	VDW	0.17647058823529413	['QUERY_C', '8bb2_K', '6i7q_C']	3	tab:gray	intra	0	2	-0.5
+24	28	HBOND	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	15	tab:blue	intra	1	2	0.5
+24	110	VDW	0.4	['8je2_C', '8je1_C', '8wqh_E', '8wqg_H']	4	tab:gray	inter	0	1	0.0
+24	95	HBOND	0.25	['QUERY_C', '6i7q_C', '8wqh_E', '8wqg_H']	4	tab:blue	intra	0	1	0.0
+76	63	VDW	0.058823529411764705	['8wqg_H']	1	tab:gray	intra	0	1	0.0
+28	31	VDW	0.47058823529411764	['QUERY_C', '8bb3_K', '8bb2_K', '8je1_H', '8je1_C', '8rwz_D', '8wqh_I', '8wqh_E']	8	tab:gray	intra	0	2	-0.5
+28	31	HBOND	0.5882352941176471	['QUERY_C', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8rx0_D', '8wqh_I', '8wqh_E', '8wqg_H']	10	tab:blue	intra	1	2	0.5
+28	25	VDW	0.29411764705882354	['8bb5_B', '8bb3_K', '8bb2_K', '8wqh_I', '8wqh_E']	5	tab:gray	intra	0	2	-0.5
+28	25	HBOND	0.47058823529411764	['8bb5_B', '8bb3_K', '8je1_H', '8je1_C', '8fy0_C', '8wqh_I', '8wqh_E', '8wqg_H']	8	tab:blue	intra	1	2	0.5
+28	110	VDW	0.5	['8je2_C', '8je1_H', '8ij1_C', '8wqh_I', '8wqg_H']	5	tab:gray	inter	0	1	0.0
+28	32	HBOND	0.14285714285714285	['8bb4_O', '8wqg_H']	2	tab:blue	intra	0	1	0.0
+11	6	VDW	0.23529411764705882	['QUERY_C', '8bb3_K', '8bb2_K', '8ij1_C']	4	tab:gray	intra	0	1	0.0
+11	51	VDW	0.29411764705882354	['QUERY_C', '8bb3_K', '8je2_C', '8rx0_D', '8wqg_H']	5	tab:gray	intra	0	2	-0.5
+11	51	HBOND	0.058823529411764705	['8ij1_C']	1	tab:blue	intra	1	2	0.5
+11	110	VDW	0.1	['8rwz_D']	1	tab:gray	inter	0	2	-0.5
+11	110	HBOND	0.1	['8rwz_D']	1	tab:blue	inter	1	2	0.5
+11	5	VDW	0.058823529411764705	['8wqh_I']	1	tab:gray	intra	0	1	0.0
+26	30	VDW	0.5294117647058824	['QUERY_C', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8rx0_D', '6i7q_C', '8wqh_I', '8wqg_H']	9	tab:gray	intra	0	2	-0.5
+26	30	HBOND	0.9411764705882353	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	16	tab:blue	intra	1	2	0.5
+26	46	VDW	0.29411764705882354	['QUERY_C', '8bb4_O', '8bb3_K', '8fy0_C', '8wqh_E']	5	tab:gray	intra	0	1	0.0
+26	20	VDW	0.11764705882352941	['QUERY_C', '8je2_C']	2	tab:gray	intra	0	1	0.0
+26	29	VDW	0.29411764705882354	['8bb3_K', '8bb2_K', '8rx0_D', '8wqh_I', '8wqh_E']	5	tab:gray	intra	0	2	-0.5
+26	29	HBOND	0.29411764705882354	['QUERY_C', '8bb5_B', '8je1_H', '8ij1_H', '6i7q_C']	5	tab:blue	intra	1	2	0.5
+26	44	VDW	0.058823529411764705	['8bb3_K']	1	tab:gray	intra	0	1	0.0
+26	5	VDW	0.058823529411764705	['8wqh_E']	1	tab:gray	intra	0	1	0.0
+30	42	VDW	0.17647058823529413	['8je2_C', '8wqh_E', '8wqg_H']	3	tab:gray	intra	0	1	0.0
+30	35	VDW	0.4	['8je1_H', '8ij1_H', '8wqh_I', '8wqh_E']	4	tab:gray	intra	0	1	0.0
+30	44	VDW	0.058823529411764705	['8ij1_H']	1	tab:gray	intra	0	1	0.0
+30	33	VDW	0.0625	['8fy0_C']	1	tab:gray	intra	0	1	0.0
+30	3	VDW	0.058823529411764705	['6i7q_C']	1	tab:gray	intra	0	1	0.0
+54	49	VDW	0.35294117647058826	['QUERY_C', '8bb5_B', '8bb4_O', '8rx0_D', '6i7q_C', '8wqh_E']	6	tab:gray	intra	0	1	0.0
+54	13	VDW	0.35294117647058826	['QUERY_C', '8bb5_B', '8bb3_K', '8ij1_C', '8rx0_D', '8wqh_E']	6	tab:gray	intra	0	1	0.0
+54	46	VDW	0.23529411764705882	['8bb4_O', '8je2_C', '8wqh_I', '8wqg_H']	4	tab:gray	intra	0	1	0.0
+54	51	VDW	0.4117647058823529	['8bb3_K', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rx0_D', '8wqh_I']	7	tab:gray	intra	0	2	-0.5
+54	51	HBOND	0.29411764705882354	['8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rwz_D']	5	tab:blue	intra	1	2	0.5
+54	57	VDW	0.29411764705882354	['8bb2_K', '8je2_C', '8je1_C', '8fy0_C', '8wqg_H']	5	tab:gray	intra	0	2	-0.5
+54	57	HBOND	0.23529411764705882	['8ij1_H', '8fy0_C', '6i7q_C', '8wqg_H']	4	tab:blue	intra	1	2	0.5
+54	5	VDW	0.11764705882352941	['8je2_C', '8je1_H']	2	tab:gray	intra	0	1	0.0
+54	50	VDW	0.23529411764705882	['8je1_H', '8je1_C', '8ij1_H', '8wqh_I']	4	tab:gray	intra	0	2	-0.5
+54	50	HBOND	0.7058823529411765	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	12	tab:blue	intra	1	2	0.5
+83	86	VDW	0.17647058823529413	['QUERY_C', '8ij1_H', '8wqg_H']	3	tab:gray	intra	0	2	-0.5
+83	86	HBOND	0.23529411764705882	['8je1_H', '8je1_C', '8ij1_H', '8wqh_E']	4	tab:blue	intra	1	2	0.5
+83	80	VDW	0.5882352941176471	['QUERY_C', '8bb4_O', '8bb3_K', '8je2_C', '8ij1_H', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqg_H']	10	tab:gray	intra	0	2	-0.5
+83	80	HBOND	0.5882352941176471	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_E']	10	tab:blue	intra	1	2	0.5
+83	52	VDW	0.23529411764705882	['8bb4_O', '8bb2_K', '6i7q_C', '8wqh_E']	4	tab:gray	intra	0	1	0.0
+83	56	VDW	0.058823529411764705	['8wqg_H']	1	tab:gray	intra	0	1	0.0
+86	53	VDW	0.35294117647058826	['QUERY_C', '8bb5_B', '8rx0_D', '8fy0_C', '8wqh_I', '8wqg_H']	6	tab:gray	intra	0	1	0.0
+86	52	VDW	0.17647058823529413	['QUERY_C', '8bb2_K', '8rx0_D']	3	tab:gray	intra	0	3	-1.0
+86	52	HBOND	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8rx0_D', '8fy0_C', '6i7q_C']	8	tab:blue	intra	1	3	0.0
+86	52	IONIC	0.29411764705882354	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '6i7q_C']	5	tab:red	intra	2	3	1.0
+86	89	VDW	0.4117647058823529	['QUERY_C', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rx0_D', '8wqh_I']	7	tab:gray	intra	0	2	-0.5
+86	89	HBOND	0.058823529411764705	['6i7q_C']	1	tab:blue	intra	1	2	0.5
+86	90	VDW	0.17647058823529413	['8bb5_B', '8wqh_E', '8wqg_H']	3	tab:gray	intra	0	2	-0.5
+86	90	HBOND	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	15	tab:blue	intra	1	2	0.5
+86	110	VDW	0.2	['8je1_C', '8ij1_C']	2	tab:gray	inter	0	1	0.0
+63	67	VDW	0.23529411764705882	['QUERY_C', '8bb5_B', '8bb2_K', '8wqh_E']	4	tab:gray	intra	0	2	-0.5
+63	67	PIPISTACK	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	14	tab:orange	intra	1	2	0.5
+63	77	VDW	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_H', '8fy0_C', '6i7q_C']	8	tab:gray	intra	0	2	-0.5
+63	77	PIPISTACK	0.9411764705882353	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	16	tab:orange	intra	1	2	0.5
+63	66	VDW	0.47058823529411764	['8bb3_K', '8je2_C', '8je1_H', '8ij1_C', '8fy0_C', '8wqh_I', '8wqh_E', '8wqg_H']	8	tab:gray	intra	0	2	-0.5
+63	66	HBOND	0.23529411764705882	['8je1_H', '8ij1_H', '8rx0_D', '8rwz_D']	4	tab:blue	intra	1	2	0.5
+63	75	VDW	0.058823529411764705	['8bb2_K']	1	tab:gray	intra	0	1	0.0
+63	60	VDW	0.17647058823529413	['8je2_C', '8je1_H', '8wqg_H']	3	tab:gray	intra	0	2	-0.5
+63	60	PIPISTACK	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqg_H']	11	tab:orange	intra	1	2	0.5
+91	111	VDW	0.5	['8je2_C', '8je1_C', '8ij1_C', '8wqh_I']	4	tab:gray	inter	0	1	0.0
+91	88	VDW	0.29411764705882354	['8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '8wqh_E']	5	tab:gray	intra	0	2	-0.5
+91	88	HBOND	0.17647058823529413	['8je2_C', '8je1_H', '8wqg_H']	3	tab:blue	intra	1	2	0.5
+91	95	VDW	0.0625	['8ij1_H']	1	tab:gray	intra	0	2	-0.5
+91	95	HBOND	0.8125	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C']	13	tab:blue	intra	1	2	0.5
+91	96	VDW	0.1875	['8ij1_H', '8fy0_C', '8wqh_I']	3	tab:gray	intra	0	2	-0.5
+91	96	HBOND	0.375	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '8je2_C', '8wqh_I']	6	tab:blue	intra	1	2	0.5
+92	89	VDW	0.5882352941176471	['8bb5_B', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8rwz_D', '6i7q_C', '8wqh_I', '8wqh_E']	10	tab:gray	intra	0	2	-0.5
+92	89	HBOND	0.7647058823529411	['8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	13	tab:blue	intra	1	2	0.5
+92	88	VDW	0.23529411764705882	['8bb4_O', '8je1_C', '8rx0_D', '8fy0_C']	4	tab:gray	intra	0	2	-0.5
+92	88	HBOND	0.7647058823529411	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_C', '8ij1_H', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	13	tab:blue	intra	1	2	0.5
+92	95	VDW	0.375	['8bb4_O', '8je2_C', '8ij1_H', '8rx0_D', '8wqh_E', '8wqg_H']	6	tab:gray	intra	0	2	-0.5
+92	95	HBOND	0.3125	['QUERY_C', '8bb3_K', '8je2_C', '8ij1_C', '8wqh_I']	5	tab:blue	intra	1	2	0.5
+92	111	VDW	1.0	['8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8wqh_I', '8wqh_E', '8wqg_H']	8	tab:gray	inter	0	2	-0.5
+92	111	HBOND	0.25	['8ij1_H', '8ij1_C']	2	tab:blue	inter	1	2	0.5
+92	110	HBOND	0.3	['8rx0_D', '8wqh_I', '8wqh_E']	3	tab:blue	inter	0	1	0.0
+46	49	VDW	0.35294117647058826	['QUERY_C', '8bb3_K', '8bb2_K', '8je1_C', '8fy0_C', '8wqh_I']	6	tab:gray	intra	0	2	-0.5
+46	49	HBOND	0.11764705882352941	['QUERY_C', '8bb2_K']	2	tab:blue	intra	1	2	0.5
+46	6	VDW	0.35294117647058826	['8bb5_B', '8bb3_K', '8je1_C', '8wqh_I', '8wqh_E', '8wqg_H']	6	tab:gray	intra	0	2	-0.5
+46	6	HBOND	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	14	tab:blue	intra	1	2	0.5
+46	29	VDW	0.23529411764705882	['8bb4_O', '8je2_C', '8wqh_I', '8wqg_H']	4	tab:gray	intra	0	1	0.0
+46	108	VDW	1.0	['8bb3_K']	1	tab:gray	LIG	0	1	0.0
+46	110	VDW	0.1	['8rx0_D']	1	tab:gray	inter	0	1	0.0
+46	93	VDW	0.058823529411764705	['8rx0_D']	1	tab:gray	intra	0	2	-0.5
+46	93	PIPISTACK	0.4117647058823529	['QUERY_C', '8je2_C', '8ij1_C', '8rx0_D', '8wqh_I', '8wqh_E', '8wqg_H']	7	tab:orange	intra	1	2	0.5
+46	5	VDW	0.058823529411764705	['8wqh_E']	1	tab:gray	intra	0	1	0.0
+88	84	VDW	0.17647058823529413	['QUERY_C', '8ij1_C', '8rx0_D']	3	tab:gray	intra	0	2	-0.5
+88	84	HBOND	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I']	14	tab:blue	intra	1	2	0.5
+88	85	VDW	0.29411764705882354	['QUERY_C', '8bb4_O', '8je1_C', '8ij1_C', '8rwz_D']	5	tab:gray	intra	0	2	-0.5
+88	85	HBOND	0.23529411764705882	['8bb5_B', '8je1_C', '8rwz_D', '8wqh_I']	4	tab:blue	intra	1	2	0.5
+88	111	VDW	0.75	['8je2_C', '8je1_H', '8je1_C', '8ij1_C', '8wqh_I', '8wqh_E']	6	tab:gray	inter	0	1	0.0
+31	110	VDW	0.2	['8je2_C', '8wqh_I']	2	tab:gray	inter	0	2	-0.5
+31	110	HBOND	0.1	['8wqh_I']	1	tab:blue	inter	1	2	0.5
+31	17	VDW	0.058823529411764705	['6i7q_C']	1	tab:gray	intra	0	2	-0.5
+31	17	HBOND	0.058823529411764705	['6i7q_C']	1	tab:blue	intra	1	2	0.5
+85	89	VDW	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8je1_C', '8ij1_H', '8wqh_E', '8wqg_H']	8	tab:gray	intra	0	2	-0.5
+85	89	HBOND	0.7647058823529411	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I']	13	tab:blue	intra	1	2	0.5
+85	111	VDW	0.5	['8je2_C', '8wqh_I', '8wqh_E', '8wqg_H']	4	tab:gray	inter	0	1	0.0
+89	93	VDW	0.058823529411764705	['8bb3_K']	1	tab:gray	intra	0	2	-0.5
+89	93	HBOND	0.7058823529411765	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8ij1_H', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	12	tab:blue	intra	1	2	0.5
+89	110	VDW	0.5	['8je2_C', '8je1_C', '8ij1_C', '8wqh_E', '8wqg_H']	5	tab:gray	inter	0	1	0.0
+89	111	VDW	0.375	['8je1_H', '8ij1_H', '8wqg_H']	3	tab:gray	inter	0	1	0.0
+6	45	VDW	0.4117647058823529	['8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '6i7q_C', '8wqh_I']	7	tab:gray	intra	0	2	-0.5
+6	45	HBOND	0.058823529411764705	['8je1_H']	1	tab:blue	intra	1	2	0.5
+6	44	VDW	0.35294117647058826	['8je1_H', '8je1_C', '8ij1_C', '8wqh_I', '8wqh_E', '8wqg_H']	6	tab:gray	intra	0	2	-0.5
+6	44	HBOND	0.9411764705882353	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	16	tab:blue	intra	1	2	0.5
+6	43	VDW	0.17647058823529413	['8je1_H', '8ij1_H', '6i7q_C']	3	tab:gray	intra	0	1	0.0
+6	12	VDW	0.058823529411764705	['8je1_C']	1	tab:gray	intra	0	1	0.0
+55	13	VDW	0.35294117647058826	['QUERY_C', '8je2_C', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	6	tab:gray	intra	0	1	0.0
+55	51	VDW	0.23529411764705882	['8bb4_O', '8bb3_K', '8je1_C', '8fy0_C']	4	tab:gray	intra	0	2	-0.5
+55	51	HBOND	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	15	tab:blue	intra	1	2	0.5
+55	105	VDW	0.3333333333333333	['8bb3_K']	1	tab:gray	LIG	0	2	-0.5
+55	105	HBOND	0.3333333333333333	['8bb3_K']	1	tab:blue	LIG	1	2	0.5
+55	52	VDW	0.11764705882352941	['8ij1_H', '8wqg_H']	2	tab:gray	intra	0	2	-0.5
+55	52	HBOND	0.23529411764705882	['8je1_H', '8je1_C', '8ij1_C', '8wqg_H']	4	tab:blue	intra	1	2	0.5
+49	53	VDW	0.29411764705882354	['8bb4_O', '8je2_C', '8je1_H', '8ij1_H', '8wqh_E']	5	tab:gray	intra	0	1	0.0
+49	108	VDW	1.0	['8bb3_K']	1	tab:gray	LIG	0	1	0.0
+49	90	VDW	0.11764705882352941	['8je2_C', '8wqg_H']	2	tab:gray	intra	0	1	0.0
+49	110	VDW	0.4	['8rx0_D', '8rwz_D', '8wqh_I', '8wqh_E']	4	tab:gray	inter	0	2	-0.5
+49	110	HBOND	0.1	['8rwz_D']	1	tab:blue	inter	1	2	0.5
+49	93	VDW	0.058823529411764705	['8wqh_E']	1	tab:gray	intra	0	1	0.0
+3	20	VDW	0.17647058823529413	['QUERY_C', '8je2_C', '8fy0_C']	3	tab:gray	intra	0	1	0.0
+3	42	VDW	0.17647058823529413	['8bb4_O', '8fy0_C', '8wqh_E']	3	tab:gray	intra	0	1	0.0
+3	17	VDW	0.29411764705882354	['8bb4_O', '8ij1_H', '8fy0_C', '6i7q_C', '8wqh_I']	5	tab:gray	intra	0	1	0.0
+20	17	VDW	0.29411764705882354	['QUERY_C', '8bb2_K', '8je2_C', '8ij1_H', '8rwz_D']	5	tab:gray	intra	0	2	-0.5
+20	17	HBOND	0.5882352941176471	['8bb5_B', '8bb4_O', '8je2_C', '8je1_H', '8je1_C', '8ij1_C', '8rwz_D', '8wqh_I', '8wqh_E', '8wqg_H']	10	tab:blue	intra	1	2	0.5
+20	16	VDW	0.17647058823529413	['8bb5_B', '8wqh_I', '8wqh_E']	3	tab:gray	intra	0	2	-0.5
+20	16	HBOND	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	14	tab:blue	intra	1	2	0.5
+84	81	VDW	0.29411764705882354	['8bb3_K', '8bb2_K', '8je2_C', '8fy0_C', '8wqh_I']	5	tab:gray	intra	0	2	-0.5
+84	81	HBOND	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_C', '8fy0_C', '6i7q_C', '8wqh_I']	11	tab:blue	intra	1	2	0.5
+84	80	VDW	0.17647058823529413	['8je1_C', '8fy0_C', '8wqh_I']	3	tab:gray	intra	0	2	-0.5
+84	80	HBOND	0.6470588235294118	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '8je2_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	11	tab:blue	intra	1	2	0.5
+84	111	VDW	0.25	['8ij1_C', '8wqh_I']	2	tab:gray	inter	0	1	0.0
+18	110	IONIC	0.1	['8wqg_H']	1	tab:red	inter	0	1	0.0
+65	62	VDW	0.4117647058823529	['8bb5_B', '8je2_C', '8je1_C', '8ij1_H', '8rx0_D', '8wqh_I', '8wqh_E']	7	tab:gray	intra	0	2	-0.5
+65	62	HBOND	0.29411764705882354	['8je2_C', '8je1_H', '8ij1_C', '8rx0_D', '8rwz_D']	5	tab:blue	intra	1	2	0.5
+53	56	VDW	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_C', '8ij1_H', '8wqh_I']	8	tab:gray	intra	0	2	-0.5
+53	56	HBOND	0.5882352941176471	['QUERY_C', '8bb4_O', '8bb3_K', '8je1_H', '8je1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqg_H']	10	tab:blue	intra	1	2	0.5
+53	57	VDW	0.23529411764705882	['8bb5_B', '8je1_C', '8wqh_I', '8wqg_H']	4	tab:gray	intra	0	2	-0.5
+53	57	HBOND	0.9411764705882353	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	16	tab:blue	intra	1	2	0.5
+53	90	VDW	0.058823529411764705	['8bb3_K']	1	tab:gray	intra	0	1	0.0
+53	50	VDW	0.4117647058823529	['8bb3_K', '8bb2_K', '8ij1_C', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	7	tab:gray	intra	0	2	-0.5
+53	50	HBOND	0.5294117647058824	['QUERY_C', '8bb4_O', '8bb3_K', '8bb2_K', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	9	tab:blue	intra	1	2	0.5
+67	75	VDW	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8fy0_C', '6i7q_C', '8wqh_E']	8	tab:gray	intra	0	1	0.0
+67	70	VDW	0.1875	['8bb4_O', '8bb3_K', '8wqg_H']	3	tab:gray	intra	0	2	-0.5
+67	70	HBOND	0.125	['8rwz_D', '8fy0_C']	2	tab:blue	intra	1	2	0.5
+67	74	VDW	0.058823529411764705	['8je2_C']	1	tab:gray	intra	0	1	0.0
+67	64	VDW	0.058823529411764705	['8ij1_C']	1	tab:gray	intra	0	1	0.0
+77	56	VDW	0.29411764705882354	['8bb5_B', '8fy0_C', '8wqh_I', '8wqh_E', '8wqg_H']	5	tab:gray	intra	0	2	-0.5
+77	56	PICATION	0.17647058823529413	['8bb4_O', '8wqh_I', '8wqh_E']	3	tab:green	intra	1	2	0.5
+77	60	VDW	0.11764705882352941	['8ij1_C', '8wqh_I']	2	tab:gray	intra	0	2	-0.5
+77	60	PIPISTACK	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	15	tab:orange	intra	1	2	0.5
+77	111	VDW	0.125	['8wqh_I']	1	tab:gray	inter	0	1	0.0
+56	78	VDW	0.29411764705882354	['QUERY_C', '8bb4_O', '8bb3_K', '6i7q_C', '8wqh_E']	5	tab:gray	intra	0	2	-0.5
+56	78	HBOND	0.7058823529411765	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	12	tab:blue	intra	1	2	0.5
+56	60	VDW	0.11764705882352941	['8bb5_B', '8je2_C']	2	tab:gray	intra	0	1	0.0
+56	52	VDW	0.058823529411764705	['8ij1_C']	1	tab:gray	intra	0	2	-0.5
+56	52	HBOND	0.23529411764705882	['8je2_C', '8ij1_H', '8ij1_C', '8rwz_D']	4	tab:blue	intra	1	2	0.5
+17	1	VDW	0.35294117647058826	['8bb5_B', '8bb4_O', '8je2_C', '8rx0_D', '8wqh_I', '8wqh_E']	6	tab:gray	intra	0	2	-0.5
+17	1	HBOND	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	14	tab:blue	intra	1	2	0.5
+17	42	VDW	0.11764705882352941	['8bb5_B', '8wqg_H']	2	tab:gray	intra	0	2	-0.5
+17	42	HBOND	0.11764705882352941	['8rx0_D', '8fy0_C']	2	tab:blue	intra	1	2	0.5
+51	9	VDW	0.7058823529411765	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8fy0_C', '6i7q_C', '8wqh_I']	12	tab:gray	intra	0	2	-0.5
+51	9	HBOND	0.5294117647058824	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_H', '8fy0_C', '6i7q_C', '8wqh_I']	9	tab:blue	intra	1	2	0.5
+96	60	VDW	0.125	['8wqh_I', '8wqh_E']	2	tab:gray	intra	0	1	0.0
+96	111	VDW	0.14285714285714285	['8wqh_I']	1	tab:gray	inter	0	2	-0.5
+96	111	HBOND	0.14285714285714285	['8je2_C']	1	tab:blue	inter	1	2	0.5
+74	111	VDW	0.125	['8ij1_H']	1	tab:gray	inter	0	1	0.0
+60	64	VDW	0.4117647058823529	['8bb4_O', '8bb2_K', '8je2_C', '8je1_C', '8rx0_D', '8wqh_I', '8wqh_E']	7	tab:gray	intra	0	2	-0.5
+60	64	HBOND	1.0	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	17	tab:blue	intra	1	2	0.5
+60	57	VDW	0.17647058823529413	['8bb3_K', '8ij1_C', '6i7q_C']	3	tab:gray	intra	0	1	0.0
+60	111	VDW	1.0	['8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8wqh_I', '8wqh_E', '8wqg_H']	8	tab:gray	inter	0	2	-0.5
+60	111	HBOND	0.75	['8je1_H', '8ij1_H', '8ij1_C', '8wqh_I', '8wqh_E', '8wqg_H']	6	tab:blue	inter	1	2	0.5
+1	16	VDW	0.11764705882352941	['QUERY_C', '8je1_H']	2	tab:gray	intra	0	1	0.0
+16	2	VDW	0.29411764705882354	['QUERY_C', '8je2_C', '8rx0_D', '8wqh_E', '8wqg_H']	5	tab:gray	intra	0	2	-0.5
+16	2	HBOND	0.058823529411764705	['QUERY_C']	1	tab:blue	intra	1	2	0.5
+16	105	VDW	0.3333333333333333	['8bb3_K']	1	tab:gray	LIG	0	1	0.0
+90	93	VDW	0.29411764705882354	['8bb4_O', '8bb2_K', '8je1_H', '8fy0_C', '8wqh_I']	5	tab:gray	intra	0	2	-0.5
+90	93	HBOND	0.23529411764705882	['8je1_H', '8je1_C', '8fy0_C', '6i7q_C']	4	tab:blue	intra	1	2	0.5
+90	108	VDW	1.0	['8bb3_K']	1	tab:gray	LIG	0	1	0.0
+90	110	VDW	0.1	['8wqh_E']	1	tab:gray	inter	0	1	0.0
+25	29	VDW	0.29411764705882354	['QUERY_C', '8bb3_K', '8rx0_D', '8wqh_I', '8wqh_E']	5	tab:gray	intra	0	2	-0.5
+25	29	HBOND	1.0	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	17	tab:blue	intra	1	2	0.5
+25	93	VDW	0.23529411764705882	['8je2_C', '8rx0_D', '8wqh_E', '8wqg_H']	4	tab:gray	intra	0	1	0.0
+25	110	VDW	0.2	['8je1_C', '8ij1_C']	2	tab:gray	inter	0	1	0.0
+25	95	VDW	0.0625	['8wqg_H']	1	tab:gray	intra	0	2	-0.5
+25	95	HBOND	0.0625	['8wqg_H']	1	tab:blue	intra	1	2	0.5
+29	44	VDW	0.17647058823529413	['QUERY_C', '8bb5_B', '8wqh_E']	3	tab:gray	intra	0	1	0.0
+29	108	VDW	1.0	['8bb3_K']	1	tab:gray	LIG	0	1	0.0
+29	110	VDW	0.4	['8je1_H', '8wqh_I', '8wqh_E', '8wqg_H']	4	tab:gray	inter	0	2	-0.5
+29	110	HBOND	0.4	['8je2_C', '8ij1_H', '8wqh_I', '8wqg_H']	4	tab:blue	inter	1	2	0.5
+29	35	VDW	0.1	['8ij1_H']	1	tab:gray	intra	0	2	-0.5
+29	35	HBOND	0.1	['8ij1_H']	1	tab:blue	intra	1	2	0.5
+29	93	VDW	0.058823529411764705	['8rx0_D']	1	tab:gray	intra	0	1	0.0
+29	36	VDW	0.1	['8wqg_H']	1	tab:gray	intra	0	1	0.0
+29	32	VDW	0.07142857142857142	['8wqg_H']	1	tab:gray	intra	0	1	0.0
+4	42	VDW	0.17647058823529413	['QUERY_C', '8bb2_K', '8fy0_C']	3	tab:gray	intra	0	2	-0.5
+4	42	HBOND	0.8823529411764706	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E']	15	tab:blue	intra	1	2	0.5
+4	12	VDW	0.5882352941176471	['8bb5_B', '8bb4_O', '8bb2_K', '8je1_H', '8ij1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_E', '8wqg_H']	10	tab:gray	intra	0	3	-1.0
+4	12	HBOND	0.35294117647058826	['8bb2_K', '8ij1_H', '8ij1_C', '8fy0_C', '6i7q_C', '8wqh_E']	6	tab:blue	intra	1	3	0.0
+4	12	IONIC	0.47058823529411764	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '8ij1_C', '8fy0_C', '6i7q_C', '8wqh_E']	8	tab:red	intra	2	3	1.0
+4	43	VDW	0.5294117647058824	['8bb4_O', '8je1_H', '8je1_C', '8rx0_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	9	tab:gray	intra	0	1	0.0
+4	13	VDW	0.11764705882352941	['8je2_C', '8wqg_H']	2	tab:gray	intra	0	1	0.0
+4	44	VDW	0.058823529411764705	['8wqh_E']	1	tab:gray	intra	0	2	-0.5
+4	44	HBOND	0.8235294117647058	['QUERY_C', '8bb5_B', '8bb3_K', '8bb2_K', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	14	tab:blue	intra	1	2	0.5
+4	41	HBOND	0.16666666666666666	['8rwz_D']	1	tab:blue	intra	0	1	0.0
+42	110	VDW	0.2	['8rx0_D', '8wqh_E']	2	tab:gray	inter	0	2	-0.5
+42	110	HBOND	0.1	['8wqh_E']	1	tab:blue	inter	1	2	0.5
+42	36	VDW	0.1	['8wqg_H']	1	tab:gray	intra	0	1	0.0
+42	2	HBOND	0.23529411764705882	['QUERY_C', '8bb4_O', '8bb3_K', '8ij1_C']	4	tab:blue	intra	0	1	0.0
+71	111	VDW	0.14285714285714285	['8wqh_E']	1	tab:gray	inter	0	1	0.0
+44	5	VDW	0.23529411764705882	['8bb4_O', '8ij1_C', '8fy0_C', '8wqh_I']	4	tab:gray	intra	0	1	0.0
+44	110	VDW	0.2	['8je1_C', '8wqg_H']	2	tab:gray	inter	0	1	0.0
+44	36	VDW	0.1	['8wqg_H']	1	tab:gray	intra	0	1	0.0
+13	5	VDW	0.5882352941176471	['8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I']	10	tab:gray	intra	0	2	-0.5
+13	5	HBOND	1.0	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '8fy0_C', '6i7q_C', '8wqh_I', '8wqh_E', '8wqg_H']	17	tab:blue	intra	1	2	0.5
+81	111	VDW	0.625	['8je2_C', '8ij1_C', '8wqh_I', '8wqh_E', '8wqg_H']	5	tab:gray	inter	0	1	0.0
+9	110	VDW	0.1	['8rwz_D']	1	tab:gray	inter	0	1	0.0
+57	111	VDW	0.125	['8wqg_H']	1	tab:gray	inter	0	1	0.0
+64	68	VDW	0.4117647058823529	['8bb5_B', '8bb4_O', '8ij1_C', '8fy0_C', '8wqh_I', '8wqh_E', '8wqg_H']	7	tab:gray	intra	0	1	0.0
+64	22	VDW	0.058823529411764705	['8je2_C']	1	tab:gray	intra	0	2	-0.5
+64	22	HBOND	0.058823529411764705	['8wqg_H']	1	tab:blue	intra	1	2	0.5
+64	111	VDW	0.25	['8je1_C', '8wqh_E']	2	tab:gray	inter	0	2	-0.5
+64	111	HBOND	0.125	['8wqh_E']	1	tab:blue	inter	1	2	0.5
+68	111	VDW	0.125	['8je2_C']	1	tab:gray	inter	0	1	0.0
+73	103	VDW	0.3333333333333333	['8bb3_K']	1	tab:gray	LIG	0	1	0.0
+73	111	VDW	0.25	['8je1_H', '8ij1_H']	2	tab:gray	inter	0	2	-0.5
+73	111	HBOND	0.125	['8je1_H']	1	tab:blue	inter	1	2	0.5
+62	66	VDW	0.5294117647058824	['8bb5_B', '8bb4_O', '8bb3_K', '8je1_H', '8je1_C', '8ij1_H', '6i7q_C', '8wqh_I', '8wqh_E']	9	tab:gray	intra	0	2	-0.5
+62	66	HBOND	0.7647058823529411	['QUERY_C', '8bb5_B', '8bb4_O', '8bb3_K', '8bb2_K', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8rwz_D', '6i7q_C', '8wqh_I', '8wqh_E']	13	tab:blue	intra	1	2	0.5
+66	70	VDW	0.0625	['6i7q_C']	1	tab:gray	intra	0	2	-0.5
+66	70	HBOND	0.0625	['8fy0_C']	1	tab:blue	intra	1	2	0.5
+66	72	VDW	0.058823529411764705	['6i7q_C']	1	tab:gray	intra	0	2	-0.5
+66	72	HBOND	0.058823529411764705	['6i7q_C']	1	tab:blue	intra	1	2	0.5
+5	12	VDW	0.11764705882352941	['8je2_C', '8je1_H']	2	tab:gray	intra	0	1	0.0
+43	110	VDW	0.2	['8ij1_H', '8wqh_I']	2	tab:gray	inter	0	3	-1.0
+43	110	HBOND	0.4	['8je1_H', '8je1_C', '8wqh_I', '8wqh_E']	4	tab:blue	inter	1	3	0.0
+43	110	IONIC	0.2	['8ij1_H', '8wqh_I']	2	tab:red	inter	2	3	1.0
+93	108	VDW	1.0	['8bb3_K']	1	tab:gray	LIG	0	1	0.0
+93	110	VDW	0.4	['8je2_C', '8je1_H', '8ij1_H', '8rx0_D']	4	tab:gray	inter	0	2	-0.5
+93	110	PIPISTACK	0.9	['8je2_C', '8je1_H', '8je1_C', '8ij1_H', '8ij1_C', '8rx0_D', '8wqh_I', '8wqh_E', '8wqg_H']	9	tab:orange	inter	1	2	0.5
+48	108	VDW	1.0	['8bb3_K']	1	tab:gray	LIG	0	2	-0.5
+48	108	HBOND	1.0	['8bb3_K']	1	tab:blue	LIG	1	2	0.5
+48	110	VDW	0.8	['8je2_C', '8je1_C', '8ij1_H', '8rx0_D', '8rwz_D', '8wqh_I', '8wqh_E', '8wqg_H']	8	tab:gray	inter	0	2	-0.5
+48	110	HBOND	0.5	['8je2_C', '8je1_H', '8ij1_H', '8rx0_D', '8wqg_H']	5	tab:blue	inter	1	2	0.5
+95	110	VDW	0.2222222222222222	['8ij1_C', '8rx0_D']	2	tab:gray	inter	0	3	-1.0
+95	110	HBOND	0.3333333333333333	['8ij1_C', '8rx0_D', '8wqh_E']	3	tab:blue	inter	1	3	0.0
+95	110	IONIC	0.1111111111111111	['8rx0_D']	1	tab:red	inter	2	3	1.0
+95	111	HBOND	0.14285714285714285	['8wqh_E']	1	tab:blue	inter	0	1	0.0
+45	110	VDW	0.1	['8wqg_H']	1	tab:gray	inter	0	2	-0.5
+45	110	HBOND	0.2	['8je2_C', '8ij1_H']	2	tab:blue	inter	1	2	0.5
+111	69	VDW	0.25	['8wqh_I', '8wqh_E']	2	tab:gray	inter	0	2	-0.5
+111	69	HBOND	0.125	['8wqh_I']	1	tab:blue	inter	1	2	0.5
+110	33	VDW	0.6	['8je2_C', '8je1_H', '8rx0_D', '8wqh_I', '8wqh_E', '8wqg_H']	6	tab:gray	inter	0	2	-0.5
+110	33	HBOND	0.1	['8wqg_H']	1	tab:blue	inter	1	2	0.5
+110	35	VDW	0.1111111111111111	['8je1_H']	1	tab:gray	inter	0	1	0.0
+110	32	VDW	0.2	['8je1_C', '8rwz_D']	2	tab:gray	inter	0	2	-0.5
+110	32	HBOND	0.2	['8je2_C', '8rwz_D']	2	tab:blue	inter	1	2	0.5
+110	36	VDW	0.4444444444444444	['8je1_C', '8ij1_C', '8wqh_E', '8wqg_H']	4	tab:gray	inter	0	2	-0.5
+110	36	PICATION	0.3333333333333333	['8je1_C', '8wqh_E', '8wqg_H']	3	tab:green	inter	1	2	0.5
+110	34	VDW	0.2222222222222222	['8wqh_E', '8wqg_H']	2	tab:gray	inter	0	2	-0.5
+110	34	HBOND	0.2222222222222222	['8wqh_E', '8wqg_H']	2	tab:blue	inter	1	2	0.5
+110	69	VDW	0.1	['8wqg_H']	1	tab:gray	inter	0	2	-0.5
+110	69	HBOND	0.1	['8wqg_H']	1	tab:blue	inter	1	2	0.5
+33	36	VDW	0.1	['8rx0_D']	1	tab:gray	intra	0	2	-0.5
+33	36	HBOND	0.1	['8rx0_D']	1	tab:blue	intra	1	2	0.5
+33	37	VDW	0.125	['6i7q_C']	1	tab:gray	intra	0	1	0.0
+35	32	HBOND	0.2	['8wqh_I', '8wqh_E']	2	tab:blue	intra	0	1	0.0
+32	36	VDW	0.1	['8rx0_D']	1	tab:gray	intra	0	2	-0.5
+32	36	HBOND	0.1	['8rx0_D']	1	tab:blue	intra	1	2	0.5
+32	37	VDW	0.125	['6i7q_C']	1	tab:gray	intra	0	2	-0.5
+32	37	HBOND	0.125	['6i7q_C']	1	tab:blue	intra	1	2	0.5
+36	39	VDW	0.16666666666666666	['6i7q_C']	1	tab:gray	intra	0	2	-0.5
+36	39	HBOND	0.16666666666666666	['6i7q_C']	1	tab:blue	intra	1	2	0.5
+37	40	VDW	0.16666666666666666	['8ij1_H']	1	tab:gray	intra	0	1	0.0
+40	0	HBOND	0.5	['8rwz_D']	1	tab:blue	intra	0	1	0.0

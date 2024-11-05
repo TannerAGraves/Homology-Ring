@@ -11,5 +11,5 @@ Requires-Dist: requests
 Requires-Dist: plotly>=4.14
 Requires-Dist: scipy>=1.5
 Requires-Dist: networkx>=2.5
-Requires-Dist: biopython>=1.78
+Requires-Dist: biopython==1.78
 Requires-Dist: pdbecif>=0.2.0

@@ -98,7 +98,7 @@ class HomologyRing:
         logging.getLogger('matplotlib').setLevel(logging.WARNING) # prevent matplotlib from logging a bunch of garbage
         init_file_structure(self.logger)
 
-    def build(self, chain_id, state_id, max_results = 32, eval = 0.001, remote_BLAST=False, force_download = False, force_RING = False, all_models = False, use_label_asym_id = False, prob_normalization='strong'):
+    def build(self, chain_id, state_id='1', max_results = 32, eval = 0.001, remote_BLAST=False, force_download = False, force_RING = False, all_models = False, use_label_asym_id = False, prob_normalization='strong'):
         """Create an hRIN for results of a BLAST search given a query chain
 
         Args:
@@ -161,6 +161,7 @@ class HomologyRing:
         self._interaction_types = list(self.contact_df['inter'].unique())
         self.atom_df = self.build_atom_df()
         self.create_hRIN(inter_class='all', set_attr=True, normalize=prob_normalization)
+        self.export_hRIN(self.name, out_dir='network_out')
         return
 
 
@@ -296,6 +297,7 @@ class HomologyRing:
         self._interaction_types = list(self.contact_df['inter'].unique())
         self.atom_df = self.build_atom_df()
         self.create_hRIN(inter_class='all', set_attr=True, normalize=prob_normalization)
+        self.export_hRIN(self.name, out_dir='network_out')
         return #poly_ent_df
     
     def save_family(self, out):
@@ -314,7 +316,7 @@ class HomologyRing:
         else:
             out_df = out_df.rename(columns={'acc':'UNP'})
         out_df = out_df.rename(columns={'struct_pth':'path', 'pdb_chain':'chain'})
-        out_df['struct_pth'] = out_df['struct_pth'].apply(lambda x: Path(x).resolve())
+        out_df['path'] = out_df['path'].apply(lambda x: Path(x).resolve()) # local paths to abs paths
         out_df.to_csv(out, sep='\t')
         print(f"Saved family to {Path(out).resolve()}")
         return out_df
@@ -1752,7 +1754,7 @@ class HomologyRing:
             col_slice = sorted(list(cols))
             idx_key = {idx: nid for idx, nid in enumerate(row_slice)}
 
-            img = hRIN_dict[inter].A[row_slice, :][:, col_slice]
+            img = hRIN_dict[inter].toarray()[row_slice, :][:, col_slice]
             im = ax1.imshow(img, cmap='hot', aspect='auto')
             
             if img.shape[0] <= 40: # ticktext gets too close if there's too many nodes
@@ -1770,7 +1772,7 @@ class HomologyRing:
                 ax1.set_xticks(np.arange(img.shape[1]))
                 ax1.set_xticklabels([str(col) for col in col_slice], rotation=90)
         else:
-            img = hRIN_dict[inter].A
+            img = hRIN_dict[inter].toarray()
             im = ax1.imshow(img, cmap='hot', aspect='auto')
 
         # Create an axes for the colorbar on the left side, adjusting its position
@@ -1959,8 +1961,8 @@ class HomologyRing:
             nodes.append(row)
         nodes = pd.DataFrame(nodes)
 
-        node_pth = f'{output_name}_nodes.tsv' if out_dir is None else os.paht.join(out_dir, f'{output_name}_nodes.tsv')
-        edge_pth = f'{output_name}_edges.tsv' if out_dir is None else os.paht.join(out_dir, f'{output_name}_edges.tsv')
+        node_pth = f'{output_name}_nodes.tsv' if out_dir is None else os.path.join(out_dir, f'{output_name}_nodes.tsv')
+        edge_pth = f'{output_name}_edges.tsv' if out_dir is None else os.path.join(out_dir, f'{output_name}_edges.tsv')
         nodes.to_csv(node_pth, sep='\t', index=False)
         edges.to_csv(edge_pth, sep='\t', index=False)
         print(f"Wrote files {[node_pth, edge_pth]}")
@@ -2478,11 +2480,11 @@ if __name__ == "__main__":
     arggrp_query.add_argument('-F', '--family_dir', type=str, help='Path to directory or text file containing paths of cif files. Allows for creation of hRIN for user-defined protein family.\nSpesifying will ignore BLAST argumentes.')
 
     # BLAST SEARCH
-    arggrp_BLAST.add_argument('-E', '--E_value', type=float, help='E-value cutoff for BLAST search.')
+    arggrp_BLAST.add_argument('-E', '--E_value', type=float, default=1E-2, help='E-value cutoff for BLAST search.')
     arggrp_BLAST.add_argument('-n', '--max_results', type=int, default=100, help='Maximum number of results to be considered in a faimily. Takes the n results with the best E-value. Value of -1 takes all results below E-value threshold.')
     arggrp_BLAST.add_argument('-r', '--remote', action='store_true')
     # BLAST DB options
-    arggrp_BLAST.add_argument('-db' '--blast_db', type=str, help="Path of compiled BLAST peptide database. See https://ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html for details.")
+    arggrp_BLAST.add_argument('-db', '--blast_db', type=str, help="Path of compiled BLAST peptide database. See https://ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html for details.")
     arggrp_BLAST.add_argument('-p', '--use_pdb_ids', action='store_true', help='Indicates if accentions in provided BLAST DB are PDB IDs. Default is UNP accs.')
     
     # Structure Options
@@ -2508,7 +2510,7 @@ if __name__ == "__main__":
             chain_id=args.query_chain,
             max_results=args.max_results,
             eval=args.E_value,
-            remote_blast=args.remote,
+            remote_BLAST=args.remote,
             force_download=args.force_download,
             force_RING=args.force_ring,
             use_label_asym_id=args.use_label_asym_id,

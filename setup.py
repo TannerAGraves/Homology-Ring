@@ -19,7 +19,7 @@ setup(
         "plotly>=4.14",
         "scipy>=1.5",
         "networkx>=2.5",
-        "biopython>=1.78",
+        "biopython==1.78",
         "pdbecif>=0.2.0"
     ],
     python_requires='>=3.6',
