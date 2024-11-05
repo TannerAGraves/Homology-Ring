@@ -337,11 +337,57 @@ This is referred to a pseudo-taxonomy because it does not aim to capture inferre
 \section{Example Analysis}
 \subsection{PAS Domain - Binding Specificity}
 \subsection{Elongin C - VHL Interaction}
-% Introduce the complex, describe the structure
-In this section we demonstrate the utility of HomologyRing to quickly give structral insight to particular protein and the complexes it forms.
-We will use Elongin C and Von Hippel-Lindau tumor suppressor (pVHL)  as queries with the aim of studying primarily inter-chain interactions in the Transcription Factor B (SIII) complex . 
+% Subsection Introduction
+In this section we demonstrate the utility of HomologyRing to quickly give structral insight to particular protein family and the complexes it forms.
+These are observed primarially through the study of inter-chain interactions, and can deliver insight into the spesific sites contributing to protein-protein interactions. % mention somewhere that these interactions are somewhat pne sided, but not here.
+We will use the interactions formed by the RNA Transcription Factor B complex, to demonstrate these capabilities. Transcription Factor B, also known as SIII or simply Elongin, is a protein complex responsible for promoting RNA polymerase II elogation by suppressing the function of arresting sites within a transcription window \cite{Chen2023}. In this sense it has been identified as an elongation factor regulating transcription by RNA polymerase II. This transcription process is most commonly thought of as being regulated by initiation factors. However, regulation of the process during elongations is increasingly understood as being significantly important. The Elongin complex is seen to be dynamic and known to have several other interacting factors affecting elongation behaivor. % https://www.nature.com/articles/s41594-023-01138-w#ref-CR8 % CUL5–RBX2 complex
+We will use Elongin C and Von Hippel-Lindau tumor suppressor (pVHL)  as queries with the aim of studying primarily inter-chain interactions in the Transcription Factor B (SIII) complex. 
 This well-studied complex has recieved a lot of attention for its role in several cancers. 
 We will compare structural insites gained through HomologyRing to results from the literature.
+
+%% Complex introduction
+The SIII compex is composed of three elongins: A, B, and C and are highly conserved in Eukaryotes. 
+These elongin protein products are respectively refered to by their short gene names: ELOA, ELOB, and ELOC.
+Behaivor of the SIII elongation factor is well studied experimentally, and has enjoyed a lot of attention. However, much of its function on a mechanistic level is yet to be fully understood. 
+% ELOA structure and function
+ELOA is the is responible for binding in the SIII Elongin complex with the larger RNA Poly II complex where Elongins B and C are regulatory subunits. 
+
+ELOA as a monomer has been seen to promote elongation by RNA Pol II alone % https://www.nature.com/articles/s41594-023-01138-w#ref-CR8 % can likely ommit this
+
+ELOB and ELOC are seen to form a subcomplex \cite{Chen2023}.
+% ELOB structure and function
+Ubiquitin-like protein %https://www.nature.com/articles/s41594-023-01138-w#ref-CR14
+% ELOC structure and function
+SCF ubiquitin ligase subunit Skp1
+% https://www.nature.com/articles/s41594-023-01138-w#ref-CR8
+Seen to promote the activity of ELOA %https://www.nature.com/articles/s41594-023-01138-w#ref-CR14
+
+
+Figure \ref{fig:SIII-structure} shows a portion of the SIII complex consisting of ELOB and ELOC interacting with a portion of pVHL.
+% Introduce pVHL
+
+
+We show a complex of ELOB, ELOC, pVHL incomplex with a region of HIF in Figure \ref{fig:SIII-structure}.
+\begin{figure}[ht] % replace with [H} if position is causing problems.
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig/SIII_1LM8.png}
+    \caption{PDB: 1LM8; Complex of Elongin B,C with pVHL and HIF-region \cite{Min2002}.}
+    \label{fig:SIII-structure}
+\end{figure}
+
+Notabale regulation activity comes from the SIII interaction with the Von Hippoel-Lindau Tumor Suppressor Protein (pVHL) which is coded for by the VHL gene. Elongins B and C have are known to interact with pVHL in the SIII complex. pVHL, in this interaction is seen to inhibit transcription elongation. 
+%pVHL context
+Fuerthermore, pVHL is seen to be contribute the the ubiquitination of hypoxia-inducible factors (HIFs). 
+HIFs are transcription factors, or proteins that bind to spesific regions of DNA to regulate their transcription.
+They are a key component the process through wich mamilian cells respond to hypoxic conditons, or prolonged leveles of low oxygen.
+% Context: VHL disease
+% Can speak to how HIF1 is overexpressed in many cancers as an adaptation to hypoxic conditions in tumor interior, but not sure if it is relevant to VHL disease.
+HIF contains a highly conserved proline containg region which is the binding substrate where the HIF will bind to pVHL. 
+In hypoxic enviroments, the prolines in this region will experice hydroxulation, a post translational modification where proline will gain an hydroxyl groub on the sidechains gamma carbon. This modification enables pVHL-HIF interactions and subsequent ubiquinition of HIF, a process that eventually leads to the destruction of the HIF, freeing the gene region to which it was previously bound. This process is critical for allowing cells to variably express genes based on the amound of oxygen avaible to the cell, allowing for behaivoral changes that allow for its survival like angiogenisis or alternatively programmed cell death in low oxygen senerios \cite{Carmeliet1998}. 
+%pVHL structure
+%pVHL function (breakdown)
+% pVHL interaction sites
+
 
 % This should be moved somewhere else --- possibly in the section where the PDB database is introduced
 % Write a shorter blurb explaining this idea to go here
@@ -354,36 +400,12 @@ We observe the diversity of entities present in structures in our considered hRI
 
 By grouping nodes by their parent protein chain, we obtain a graph akin to a basic protein-protein interaction network (PPI network). 
 
-We will observe interactions in the SIII Elongin complex
-Well studied Nobel Prize for the discovery of pVHL-HIF interaction and its role in (what) cancers.
-We compare the 
 
 
 % Table for entities present in each homolog structure.
 
 
-Transcription Factor B, also known as SIII or simply Elongin, is a protein complex responsible for promoting RNA polymerase II elogation by suppressing the function of arresting sites within a transcription window \cite{placeholder}.
-The The SIII compex is composed of three elongins: A, B, and C and is present in all Eukaryotes \todo{fact check / cite}. 
-% Why is ELOA not present in many structures... Is it a different context? 
-Elongin A is the is responible for nucleotide binding in the SIII complex where Elongins B and C are regulatory subunits. 
-The Elongin protein products are respectively refered to by their short gene names: ELOA, ELOB, and ELOC.
-% ELOA is not present in most chystal structures, just the BC-pVHL complex.
-The most notabale regulation activity comes from the Von Hippoel-Lindau Tumor Suppressor Protein (pVHL) which is coded for by the VHL gene. 
-We show a complex of ELOB, ELOC, pVHL incomplex with a region of HIF in Figure \ref{fig:SIII-structure}.
-\begin{figure}[ht] % replace with [H} if position is causing problems.
-    \centering
-    \includegraphics[width=0.5\textwidth]{fig/SIII_1LM8.png}
-    \caption{PDB: 1LM8; Complex of Elongin B,C with pVHL and HIF-region \cite{Min2002}.}
-    \label{fig:SIII-structure}
-\end{figure}
 
-Elongins B and C have are known to interact with pVHL in the SIII complex. pVHL, in this interaction is seen to inhibit transcription elongation.
-Fuerthermore, pVHL is seen to be contribute the the ubiquitination of hypoxia-inducible factors (HIFs). 
-HIFs are transcription factors, or proteins that bind to spesific regions of DNA to regulate their transcription.
-Thy are a key component the process through wich mamilian cells respond to hypoxic conditons, or prolonged leveles of low oxygen.
-% Can speak to how HIF1 is overexpressed in many cancers as an adaptation to hypoxic conditions in tumor interior, but not sure if it is relevant to VHL disease.
-HIF contains a highly conserved proline containg region which is the binding substrate where the HIF will bind to pVHL. 
-In hypoxic enviroments, the prolines in this region will experice hydroxulation, a post translational modification where proline will gain an hydroxyl groub on the sidechains gamma carbon. This modification enables pVHL-HIF interactions and subsequent ubiquinition of HIF, a process that eventually leads to the destruction of the HIF, freeing the gene region to which it was previously bound. This process is critical for allowing cells to variably express genes based on the amound of oxygen avaible to the cell, allowing for behaivoral changes that allow for its survival like angiogenisis or alternatively programmed cell death in low oxygen senerios \cite{Carmeliet1998}. 
 
 The SIII complex and spesifically the pVHL have garnered a significant amount of attention for its role in von Hippel-Lindau disease.
 Caused by germline mutations to VHL.

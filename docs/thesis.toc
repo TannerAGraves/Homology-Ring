@@ -27,26 +27,26 @@
 \contentsline {subsection}{\numberline {7.1}Python}{19}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Command Line Interface (CLI)}{20}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}File Output}{20}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Interactive Application}{20}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.4}Interactive Application}{21}{subsection.7.4}%
 \contentsline {section}{\numberline {8}Formal hRIN Definition}{22}{section.8}%
-\contentsline {section}{Appendix}{25}{section*.16}%
+\contentsline {section}{Appendix}{25}{section*.15}%
 \contentsline {section}{\numberline {A}Biological Background}{25}{appendix.A}%
 \contentsline {subsection}{\numberline {A.1}Central Dogma}{25}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}Protein Folding}{25}{subsection.A.2}%
 \contentsline {subsection}{\numberline {A.3}Homology}{26}{subsection.A.3}%
 \contentsline {subsection}{\numberline {A.4}Multiple Sequence Alignments}{27}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}Structure Files}{27}{subsection.A.5}%
-\contentsline {section}{\numberline {B}Appendix: RING - Predicted Interactions}{30}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Van Der Waals Forces - \texttt {VDW}}{30}{subsection.B.1}%
+\contentsline {subsection}{\numberline {A.5}Structure Files}{28}{subsection.A.5}%
+\contentsline {section}{\numberline {B}Appendix: RING - Predicted Interactions}{31}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Van Der Waals Forces - \texttt {VDW}}{31}{subsection.B.1}%
 \contentsline {subsection}{\numberline {B.2}Hydrogen Bonds - \texttt {HBOND}}{31}{subsection.B.2}%
-\contentsline {subsection}{\numberline {B.3}Ionic Bonds - \texttt {IONIC}}{31}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.3}Ionic Bonds - \texttt {IONIC}}{32}{subsection.B.3}%
 \contentsline {subsection}{\numberline {B.4}$\pi -\pi $ Stacking - \texttt {PIPISTACK}}{32}{subsection.B.4}%
-\contentsline {subsection}{\numberline {B.5}$\pi $-cation Bond - \texttt {PICATION}}{32}{subsection.B.5}%
+\contentsline {subsection}{\numberline {B.5}$\pi $-cation Bond - \texttt {PICATION}}{33}{subsection.B.5}%
 \contentsline {subsection}{\numberline {B.6}$\pi $-hydrogen Bond - \texttt {PIHBOND}}{33}{subsection.B.6}%
 \contentsline {subsection}{\numberline {B.7}Halogen Bonds - \texttt {HALOGEN}}{33}{subsection.B.7}%
-\contentsline {subsection}{\numberline {B.8}Disulphide Bonds - \texttt {SSBOND}}{33}{subsection.B.8}%
+\contentsline {subsection}{\numberline {B.8}Disulphide Bonds - \texttt {SSBOND}}{34}{subsection.B.8}%
 \contentsline {subsection}{\numberline {B.9}Metal Coordination - \texttt {METAL\_ION}}{34}{subsection.B.9}%
 \contentsline {section}{\numberline {C}Appendix: Installation and Dependencies}{34}{appendix.C}%
 \contentsline {section}{\numberline {D}Acknowledgements}{35}{appendix.D}%
 \contentsline {section}{\numberline {E}Future Work}{35}{appendix.E}%
-\contentsline {section}{References}{36}{section*.27}%
+\contentsline {section}{References}{36}{section*.26}%
