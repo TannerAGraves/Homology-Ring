@@ -339,11 +339,13 @@ This is referred to a pseudo-taxonomy because it does not aim to capture inferre
 \subsection{Elongin C - VHL Interaction}
 % Subsection Introduction
 In this section we demonstrate the utility of HomologyRing to quickly give structral insight to particular protein family and the complexes it forms.
-These are observed primarially through the study of inter-chain interactions, and can deliver insight into the spesific sites contributing to protein-protein interactions. % mention somewhere that these interactions are somewhat pne sided, but not here.
+These are observed primarially through the study of inter-chain interactions, and can deliver insight into the spesific sites contributing to protein-protein interactions. 
 We will use the interactions formed by the RNA Transcription Factor B complex, to demonstrate these capabilities. Transcription Factor B, also known as SIII or simply Elongin, is a protein complex responsible for promoting RNA polymerase II elogation by suppressing the function of arresting sites within a transcription window \cite{Chen2023}. In this sense it has been identified as an elongation factor regulating transcription by RNA polymerase II. This transcription process is most commonly thought of as being regulated by initiation factors. However, regulation of the process during elongations is increasingly understood as being significantly important. The Elongin complex is seen to be dynamic and known to have several other interacting factors affecting elongation behaivor. % https://www.nature.com/articles/s41594-023-01138-w#ref-CR8 % CUL5–RBX2 complex
-We will use Elongin C and Von Hippel-Lindau tumor suppressor (pVHL)  as queries with the aim of studying primarily inter-chain interactions in the Transcription Factor B (SIII) complex. 
-This well-studied complex has recieved a lot of attention for its role in several cancers. 
-We will compare structural insites gained through HomologyRing to results from the literature.
+We will primarially focus our discussion on ELOC. Using it as a query for a HomologyRing search inorder to observe  inter-chain interactions in the Transcription Factor B (SIII) and related complexs. 
+Comparing structural insites gained through HomologyRing to results from the literature will be used to demonstate the usefulness of the tool and information contained in the resulting hRINs.  
+
+It this case, it is worth noting that we are not primarially concerned with the construction of a family of homolog proteins per se. Rather, we can expect a BLAST search of the PDB to return many ELOC orthologs, or human isoforms (of which there are three \cite{Chen2023}), resulting in a family of high sequence similarity, but may very considerably in the entities present in each complex structure. % stub
+
 
 %% Complex introduction
 The SIII compex is composed of three elongins: A, B, and C and are highly conserved in Eukaryotes. 
@@ -358,14 +360,11 @@ ELOB and ELOC are seen to form a subcomplex \cite{Chen2023}.
 % ELOB structure and function
 Ubiquitin-like protein %https://www.nature.com/articles/s41594-023-01138-w#ref-CR14
 % ELOC structure and function
-SCF ubiquitin ligase subunit Skp1
+SCF ubiquitin ligase subunit Skp1 % ??? I think this is describing a different complex
 % https://www.nature.com/articles/s41594-023-01138-w#ref-CR8
 Seen to promote the activity of ELOA %https://www.nature.com/articles/s41594-023-01138-w#ref-CR14
 
-
-Figure \ref{fig:SIII-structure} shows a portion of the SIII complex consisting of ELOB and ELOC interacting with a portion of pVHL.
-% Introduce pVHL
-
+Figure \ref{fig:SIII-structure} shows an ELOB - ELOC complex interacting with a portion of pVHL.
 
 We show a complex of ELOB, ELOC, pVHL incomplex with a region of HIF in Figure \ref{fig:SIII-structure}.
 \begin{figure}[ht] % replace with [H} if position is causing problems.
@@ -375,27 +374,54 @@ We show a complex of ELOB, ELOC, pVHL incomplex with a region of HIF in Figure \
     \label{fig:SIII-structure}
 \end{figure}
 
+% Introduce pVHL
+
 Notabale regulation activity comes from the SIII interaction with the Von Hippoel-Lindau Tumor Suppressor Protein (pVHL) which is coded for by the VHL gene. Elongins B and C have are known to interact with pVHL in the SIII complex. pVHL, in this interaction is seen to inhibit transcription elongation. 
 %pVHL context
-Fuerthermore, pVHL is seen to be contribute the the ubiquitination of hypoxia-inducible factors (HIFs). 
+The pVHL product is well-known a regulator of many different pathways and known to interact with several other proteins \cite{Tabaro2016}. However, the protein has recieved much attention for its role as a tumor suppressor \cite{}, and owes its name for its associated Von Hippel Lindau syndrome -- an inheritable genetic mutation to the VHL gene which is associated with a very high propensity for tumor devlopment in many highly vascularized tissues throughout the body. 
+
+At the protein level, VHL is known for its role in regulating tissue response to hypoxic, or low oxygen, conditons. 
+Spesifically, pVHL is seen to be contribute the the ubiquitination of hypoxia-inducible factors (HIFs). 
 HIFs are transcription factors, or proteins that bind to spesific regions of DNA to regulate their transcription.
-They are a key component the process through wich mamilian cells respond to hypoxic conditons, or prolonged leveles of low oxygen.
-% Context: VHL disease
-% Can speak to how HIF1 is overexpressed in many cancers as an adaptation to hypoxic conditions in tumor interior, but not sure if it is relevant to VHL disease.
+They are a key component the process through wich mamilian cells respond to hypoxic conditons, or prolonged leveles of low oxygen. 
+Hypoxia is highly relevant to many forms of cancer, as tumos growing and eventually cutting themselvs off from blood supply in their interior are a common pattern. HIF, working as a transcription factors, can promote the thranscription of various different genes which may serve to mitigate the effects of hypoxia, correct it, or signal for the destruction of the cell. One known mechanism for addressing the issue of hypoxia in tissue is signialing for the additional vasculature, thus increasing the supply of blood and oxygen to the area. This behaivor is highly characteristic of the tumors seen in VHL syndrome, occuring in highly vascularized areas such as parts of the brain, retina, and spine, among others. % https://en.wikipedia.org/wiki/Von_Hippel%E2%80%93Lindau_tumor_suppressor#cite_note-Ben-SkowronekKozaczuk2015-5
+
+%pVHL structure
+
+% funtion , types of mutations to VHL
+Healty pVHL, in complex with ELOB and ELOC,  tags HIFs with Ubiquitin, signiling for their destrction, and thus working to down regulate a tissues hypoxia response. Mutations to the protein such as the ones seen in VHL syndrome
+
+
+
+%%% pVHL HIF interaction, structure
 HIF contains a highly conserved proline containg region which is the binding substrate where the HIF will bind to pVHL. 
 In hypoxic enviroments, the prolines in this region will experice hydroxulation, a post translational modification where proline will gain an hydroxyl groub on the sidechains gamma carbon. This modification enables pVHL-HIF interactions and subsequent ubiquinition of HIF, a process that eventually leads to the destruction of the HIF, freeing the gene region to which it was previously bound. This process is critical for allowing cells to variably express genes based on the amound of oxygen avaible to the cell, allowing for behaivoral changes that allow for its survival like angiogenisis or alternatively programmed cell death in low oxygen senerios \cite{Carmeliet1998}. 
-%pVHL structure
+
 %pVHL function (breakdown)
 % pVHL interaction sites
 
-
+This well-studied complex has recieved much attention for its role in several cancers. 
 % This should be moved somewhere else --- possibly in the section where the PDB database is introduced
 % Write a shorter blurb explaining this idea to go here
 It is important to note that a homology search of the PDB does not neccessarily return a set of distinct, evolutionarily related sequences. Instead, the Homology search as implemented by BLAST reutrns sequences with high sequnce similarity to the query. This will most likely many different structures for the same protein, as the PDB may contain many structures for the same protein.
 This is desiarable behaivor, given that tese different enteries may correspond to the protein in different biological contexts, with differences in temprature or pH; additionally a protein of interests may form different complexes with many interactors, or experience conditional conformal variations. 
 All of these factors influcence the structure and corresponding RIN of a protein. Given this networks with noteworthey differences in topology can be seen to represent the same protein chain. By coreating a hRIN for a sigle protein, we obtain a single object that may be used to represent a protein that captures both  variations and conserved features of a protein.
 
-pVHL is known to participate in many different interactions \cite{Tabaro2016}. 
+
+%PIPELINE AND RESULTS
+The preceding sub-sections serve to illustrate the many complicated interactions in which ELOC participates. Each of these interactions is quite nuanced, and a complete picture of all possible interactions and their functioning at a molecular level is a very time consuming process to come to understand. Furthermore, in this case there is still much that remains not compleatly understood. Here we will utilize HomologyRing to quickly an object capturing structural information about protein-protein interactions at the residue level. This may be used as an overview, providing researchers a quick introduction to wich sites and compounds are involved in interactions in a protein family, or as a technical, well defined mathematical object, wich could be used for more quantitive analysis. In this section we will demonstrate the former, using homologyRing to quickly gain initial insight in to the Elongin Complex.
+
+Since we are here concerned with interactions of multiple protein chains, we are required to restrict the use of the pipeline in this case to a homology search of the PDB, as predictions avaible in the AlphaFold Database are limited to single chain structures, preventing the study of inter-chain interactions. 
+Bias in the PDB in some ways limit the usefullness of the quantitive information in the graph. The probability weights in the inter-chain edges of the graph are heavily influenced by the frequency with which published experimental structures have captured any given two entities in a single structure. As discussed, in the Elongin complex, this is highly variable
+Presense of particular entities in experimental structures is also influenced by factors such as interest in particular aspects of a complex within the research community and difficulty of chrystialization. Both of these factors distance the edge weight data from being effective measures of the propensity for an entities interaction in a biological context and such biases should be considered for more statistically rigorous analysis aimed at studying such interactions.
+
+We begin our analysis of the Elongin complex by centering our focus on the ELOC chain, using it as our query structure. And with this we may begin spesifying parameters to construct a HomologyRing quert. Spesifically, the query chain is taken from the \texttt{AUTH C} chain of the PDB structure \texttt{1LM8}, which is a x-ray chrystal structure of the ELOB-ELOC dimer in complex with a fragment of pVHL \cite{Min2002}. The corresponding query sequence is 88 residues long, and maps to uniprot accention {Q15369-2} isoform, differing from the cannonical sequence by an omission of 16 residues from the N-terminal, or beginning of the sequence. 
+The PDB Europe Knowledge Base lists 164 structures in the PDB mapped to the ELOC Uniprot gene: \texttt{Q15369}. However, many more close homologs exist with high sequence similarity.
+Creating an hRIN win an aim to create a comprehensive account of all ELOC structures in the PDB is perfectly feasible with the RingHomology pipeline and can capture infromation from all 164 structures comprising more than 500 MB of information in a few minutes on consumer hardware. However, for the sake of simplicity of visuilization we limit the homolgy search to just 64 structures here.
+
+%% MSA Figure
+
+%% Table of common protein chains
 We observe the diversity of entities present in structures in our considered hRIN in Figure \ref{fig:pVHL-inter}. 
 
 By grouping nodes by their parent protein chain, we obtain a graph akin to a basic protein-protein interaction network (PPI network). 
@@ -405,13 +431,6 @@ By grouping nodes by their parent protein chain, we obtain a graph akin to a bas
 % Table for entities present in each homolog structure.
 
 
-
-
-The SIII complex and spesifically the pVHL have garnered a significant amount of attention for its role in von Hippel-Lindau disease.
-Caused by germline mutations to VHL.
-
-Furthermore, pVHL is seen to have a role in many other cancers. %cite and be more spesific, is it missing / over/under regulated?
-pVHL has many known interactions \cite{pVHLDB}. Important in the context of VHL desiease is negatively regulating vascoular endothelil growth factor \cite{Ohh1999}.
 % 2 isoforms
 % VHL negatively regulate hypoxia induced products
 % What is EL ubiquitin ligase in connection to this context?

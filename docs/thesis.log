@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  5 NOV 2024 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.7)  7 NOV 2024 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,55 +986,57 @@ LaTeX Warning: Citation `Chen2023' on page 14 undefined on input line 343.
 
 [14]
 
-LaTeX Warning: Citation `Chen2023' on page 15 undefined on input line 357.
+LaTeX Warning: Citation `Chen2023' on page 15 undefined on input line 347.
+
+
+LaTeX Warning: Citation `Chen2023' on page 15 undefined on input line 359.
 
 <fig/SIII_1LM8.png, id=398, 200.9106pt x 198.7425pt>
 File: fig/SIII_1LM8.png Graphic file (type png)
 <use fig/SIII_1LM8.png>
-Package pdftex.def Info: fig/SIII_1LM8.png  used on input line 373.
+Package pdftex.def Info: fig/SIII_1LM8.png  used on input line 372.
 (pdftex.def)             Requested size: 209.12683pt x 206.8723pt.
 
 
 [15]
 
-LaTeX Warning: Reference `fig:pVHL-inter' on page 16 undefined on input line 39
-9.
-
-
-
 [16 <./fig/SIII_1LM8.png>]
 
-LaTeX Warning: Citation `pVHLDB' on page 17 undefined on input line 414.
+LaTeX Warning: Reference `fig:pVHL-inter' on page 17 undefined on input line 40
+2.
+
+
+LaTeX Warning: Citation `pVHLDB' on page 17 undefined on input line 416.
 
 
 
 [17]
 
 [18]
-Overfull \hbox (6.87643pt too wide) in paragraph at lines 492--494
+Overfull \hbox (6.87643pt too wide) in paragraph at lines 494--496
 []\OT1/cmr/m/n/10.95 Some mem-bers are gen-er-al-ists , in-volved in many or cr
 it-i-cal pro-lif-eric RNA matabolisim
  []
 
 
 LaTeX Warning: Reference `subsec:paralogs' on page 19 undefined on input line 5
-11.
+13.
 
 
-Overfull \hbox (10.4376pt too wide) in paragraph at lines 511--511
+Overfull \hbox (10.4376pt too wide) in paragraph at lines 513--513
 \OT1/cmr/m/n/10.95 matabolism?[]  
  []
 
 
-Overfull \hbox (10.4376pt too wide) in paragraph at lines 511--511
+Overfull \hbox (10.4376pt too wide) in paragraph at lines 513--513
 \OT1/cmr/m/n/10.95 matabolism?[]  
  []
 
 
-LaTeX Warning: Reference `pandas' on page 19 undefined on input line 525.
+LaTeX Warning: Reference `pandas' on page 19 undefined on input line 527.
 
 
-LaTeX Warning: Reference `networkx' on page 19 undefined on input line 525.
+LaTeX Warning: Reference `networkx' on page 19 undefined on input line 527.
 
 
 
@@ -1044,17 +1046,17 @@ LaTeX Warning: Reference `networkx' on page 19 undefined on input line 525.
 
 [21]
 
-LaTeX Warning: Reference `sec:' on page 22 undefined on input line 584.
+LaTeX Warning: Reference `sec:' on page 22 undefined on input line 586.
 
 
-LaTeX Warning: Reference `sec:' on page 22 undefined on input line 584.
+LaTeX Warning: Reference `sec:' on page 22 undefined on input line 586.
 
 
 
 [22]
 
 [23]
-Overfull \hbox (18.98341pt too wide) in paragraph at lines 631--633
+Overfull \hbox (18.98341pt too wide) in paragraph at lines 633--635
 []\OT1/cmr/m/n/10.95 Observe that $\OML/cmm/m/it/10.95 f[]$ \OT1/cmr/m/n/10.95 
 is a graph-homomorphism --- For-mally, a map-ping be-tween (multi)graphs
  []
@@ -1063,7 +1065,7 @@ is a graph-homomorphism --- For-mally, a map-ping be-tween (multi)graphs
 
 [24]
 
-LaTeX Warning: Reference `sec:' on page 25 undefined on input line 658.
+LaTeX Warning: Reference `sec:' on page 25 undefined on input line 660.
 
 
 
@@ -1073,10 +1075,10 @@ LaTeX Warning: Reference `sec:' on page 25 undefined on input line 658.
 
 [27]
 
-LaTeX Warning: Citation `PDB-bias' on page 28 undefined on input line 776.
+LaTeX Warning: Citation `PDB-bias' on page 28 undefined on input line 778.
 
 
-Overfull \hbox (1.40433pt too wide) in paragraph at lines 775--781
+Overfull \hbox (1.40433pt too wide) in paragraph at lines 777--783
 \OT1/cmr/m/n/10.95 tal-log-ra-phy, nu-clear mag-netic resinance (NMR) spec-tros
 copy, or cryo-electron mi-croscopy
  []
@@ -1084,74 +1086,73 @@ copy, or cryo-electron mi-croscopy
 
 
 [28]
-<fig/CIF_data_schema.png, id=492, 683.4333pt x 580.569pt>
+
+[29]
+<fig/CIF_data_schema.png, id=495, 683.4333pt x 580.569pt>
 File: fig/CIF_data_schema.png Graphic file (type png)
 <use fig/CIF_data_schema.png>
-Package pdftex.def Info: fig/CIF_data_schema.png  used on input line 806.
+Package pdftex.def Info: fig/CIF_data_schema.png  used on input line 808.
 (pdftex.def)             Requested size: 209.12683pt x 177.64467pt.
 
 
-[29]
-
 [30 <./fig/CIF_data_schema.png>]
-
-LaTeX Warning: Citation `' on page 31 undefined on input line 852.
-
-
-LaTeX Warning: Citation `' on page 31 undefined on input line 853.
-
-
 
 [31]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 863.
+LaTeX Warning: Citation `' on page 32 undefined on input line 854.
+
+
+LaTeX Warning: Citation `' on page 32 undefined on input line 855.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 863.
+(hyperref)                removing `math shift' on input line 865.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 863.
+(hyperref)                removing `\pi' on input line 865.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 863.
+(hyperref)                removing `\pi' on input line 865.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 865.
 
 
 
 [32]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 880.
+(hyperref)                removing `math shift' on input line 882.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 880.
+(hyperref)                removing `\pi' on input line 882.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 880.
+(hyperref)                removing `math shift' on input line 882.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 888.
+(hyperref)                removing `math shift' on input line 890.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 888.
+(hyperref)                removing `\pi' on input line 890.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 888.
+(hyperref)                removing `math shift' on input line 890.
 
 
 
 [33]
 
 [34]
-Overfull \hbox (11.96956pt too wide) in paragraph at lines 923--929
+Overfull \hbox (11.96956pt too wide) in paragraph at lines 925--931
 [][]
  []
 
@@ -1171,56 +1172,38 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 8C38A283C62622191C27576BEBC269CB;8297
-(rerunfilecheck)             After:  31A5E8AD30EF7E026A7D50C468DBCC5D;8297.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 31A5E8AD30EF7E026A7D50C468DBCC5D;8297.
  ) 
 Here is how much of TeX's memory you used:
- 25182 strings out of 473600
- 467147 string characters out of 5732738
- 1954894 words of memory out of 5000000
- 47496 multiletter control sequences out of 15000+600000
+ 25173 strings out of 473600
+ 466979 string characters out of 5732738
+ 1951894 words of memory out of 5000000
+ 47490 multiletter control sequences out of 15000+600000
  570841 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,101p,1703b,968s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{figure.caption.13} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.27} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section*.16} has been referenced but does not exist
-, replaced by a fixed one
-
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texli
-ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/tex
-live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
-b><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/tex
-live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on thesis.pdf (36 pages, 1322172 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/t
+exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/t
+exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/20
+24/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on thesis.pdf (36 pages, 1322241 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 559 compressed objects within 6 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 651 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 500000)
  459 words of extra memory for PDF output out of 10000 (max. 10000000)
 
