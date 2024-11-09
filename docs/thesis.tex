@@ -326,7 +326,7 @@ This is an iterative method, employed here to create a heigharchial clustering o
 $$d(X,Y) = \frac{1}{|X||Y|} \sum\limits_{x\in X} \sum\limits_{y\in Y} d(x,y)$$
 
 This is referred to a pseudo-taxonomy because it does not aim to capture inferred evolutionary relationships, rather group structures based on the similarity of the non-covalent interactions the admit. This is useful for finding patters of contact conservation or specificity. For example: conformal variations of a protein complex may give rise groups of variably conserved interactions. 
-
+\todo{replace fig with example dendrogram}
 \begin{figure}[ht] % replace with [H} if position is causing problems.
     \centering
     \includegraphics[width=0.5\textwidth]{fig/graph-diff.png}
@@ -420,8 +420,28 @@ The PDB Europe Knowledge Base lists 164 structures in the PDB mapped to the ELOC
 Creating an hRIN win an aim to create a comprehensive account of all ELOC structures in the PDB is perfectly feasible with the RingHomology pipeline and can capture infromation from all 164 structures comprising more than 500 MB of information in a few minutes on consumer hardware. However, for the sake of simplicity of visuilization we limit the homolgy search to just 64 structures here.
 
 %% MSA Figure
+\begin{figure}[ht] % replace with [H} if position is causing problems.
+    \centering
+    \includegraphics[width=\textwidth]{fig/ELOC-MSA.png}
+    \caption{Representation of a multiple sequence alignment for the ELOC family. Created as part of the HomologyRing pipeline with Clustal$\Omega$}
+    % For $A,B \subseteq G$, we consider edges in $A \oplus B \subseteq G$ to contribute to the distance between $A$ and $B$.
+    \label{fig:graph-diff}
+\end{figure}
 
 %% Table of common protein chains
+
+\begin{table}[h!] % Use [H] for exact placement, if necessary
+    \centering
+    \begin{tabular}{l c r}
+    \textbf{Name} & \textbf{Age} & \textbf{Country} \\ \cline{1-3}
+    Alice       & 24          & USA     \\
+    Bob         & 30          & Canada  \\
+    Catherine   & 28          & UK      \\
+    \end{tabular}
+    \caption{Common protein chains with corresponding attributes.}
+    \label{tab:protein-chains}
+\end{table}
+
 We observe the diversity of entities present in structures in our considered hRIN in Figure \ref{fig:pVHL-inter}. 
 
 By grouping nodes by their parent protein chain, we obtain a graph akin to a basic protein-protein interaction network (PPI network). 
