@@ -467,7 +467,7 @@ class HomologyRing:
             q.write(f">query\n{self.query_seq}")
         
         blast_input_f = 'query_ring.fasta'
-        if (self.blast_DB not in ['pdb', 'sprot']) and self.BLAST_is_remote:
+        if (self.blast_DB not in ['pdb', 'swissprot']) and self.BLAST_is_remote:
             raise Exception("Supported remote Databases are 'sprot' and 'pdb'")
         
         blast_client = NcbiblastpCommandline(query=blast_input_f, db=self.blast_DB, outfmt=15, evalue=eval, remote=self.BLAST_is_remote)
