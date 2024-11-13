@@ -941,7 +941,7 @@ class HomologyRing:
         return edge_df, node_df
     
 
-    def build_entity_contact_df(self, return_grouped= False):
+    def build_entity_contact_df(self, return_grouped=False, id_nodes_with_acc=True):
         """Enriches the conact_df which stores edge (contact) information for all homologs with information about the entities that each node belongs to.
 
 
@@ -1047,7 +1047,10 @@ class HomologyRing:
         self.entity_df = pd.concat(dfs)
         # for hRINs with ligands or interchain contacts, we need a consistent system to identify entities that participate in contacts so they can be mapped to a node.
         # Use PDB/UNP acc if the entity has one, else use the name - typically done for ligands
-        self.entity_df['identifier'] = self.entity_df.apply(lambda row: (row['pdbx_db_accession'] + (f'_{row[chain_identifer]}' if row['db_name'] == 'PDB' else '')) if pd.notna(row['pdbx_db_accession']) else row['pdbx_description'], axis=1) # you should not be using a lambda for this.
+        if id_nodes_with_acc:
+            self.entity_df['identifier'] = self.entity_df.apply(lambda row: (row['pdbx_db_accession'] + (f'_{row[chain_identifer]}' if row['db_name'] == 'PDB' else '')) if pd.notna(row['pdbx_db_accession']) else row['pdbx_description'], axis=1) # you should not be using a lambda for this.
+        else:
+            self.entity_df['identifier'] = self.entity_df['db_code']
         self.EIDN_dict = {identifier:eidn for eidn, identifier in enumerate(self.entity_df['identifier'].unique())}
         # just reverse the map so you can get identifier (name) from an EIDN value
         identifier_dict = {value: key for key, value in self.EIDN_dict.items()}
@@ -1836,7 +1839,7 @@ class HomologyRing:
     
     
     
-    def plot_hRIN_network(self, inter_types='all', inter_class='all', trim=False, layout='kamada_kawai', arc_multi_edges=True, weight_edges=True, spring_k=0.2, prob_weight=1, min_weight=0.5, crv_rad = 0.3):
+    def plot_hRIN_network(self, inter_types='all', inter_class='all', trim=False, layout='kamada_kawai', arc_multi_edges=True, weight_edges=True, spring_k=0.2, prob_weight=1, min_weight=0.5, crv_rad = 0.3, res_lables = True, het_lables = 'gene_name'):
         """_summary_
 
         Args:
@@ -1937,7 +1940,23 @@ class HomologyRing:
         else:
             nx.draw(out_graph, node_size=node_size, pos=node_pos, node_color=node_colors)
 
-        nx.draw_networkx_labels(out_graph, node_pos, labels={i: str(i) if data['node_type'] == 'RES' else data.get('identifier', '') for i, data in out_graph.nodes(data=True)}, font_size=12, font_color='darkred', font_family='sans-serif', font_weight='bold')
+
+        label_dict = {}
+        for i, data in out_graph.nodes(data=True):
+            if data['node_type'] == 'RES':
+                cur_node_label = str(i) if res_lables else ''
+            elif het_lables == 'acc':
+                cur_node_label = data.get('identifier', '')
+            elif het_lables == 'gene_name':
+                cur_node_label = data.get('db_code', '')
+            else:
+                cur_node_label = ''
+            label_dict[i] = cur_node_label
+        nx.draw_networkx_labels(out_graph, node_pos, labels=label_dict, font_size=12, font_color='darkred', font_family='sans-serif', font_weight='bold')
+        # if het_lables == 'acc':
+        #     nx.draw_networkx_labels(out_graph, node_pos, labels={i: str(i) if data['node_type'] == 'RES' else data.get('identifier', '') for i, data in out_graph.nodes(data=True)}, font_size=12, font_color='darkred', font_family='sans-serif', font_weight='bold')
+        # elif het_lables == 'gene_names':
+        #     nx.draw_networkx_labels(out_graph, node_pos, labels={i: str(i) if data['node_type'] == 'RES' else data.get('db_code', '') for i, data in out_graph.nodes(data=True)}, font_size=12, font_color='darkred', font_family='sans-serif', font_weight='bold')
         return out_graph
 
     def export_hRIN(self, output_name, net=None, out_dir = None):

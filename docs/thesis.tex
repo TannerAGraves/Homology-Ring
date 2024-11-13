@@ -434,11 +434,14 @@ The high identity in the family is useful reducing the overall complexity of the
 \end{figure}
 
 %% Table of common protein chains
-As stated, a primary aim of this analysis is structural insight into inter-chain interactions. To begin, we will summarize which protein chains are present in the families structures. This gives indication of wich proteins are commonly observed in complex with homologs of our query in the PDB and wich interactions are captured by the network. Table \ref{tab:eloc-chain-count}
+As stated, a primary aim of this analysis is structural insight into inter-chain interactions. To begin, we will summarize which protein chains are present in the families structures. This gives indication of wich proteins are commonly observed in complex with homologs of our query in the PDB and wich interactions are captured by the network. Table \ref{tab:eloc-chain-count} provides an overview of the presence of protein chains in the structure collected to form the family. HomologyRing exposes this information orginally collected from CIF metadata and includes additional information on ligand presence and are provide reference for detailed information associated with nodes in the network. 
+
+ELOC\_HUMAN, despite being used as the query seqeunce, is only listed as present in $98.2\%$ of structures. This is due to close homologs like ELOC\_MOUSE comprising a small handful of the homolog chains included in the family.  
+We also observe that the distribution of protein chain counts has a long tail. Truncated from Table \ref{tab:eloc-chain-count} was 30 different proteins that appeared in no more than 2 structures. Some are the close homologs, as previously mentioned, while others are lesser studied proteins associated with Elongin or RNA Poly II. 
 
 \begin{table}[h!] % Use [H] for exact placement, if necessary
     \centering
-    \begin{tabular}{l|c c c}
+    \begin{tabular}{l c c c}
     \textbf{Gene} & \textbf{Chains} & \textbf{Structures with Chain} &  \textbf{Structures with Chain (\%)} \\ \cline{1-4}
 ELOB\_HUMAN & 158 & 63 & 98.4\% \\
 ELOC\_HUMAN & 124 & 59 & 92.2\% \\
@@ -458,9 +461,19 @@ HIF1A\_HUMAN & 6 & 3 & 4.7\% \\
     \label{tab:eloc-chain-count}
 \end{table}
 
+The high rate of ELOB inclusion indicates that the hRIN serves well to capture the minimal Elongin ELOB - ELOC complex and pVHL and CUL2 are present in an appreciable proportion of structures -- $60.9\%$ and $28.1\%$ Respectively. Given this, we will explore information contained in the hRIN about the ELOC - ELOB, ELOC - pVHL, and ELOC - CUL2 interactions.
+
+%% Possibly speak about intra-chain contacts
+%% See if there are regions of variable contacts in mobile regions
+
+Beginning with the interaction between the most prelevant proteins, ELOC and ELOB, considering which interation types are relevent and limiting analysis accordingly is often helpful. The different types of interactions residues may participate in are generally seen to be differently distributed in the case of intra-chain, inter-chain, and chain-ligand interactions; and Table \ref{tab:eloc-inter-counts} shows this to be the case for this family. Notable types of interactions may only occur between specific, and often reletively rare, amino acids. Consequently, the presence of such an interaction often confers a significant structural function, and the conservation of the interaction will usually correlate with the high conservation of the participating residues in homologous sequences. %% This really does not need to be mentioned here.
+On the other hand, interactions like Van Der Waals Forces, or hydrogen bonding are more proliferic, capable of occuring in most if not all amino acids. Such interactions are increadibly important for the conformation of individual protein chains as well as the formation of complexes, however, if they are not of paritcular interest, their abundance can complicate analysis. 
+With this in mind, 
+
+
 \begin{table}[h!]
     \centering
-    \begin{tabular}{l|c c c}
+    \begin{tabular}{l c c c}
         %\hline
         \textbf{Row Label} & \textbf{Intra-Chain} & \textbf{Inter-Chain} & \textbf{Chain-Ligand} \\ \hline
         HBOND & 7347 & 1550 & 15 \\ 
@@ -472,13 +485,14 @@ HIF1A\_HUMAN & 6 & 3 & 4.7\% \\
         METAL\_ION & 0 & 0 & 2 \\ 
     \end{tabular}
     \caption{Example table with 3 labeled columns and 7 labeled rows}
-    \label{tab:example_table}
+    \label{tab:eloc-inter-counts}
 \end{table}
 
-We observe the diversity of entities present in structures in our considered hRIN in Figure \ref{fig:pVHL-inter}. 
+We may further filter the data provided by HomologyRing used to create Table \ref{tab:eloc-inter-counts} to consider only spesifically the inter-chain contacts between ELOC and ELOB chains. Between the two chains of interest there are the following interactions: 1117 VDW, 605 HBOND, 235 PIPISTACK, 44 IONIC, and 25 PICATION interactions.
 
-By grouping nodes by their parent protein chain, we obtain a graph akin to a basic protein-protein interaction network (PPI network). 
-
+%% Highly conserved PIPISTACK interactions in positions 11 and 13
+%% Hydrogen bonding stabalizing the primary interface between ELOC and ELOB
+%% Disordered terminus of ELOB held inplace against ELOC mainly by weaker VDW and HYDROGEN BOND forces
 
 
 % Table for entities present in each homolog structure.

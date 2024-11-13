@@ -22,31 +22,31 @@
 \contentsline {section}{\numberline {6}Example Analysis}{15}{section.6}%
 \contentsline {subsection}{\numberline {6.1}PAS Domain - Binding Specificity}{15}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Elongin C - VHL Interaction}{15}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}DDX}{20}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.3}DDX}{21}{subsection.6.3}%
 \contentsline {section}{\numberline {7}Usage}{23}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Python}{23}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Command Line Interface (CLI)}{23}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.2}Command Line Interface (CLI)}{24}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}File Output}{24}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Interactive Application}{24}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.4}Interactive Application}{25}{subsection.7.4}%
 \contentsline {section}{\numberline {8}Formal hRIN Definition}{26}{section.8}%
-\contentsline {section}{Appendix}{28}{section*.21}%
-\contentsline {section}{\numberline {A}Biological Background}{28}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Central Dogma}{28}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Protein Folding}{28}{subsection.A.2}%
+\contentsline {section}{Appendix}{29}{section*.21}%
+\contentsline {section}{\numberline {A}Biological Background}{29}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Central Dogma}{29}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Protein Folding}{29}{subsection.A.2}%
 \contentsline {subsection}{\numberline {A.3}Homology}{30}{subsection.A.3}%
 \contentsline {subsection}{\numberline {A.4}Multiple Sequence Alignments}{31}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}Structure Files}{31}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.5}Structure Files}{32}{subsection.A.5}%
 \contentsline {section}{\numberline {B}Appendix: RING - Predicted Interactions}{34}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Van Der Waals Forces - \texttt {VDW}}{34}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.1}Van Der Waals Forces - \texttt {VDW}}{35}{subsection.B.1}%
 \contentsline {subsection}{\numberline {B.2}Hydrogen Bonds - \texttt {HBOND}}{35}{subsection.B.2}%
-\contentsline {subsection}{\numberline {B.3}Ionic Bonds - \texttt {IONIC}}{35}{subsection.B.3}%
-\contentsline {subsection}{\numberline {B.4}$\pi -\pi $ Stacking - \texttt {PIPISTACK}}{35}{subsection.B.4}%
-\contentsline {subsection}{\numberline {B.5}$\pi $-cation Bond - \texttt {PICATION}}{36}{subsection.B.5}%
-\contentsline {subsection}{\numberline {B.6}$\pi $-hydrogen Bond - \texttt {PIHBOND}}{36}{subsection.B.6}%
+\contentsline {subsection}{\numberline {B.3}Ionic Bonds - \texttt {IONIC}}{36}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}$\pi -\pi $ Stacking - \texttt {PIPISTACK}}{36}{subsection.B.4}%
+\contentsline {subsection}{\numberline {B.5}$\pi $-cation Bond - \texttt {PICATION}}{37}{subsection.B.5}%
+\contentsline {subsection}{\numberline {B.6}$\pi $-hydrogen Bond - \texttt {PIHBOND}}{37}{subsection.B.6}%
 \contentsline {subsection}{\numberline {B.7}Halogen Bonds - \texttt {HALOGEN}}{37}{subsection.B.7}%
 \contentsline {subsection}{\numberline {B.8}Disulphide Bonds - \texttt {SSBOND}}{37}{subsection.B.8}%
-\contentsline {subsection}{\numberline {B.9}Metal Coordination - \texttt {METAL\_ION}}{37}{subsection.B.9}%
+\contentsline {subsection}{\numberline {B.9}Metal Coordination - \texttt {METAL\_ION}}{38}{subsection.B.9}%
 \contentsline {section}{\numberline {C}Appendix: Installation and Dependencies}{38}{appendix.C}%
-\contentsline {section}{\numberline {D}Acknowledgements}{38}{appendix.D}%
-\contentsline {section}{\numberline {E}Future Work}{38}{appendix.E}%
-\contentsline {section}{References}{39}{section*.32}%
+\contentsline {section}{\numberline {D}Acknowledgements}{39}{appendix.D}%
+\contentsline {section}{\numberline {E}Future Work}{39}{appendix.E}%
+\contentsline {section}{References}{40}{section*.32}%
