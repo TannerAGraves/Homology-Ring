@@ -1839,7 +1839,7 @@ class HomologyRing:
     
     
     
-    def plot_hRIN_network(self, inter_types='all', inter_class='all', trim=False, layout='kamada_kawai', arc_multi_edges=True, weight_edges=True, spring_k=0.2, prob_weight=1, min_weight=0.5, crv_rad = 0.3, res_lables = True, het_lables = 'gene_name'):
+    def plot_hRIN_network(self, inter_types='all', inter_class='all', trim=False, layout='kamada_kawai', arc_multi_edges=True, weight_edges=True, spring_k=0.2, prob_weight=1, min_weight=0.5, crv_rad = 0.3, res_lables = True, het_lables = 'gene_name', node_size = 15):
         """_summary_
 
         Args:
@@ -1856,7 +1856,7 @@ class HomologyRing:
 
         """
         out_graph = nx.MultiGraph()
-        node_size = 15
+        # node_size = 15
         #plt.figure(dpi=300) # for higher quality output
 
         # Ensure valid interaction types
@@ -1875,7 +1875,7 @@ class HomologyRing:
             for v, data in v_dict.items():
                 if u > v: # adj will iterate over each edge twice, consider only one instance
                     continue
-                if not ((l <= u <= r) or (l <= v <= r)):
+                if not ((l <= u <= r) or (l <= v <= r)): # Skip in node is not in the trim region
                     continue
                 # print(u,v)
                 u_node = self.MultiGraph.nodes[u]

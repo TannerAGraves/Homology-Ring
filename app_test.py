@@ -910,7 +910,7 @@ if __name__ == '__main__':
     #rh = RingHomology.RingHomology('','')
     
     rh = HomologyRing.HomologyRing('query/1LM8.cif', blast_DBs['PDB'], struct_source='PDB', log_level=logging.DEBUG, uses_PDB_ids=True)
-    rh.build('C','1', force_download=False, force_RING=False, max_results=32, use_label_asym_id=False, prob_normalization='possible')
+    rh.build('C','1', force_download=False, force_RING=False, max_results=128, use_label_asym_id=False, prob_normalization='possible')
 
     ### DDX USER DEFINED FAMILY
     # rh = RingHomology.RingHomology('DDX_human_pdb/DDX2B_Q14240/3bor.cif', blast_DBs['PDB'], struct_source='PDB', log_level=logging.DEBUG, uses_PDB_ids=True)

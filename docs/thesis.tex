@@ -339,27 +339,32 @@ This is referred to a pseudo-taxonomy because it does not aim to capture inferre
 \subsection{PAS Domain - Binding Specificity}
 \subsection{Elongin C - VHL Interaction}
 % Subsection Introduction
-In this section we demonstrate the utility of HomologyRing to quickly give structral insight to particular protein family and the complexes it forms.
-These are observed primarially through the study of inter-chain interactions, and can deliver insight into the spesific sites contributing to protein-protein interactions. 
-We will use the interactions formed by the RNA Transcription Factor B complex, to demonstrate these capabilities. Transcription Factor B, also known as SIII or simply Elongin, is a protein complex responsible for promoting RNA polymerase II elogation by suppressing the function of arresting sites within a transcription window \cite{Chen2023}. In this sense it has been identified as an elongation factor regulating transcription by RNA polymerase II. This transcription process is most commonly thought of as being regulated by initiation factors. However, regulation of the process during elongations is increasingly understood as being significantly important. The Elongin complex is seen to be dynamic and known to have several other interacting factors affecting elongation behaivor. % https://www.nature.com/articles/s41594-023-01138-w#ref-CR8 % CUL5–RBX2 complex
-We will primarially focus our discussion on ELOC. Using it as a query for a HomologyRing search inorder to observe  inter-chain interactions in the Transcription Factor B (SIII) and related complexs. 
+In this section, we demonstrate the utility of HomologyRing to quickly give structral insight to a particular protein family and the complexes it forms. 
+Study of interactions contributiong to the formation of protien complexes is done by considering the inter-chain interactions with in a hRIN. 
+The inter-chain interactions are edges that connect a node representing a family of residues, here reffered to as `residue nodes', to nodes that represent an entire entity or protein chain other than the homologs identified through the BLAST search, identified here as `chain nodes'.
+We will use the interactions formed by the RNA Transcription Factor B complex, to demonstrate these capabilities. 
+
+Transcription Factor B, also known as SIII or simply Elongin, is a protein complex responsible for promoting RNA polymerase II elogation by suppressing the function of arresting sites within a transcription window \cite{Chen2023}. In this sense it has been identified as an elongation factor regulating transcription by RNA polymerase II. Transcription processes are most commonly thought of as being regulated by initiation factors. However, regulation of the process during elongations is increasingly understood as being significantly important. The Elongin complex is seen to be dynamic and known to have several other interacting factors affecting elongation behaivor. % https://www.nature.com/articles/s41594-023-01138-w#ref-CR8 % CUL5–RBX2 complex
+We will primarially focus our discussion on ELOC: using it as a query inorder to build an hRIN with HomologyRing to observe inter-chain interactions in the Transcription Factor B (SIII) and related complexs. 
 Comparing structural insites gained through HomologyRing to results from the literature will be used to demonstate the usefulness of the tool and information contained in the resulting hRINs.  
 
+%% Move this to where we start talking about the pipeline being run
 It this case, it is worth noting that we are not primarially concerned with the construction of a family of homolog proteins per se. Rather, we can expect a BLAST search of the PDB to return many ELOC orthologs, or human isoforms (of which there are three \cite{Chen2023}), resulting in a family of high sequence similarity, but may very considerably in the entities present in each complex structure. % stub
-
+%%% END STUFF TO MOVE
 
 %% Complex introduction
+Before detailing the running of the pipeline and intrepeting the resulting hRIN, we pervide some context for the significance of Elongins structure and function. 
 The SIII compex is composed of three elongins: A, B, and C and are highly conserved in Eukaryotes. 
 These elongin protein products are respectively refered to by their short gene names: ELOA, ELOB, and ELOC.
 Behaivor of the SIII elongation factor is well studied experimentally, and has enjoyed a lot of attention. However, much of its function on a mechanistic level is yet to be fully understood. 
 % ELOA structure and function
-ELOA is the is responible for binding in the SIII Elongin complex with the larger RNA Poly II complex where Elongins B and C are regulatory subunits. 
-
-ELOA as a monomer has been seen to promote elongation by RNA Pol II alone % https://www.nature.com/articles/s41594-023-01138-w#ref-CR8 % can likely ommit this
-
-ELOB and ELOC are seen to form a subcomplex \cite{Chen2023}.
+ELOA as a monomer has been seen to promote elongation by RNA Pol II alone \cite{Aso1995}, as ELOA is the is responible for binding in the SIII Elongin complex with the larger RNA Poly II complex where Elongins B and C are regulatory subunits. Additionally, ELOB and ELOC are seen to form a subcomplex independent of ELOA. \cite{Chen2023}, and as will be seen later, is under represented in structures of complexes in the PDB containing ELOC. 
+As a result, we will primarially discuss the interaction between ELOC and ELOB. 
 % ELOB structure and function
+ELOB (seen in \ref{fig:SIII-structure}), 
 Ubiquitin-like protein %https://www.nature.com/articles/s41594-023-01138-w#ref-CR14
+% Globular core
+% Disordered tail at X-terminus
 % ELOC structure and function
 SCF ubiquitin ligase subunit Skp1 % ??? I think this is describing a different complex
 % https://www.nature.com/articles/s41594-023-01138-w#ref-CR8
@@ -410,11 +415,15 @@ All of these factors influcence the structure and corresponding RIN of a protein
 
 
 %PIPELINE AND RESULTS
-The preceding sub-sections serve to illustrate the many complicated interactions in which ELOC participates. Each of these interactions is quite nuanced, and a complete picture of all possible interactions and their functioning at a molecular level is a very time consuming process to come to understand. Furthermore, in this case there is still much that remains not compleatly understood. Here we will utilize HomologyRing to quickly an object capturing structural information about protein-protein interactions at the residue level. This may be used as an overview, providing researchers a quick introduction to wich sites and compounds are involved in interactions in a protein family, or as a technical, well defined mathematical object, wich could be used for more quantitive analysis. In this section we will demonstrate the former, using homologyRing to quickly gain initial insight in to the Elongin Complex.
+The preceding sub-sections serve to illustrate the many complicated interactions in which ELOC participates. Each of these interactions is quite nuanced, and a complete picture of all possible interactions and their functioning at a molecular level is a very time consuming process to come to understand. Furthermore, in this case there is still much that remains not compleatly understood. Here we will utilize HomologyRing to quickly an object capturing structural information about protein-protein interactions at the residue level. This may be used as an overview, providing researchers a quick introduction to wich sites and compounds are involved in interactions in a protein family, or as a technical, well defined mathematical object, wich could be used for more quantitive analysis. In this section we will demonstrate the former, using HomologyRing to quickly gain initial insight in to the Elongin Complex.
 
+The  section as a detailed account of the considerations commonly made when analysing hRINs; aswell as challenges presented by the data, and how tools provided by HomologyRing can adress them. Namely, the propensity and biological significance of different types of interactions, means that a filtering process can greatly aid visualization. Furthermore, variation in the protein chains present in each structure included in the family needs to be considered when conserned with the conservation of interactions.
+
+After initiating the pipeline to build the hRIN, we will first address the different protein chains included in the set of structures. 
 Since we are here concerned with interactions of multiple protein chains, we are required to restrict the use of the pipeline in this case to a homology search of the PDB, as predictions avaible in the AlphaFold Database are limited to single chain structures, preventing the study of inter-chain interactions. 
-Bias in the PDB in some ways limit the usefullness of the quantitive information in the graph. The probability weights in the inter-chain edges of the graph are heavily influenced by the frequency with which published experimental structures have captured any given two entities in a single structure. As discussed, in the Elongin complex, this is highly variable
-Presense of particular entities in experimental structures is also influenced by factors such as interest in particular aspects of a complex within the research community and difficulty of chrystialization. Both of these factors distance the edge weight data from being effective measures of the propensity for an entities interaction in a biological context and such biases should be considered for more statistically rigorous analysis aimed at studying such interactions.
+Bias in the PDB in some ways limit the usefullness of the quantitive information in the graph. The probability weights in the inter-chain edges of the graph are heavily influenced by the frequency with which published experimental structures have captured any given two entities in a single structure. As discussed, the size of the greater complex associated with Elongin is dynamic and highly variable. 
+Presense of particular entities in experimental structures is also influenced by factors such as interest in particular aspects of a complex within the research community and difficulty of chrystialization. 
+%Both of these factors distance the edge weight data from being effective measures of the propensity for an entities interaction in a biological context and such biases should be considered for more statistically rigorous analysis aimed at studying such interactions.
 
 We begin our analysis of the Elongin complex by centering our focus on the ELOC chain, using it as our query structure. And with this we may begin spesifying parameters to construct a HomologyRing quert. Spesifically, the query chain is taken from the \texttt{AUTH C} chain of the PDB structure \texttt{1LM8}, which is a x-ray chrystal structure of the ELOB-ELOC dimer in complex with a fragment of pVHL \cite{Min2002}. The corresponding query sequence is 88 residues long, and maps to uniprot accention {Q15369-2} isoform, differing from the cannonical sequence by an omission of 16 residues from the N-terminal, or beginning of the sequence. 
 The PDB Europe Knowledge Base lists 164 structures in the PDB mapped to the ELOC Uniprot gene: \texttt{Q15369}. However, many more close homologs exist with high sequence similarity.
@@ -461,14 +470,13 @@ HIF1A\_HUMAN & 6 & 3 & 4.7\% \\
     \label{tab:eloc-chain-count}
 \end{table}
 
-The high rate of ELOB inclusion indicates that the hRIN serves well to capture the minimal Elongin ELOB - ELOC complex and pVHL and CUL2 are present in an appreciable proportion of structures -- $60.9\%$ and $28.1\%$ Respectively. Given this, we will explore information contained in the hRIN about the ELOC - ELOB, ELOC - pVHL, and ELOC - CUL2 interactions.
+The high rate of ELOB inclusion indicates that the hRIN serves well to capture the minimal Elongin ELOB - ELOC complex and pVHL and CUL2 are present in an appreciable proportion of structures -- $60.9\%$ and $28.1\%$ Respectively. Given this, we will explore information contained in the hRIN about the ELOC - ELOB, ELOC - pVHL, and ELOC - CUL2 interactions. When studing the significance of inter-chain interactions within a family, a percise notion of `conservation' is needed. A naieve approach would be to weight interactions according to the number of times it is observed within a family. However, key interactions with a chain that is in only a minority of structures will be labeled as poorly conserved with such an approach. To address this, we use a normalization approach that considers if an interaction is possible based on the chains present in a file, which is detailed in Section \ref{subsec:def-conservation}. The effect of this normalization is clearly seen in figure \ref{}. 
 
 %% Possibly speak about intra-chain contacts
 %% See if there are regions of variable contacts in mobile regions
-
-Beginning with the interaction between the most prelevant proteins, ELOC and ELOB, considering which interation types are relevent and limiting analysis accordingly is often helpful. The different types of interactions residues may participate in are generally seen to be differently distributed in the case of intra-chain, inter-chain, and chain-ligand interactions; and Table \ref{tab:eloc-inter-counts} shows this to be the case for this family. Notable types of interactions may only occur between specific, and often reletively rare, amino acids. Consequently, the presence of such an interaction often confers a significant structural function, and the conservation of the interaction will usually correlate with the high conservation of the participating residues in homologous sequences. %% This really does not need to be mentioned here.
+Moving on the second major consideration guiding this analysis, the spesific interactions, we begin by observing the interactions between the most prelevant proteins, ELOC and ELOB. Either prior knowledge of the family or exploratory analysis of which interaction types are relevent and limiting visualizations accordingly is often helpful. The different types of interactions residues may participate in are generally seen to be differently distributed in the case of intra-chain, inter-chain, and chain-ligand interactions; and Table \ref{tab:eloc-inter-counts} shows this to be the case for this family. Notable types of interactions may only occur between specific, and often reletively rare, amino acids. Consequently, the presence of such an interaction often confers a significant structural function, and the conservation of the interaction will usually correlate with the high conservation of the participating residues in homologous sequences. %% This really does not need to be mentioned here.
 On the other hand, interactions like Van Der Waals Forces, or hydrogen bonding are more proliferic, capable of occuring in most if not all amino acids. Such interactions are increadibly important for the conformation of individual protein chains as well as the formation of complexes, however, if they are not of paritcular interest, their abundance can complicate analysis. 
-With this in mind, 
+With this in mind, we 
 
 
 \begin{table}[h!]
@@ -490,11 +498,29 @@ With this in mind,
 
 We may further filter the data provided by HomologyRing used to create Table \ref{tab:eloc-inter-counts} to consider only spesifically the inter-chain contacts between ELOC and ELOB chains. Between the two chains of interest there are the following interactions: 1117 VDW, 605 HBOND, 235 PIPISTACK, 44 IONIC, and 25 PICATION interactions.
 
+There are three primary regions of ELOC that constitute its interface with ELOB: a continuous $\beta$-sheet, small region of contact in a central hairpin, and a disordered C-terminal region (see Figure \ref{fig:SIII-structure}). 
+To demonstrate the ability of HomologyRing's analysis tools, we examine one of these regions in particular as an example. 
 %% Highly conserved PIPISTACK interactions in positions 11 and 13
 %% Hydrogen bonding stabalizing the primary interface between ELOC and ELOB
+The primary interface between ELOC and ELOB occurs between two parallel $\beta$-sheets, nodes 11 - 17  in the hRIN which correspond to residues 26 - 32 in ELOC\_HUMAN,  UniProt: Q15369. The family consensus sequence is GHEFIVK which has 100\% identity with the Uniprot canonical sequence. 
+HomologyRing allows us to visualize subgraphs of the constructed hRIN, allowing for the close examination of which interactions, or edges in the hRIN are most significant in this region.
+
+%% Figure
+%% MSA Figure
+\begin{figure}[h!] % replace with [H} if position is causing problems.
+    \centering
+    \includegraphics[width=\textwidth]{fig/eloc-bsheet-net.png}
+    \caption{Sub-network of hRIN created for studying the inter-chain interaction between ELOC\_HUMAN and ELOB\_HUMAN. Further filtering was performed to consider only residue nodes 11 - 17 corresponding to a $\beta$-sheet comprising the primary stabilizing component of the ELOC - ELOB complex. Where a full network is too large to effectively visualize, this network clearly displays the the degree to which different inter-chain interactions are conserved in the hRIN.}
+    \label{fig:eloc-bsheet-net}
+\end{figure}
+
+The figure displays noatbly several edges with notably high probability weights, indicating highly conserved interactions in the family. Such interactions can to be intrepreded as highly significant, or key interactions in the protein family. A common inference from such highly conserved interactions with high spesificity are of significant importance to their function. In this case, binding to form a complex with a nother protein chain, which as discussed earlier, is critical for the proteins function.
+
+The network in \ref{fig:eloc-bsheet-net} conveys at a glance information from over 64 structures and 128 distinct ELOC chians. Immediately, we can se that Many residues in ELOC forming hydron bonds and Van Der Waals interactions with ELOB is a significant 
+
 %% Disordered terminus of ELOB held inplace against ELOC mainly by weaker VDW and HYDROGEN BOND forces
 
-
+%% Getting information about the disorderd tail would best be done with ELOB as the query sequence
 % Table for entities present in each homolog structure.
 
 
