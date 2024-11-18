@@ -1,52 +1,53 @@
-\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Residue Interaction Networks}{4}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Residue Interaction Network Generator - RING}{5}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Pipeline}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Initiation}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Homology Search}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Structure Retrieval}{7}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Sequence Alignement}{8}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}RING}{8}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}hRIN Synthesis}{8}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Homology Database}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}AlphaFold}{8}{subsection.3.1}%
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Residue Interaction Networks}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Residue Interaction Network Generator - RING}{6}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Methods}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Pipeline}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Initiation}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Homology Search}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Structure Retrieval}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Sequence Alignement}{8}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}RING}{9}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}hRIN Synthesis}{9}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Homology Database}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}AlphaFold}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Protein Data Bank (PDB)}{9}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Homology Residue Interaction Network - hRIN}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Contact Conservation}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Contact Conservation}{10}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Inter-Chain \& Ligand Node Identification}{10}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Analysis Tools}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}User Defined Queries}{10}{subsection.5.1}%
+\contentsline {section}{\numberline {5}Analysis Tools}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}User Defined Queries}{11}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Contat Mask Plots}{12}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Contact Conservation Plots}{12}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.3}Contact Conservation Plots}{13}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Co-Evolution of Contacts}{13}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Example Analysis}{15}{section.6}%
-\contentsline {subsection}{\numberline {6.1}PAS Domain - Binding Specificity}{15}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Elongin C - VHL Interaction}{15}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}DDX}{22}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Usage}{25}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Python}{25}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Command Line Interface (CLI)}{25}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}File Output}{26}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Interactive Application}{26}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Formal hRIN Definition}{28}{section.8}%
-\contentsline {section}{Appendix}{30}{section*.22}%
-\contentsline {section}{\numberline {A}Biological Background}{30}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Central Dogma}{30}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Protein Folding}{30}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Homology}{32}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Multiple Sequence Alignments}{33}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}Structure Files}{33}{subsection.A.5}%
-\contentsline {section}{\numberline {B}Appendix: RING - Predicted Interactions}{36}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Van Der Waals Forces - \texttt {VDW}}{36}{subsection.B.1}%
-\contentsline {subsection}{\numberline {B.2}Hydrogen Bonds - \texttt {HBOND}}{37}{subsection.B.2}%
-\contentsline {subsection}{\numberline {B.3}Ionic Bonds - \texttt {IONIC}}{37}{subsection.B.3}%
-\contentsline {subsection}{\numberline {B.4}$\pi -\pi $ Stacking - \texttt {PIPISTACK}}{37}{subsection.B.4}%
-\contentsline {subsection}{\numberline {B.5}$\pi $-cation Bond - \texttt {PICATION}}{38}{subsection.B.5}%
-\contentsline {subsection}{\numberline {B.6}$\pi $-hydrogen Bond - \texttt {PIHBOND}}{38}{subsection.B.6}%
-\contentsline {subsection}{\numberline {B.7}Halogen Bonds - \texttt {HALOGEN}}{39}{subsection.B.7}%
-\contentsline {subsection}{\numberline {B.8}Disulphide Bonds - \texttt {SSBOND}}{39}{subsection.B.8}%
-\contentsline {subsection}{\numberline {B.9}Metal Coordination - \texttt {METAL\_ION}}{39}{subsection.B.9}%
-\contentsline {section}{\numberline {C}Appendix: Installation and Dependencies}{40}{appendix.C}%
-\contentsline {section}{\numberline {D}Acknowledgements}{40}{appendix.D}%
-\contentsline {section}{\numberline {E}Future Work}{40}{appendix.E}%
-\contentsline {section}{References}{41}{section*.33}%
+\contentsline {section}{\numberline {6}Discussion And Applications}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}PAS Domain - Binding Specificity}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Elongin C - VHL Interaction}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}DDX}{24}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Usage}{27}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Python}{27}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Command Line Interface (CLI)}{27}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}File Output}{28}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Interactive Application}{28}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Formal hRIN Definition}{30}{section.8}%
+\contentsline {section}{Appendix}{32}{section*.22}%
+\contentsline {section}{\numberline {A}Biological Background}{32}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Central Dogma}{32}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Protein Folding}{32}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Homology}{34}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Multiple Sequence Alignments}{35}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Structure Files}{35}{subsection.A.5}%
+\contentsline {section}{\numberline {B}Appendix: RING - Predicted Interactions}{38}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Van Der Waals Forces - \texttt {VDW}}{38}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Hydrogen Bonds - \texttt {HBOND}}{39}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B.3}Ionic Bonds - \texttt {IONIC}}{39}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}$\pi -\pi $ Stacking - \texttt {PIPISTACK}}{39}{subsection.B.4}%
+\contentsline {subsection}{\numberline {B.5}$\pi $-cation Bond - \texttt {PICATION}}{40}{subsection.B.5}%
+\contentsline {subsection}{\numberline {B.6}$\pi $-hydrogen Bond - \texttt {PIHBOND}}{40}{subsection.B.6}%
+\contentsline {subsection}{\numberline {B.7}Halogen Bonds - \texttt {HALOGEN}}{41}{subsection.B.7}%
+\contentsline {subsection}{\numberline {B.8}Disulphide Bonds - \texttt {SSBOND}}{41}{subsection.B.8}%
+\contentsline {subsection}{\numberline {B.9}Metal Coordination - \texttt {METAL\_ION}}{41}{subsection.B.9}%
+\contentsline {section}{\numberline {C}Appendix: Installation and Dependencies}{42}{appendix.C}%
+\contentsline {section}{\numberline {D}Acknowledgements}{42}{appendix.D}%
+\contentsline {section}{\numberline {E}Future Work}{42}{appendix.E}%
+\contentsline {section}{References}{43}{section*.33}%

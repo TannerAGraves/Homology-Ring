@@ -1,0 +1,36 @@
+\section{Introduction}
+This section assumes familiarity with central biological dogma, as well as knowledge of basic concepts in Bioinformatics. Extensive background is provided in Appendix \ref{appendix:bio-background} that aims to accomidate readers of various backgrounds. The topics particularly relevant to this work are explained in the following sections. 
+\subsection{Residue Interaction Networks}
+At the very basic level, protein chains are polymers of amino acid residues bound together by covalent bonds. As a chain folds, it is \emph{non-covalent} interactions between residues that are principally responsible for the secondary and tertiary structure (conformation) of the protein. These non-covalent interactions could be a verity of different forces and are the result of the different chemical and physical properties of the 20 different base amino acids and their arrangement in the peptide sequence that constitutes the protein chain. 
+Examples of interactions commonly observed witnin proteins include Van Der Walls forces and hydrogen bonding. Other interactions are observed less frequently and exibihit high specificity with respect to amino acid participants, like Ionic bonds or $\pi-\pi$ interactions and several others. 
+%Need to mention the structure component again
+Furthermore, the structure of a protein is intrensically tied to it's function within its biological context. % Why are you mentioning this here
+With this in mind, there's a lot of information that can be gathered from knowledge of these non-covalent interactions. 
+Researchers may very easily interpret the structural or functional significance of an interaction, but methods concerning non-covalent interactions can be applied to a problem long troubling structural bioinformatics: The amount of available structural information has been growing at a near exponential rate. % citation
+Both experimental structures available through the PDB and high accuracy predictions given by AlphaFold2 are commonly available in PDB or mmCIF file formats. These files are large---containing 3D atom data, chemical information, and a host of metadata. Parsing, and algorithmically extracting functionally relevant information algorithmically proves to be an arduous task in many contexts. 
+One approach to addressing this problem has garnered much attention: The construction of Residue Interaction Networks (RIN) use information of non-covalent interactions to create a simplified representation of a protein structure.
+There are many variants of the idea. However, they are generally defined for a protein structure to be a mathematical graph, or network, denoted $G = (N, E)$ where $N$ is a set of nodes identifying amino acid residues or various compounds in a structure and $E$ is taken the set of non-covalent interactions observed in the given structure.
+An example of such a network is shown in figure \ref{fig:ex-prot-RIN}. RINs can be seen to provide a simplified means of capturing the topology of a protein structure, and has seen notable attention for its various applications:
+%Applications of RIN
+Binding, protein engineering... 
+Training data of machine learning methods like graph neural networks (GNN). 
+Historical methods like Convolutional neural networks (CNN) on distance matricies discard physicochemical information and may be considerable larger than analogous representation of the same structure with a RIN. 
+
+\begin{figure}[ht] % replace with [H} if position is causing problems.
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig/chain_to_RIN.png}
+    \caption{Example of a basic RIN for generated for a protein chain.}
+    \label{fig:ex-prot-RIN}
+\end{figure}
+
+\todo{If you are going to weight edges with prob for ensembles, it should go here.}
+
+\subsection{Residue Interaction Network Generator - RING}
+There are many available tools capable of generating RINs, each with a slightly different interpretation of the object. In this work, such networks are created using Residue Interaction Network Generator - RING. Notable for its ability to handle all ligands and modified residues in the PDB, it is regarded for accurately and deterministically predicting non-covalent interactions within structure files. It is worth noting that the output of RING is a multi-Graph. Differing from the typical mathematical notion of a graph, it permits multiple edges between a given pair of nodes (see Figure \ref{fig:ex-RING}). These different edges correspond to the different non-covalent interactions predicted by RING. The list of interactions predicted by RING comprising the possible edge types in the resulting RINs are described in Appendix \ref{appendix:RING-inter}. Furthermore, we will refer to the various interaction types by their internal RING identifiers throughout this text for the sake of brevity and clarity (e.g. \texttt{HBOND} for hydrogen bonding and \texttt{IONIC} for salt bridges).
+
+\begin{figure}[ht] % replace with [H} if position is causing problems.
+    \centering
+    \includegraphics[angle=90, width=0.5\textwidth, height=0.3\textheight, keepaspectratio]{fig/ex_RING.png}
+    \caption{Example of a RIN multi-graph visualization created with RING. As typical with RINs, nodes correspond to amino acid residues in a given protein structure. Edges correspond are non-peptide interactions or bonds between residues. Where edges of many interactions are types are permitted between a pair of nodes.}
+    \label{fig:ex-RING}
+\end{figure}
