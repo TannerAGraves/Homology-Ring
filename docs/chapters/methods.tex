@@ -195,3 +195,145 @@ This is referred to a pseudo-taxonomy because it does not aim to capture inferre
     \caption{Example of dentrogram created to created structural similarity based on residue interactions.}
     \label{fig:struct-dendro}
 \end{figure}
+
+
+\section{Formal hRIN Definition}
+\label{sec:hRIN-math}
+% Someone needs to hit me with a shovel, I should not be doing this.
+In practice, a RINs and hRINs contain a considerable amount of metadata which is utilized trhoughout the HomologyRing pipeline and supporitng analysis. However, the details of wich are not needed for a functional understanding of the hRIN object. Furthermore, since RINs show great promise in ML contexts, we provide a more formal description of the hRIN object that lends its to future work in these contexts. 
+
+We use the variable $x$ to represent a homolog and its corresponding structure information. There is notoriously a great deal of information contained within the CIF file, so a riggerous definition of this object could get quite tedious. Thankfully, here primarilly use the variable to identify homologs within the family for which the hRIN is built, which we call $X$. 
+For example, a homolog search executed on the PDB will return a family of structures such as $X = \{\texttt{8bb5\_B},\texttt{8bb4\_O}, \texttt{8je2\_C}, \ldots\}$
+
+We may then formalize our abstraction of the RIN output of RING ran on a single structure as a multigraph:
+$$
+H_x = \{ V_x, E_x, \varphi, c\}
+$$
+Where $V$ is the set of nodes in the RIN, $E$ is the multiset of edges, $\varphi$ is the incidance map, and $c$ is the edge typing function. 
+At this point, nodes in $V$ represent entities as ndoes as identified by RING, which provides a ringEdges output filie providing metadata about the mapping of components in the CIF strucutre to nodes in the RIN. In practice, RING will obviously identify idividual peptide residues in a chain as nodes to form a RIN, but furthermore, RING is notable for its ability to handle incorperate information about multiple protein chains and ligands into the network. 
+The set $E$
+The incidance map, $\varphi: E \to V \times V$, is used to relate a given edge to the pair of verticies, or nodes, which it connects. For example: $\varphi(e) = (v_1, v_2)$.
+
+This notation borrows from a common formalism of multi-edge graphs where edges may be colored, where the map  $c$ is used to identify the \emph{color} associated with a given edge. Here, $c: E \to T$, is imployed here to map a given edge to the type of interaction it corresponds to. We denote arbitrary interaction types $\xi \in T$ where $T$ is the set of possible interaction types predicted by RING such as: \texttt{HBOND}, \texttt{IONIC}, \texttt{PIPISTACK}\ldots. A complete list of possible interactions that define $T$ are provided with detailed conetxt about their properties is provided in Appendix \ref{appendix:RING-inter}.
+
+%Def of H
+Importantly, such a multi graph $H_x$ is created for each homolog in the family $x \in X$. We denote the collection of such objects as $H$ which we will often refer to as the family of structures, or simply family. 
+It is worth noting that $H$ is simply a collection multi-graphs, and does not contain any of the homology information at the residue level necessary to create the hRIN. 
+Transforming this information into an hRIN requires a series of maps, which in the implementation of HomologyRing, is handeled by the MSA created by Clustal$\Omega$ and the EIDN system. 
+
+%Discussion of the EIDN system does not go here
+The EIDN system is a means of identifing non-homolog chain entites present in a family of structures in a consistent manner. It was developed for HomolgyRing in order to map such ligands and non-homolog peptide chins to nodes in hRINs. 
+It functions by compiling a list of all entities present in a family. In CIF files, entities present in structures are classified as either polymer or non-polymer entities and each entity witin a structure is assigned its own numeric EntityID. Polymer entites include protein chains and nuclaic acid chains such as DNA and RNA; where all non-polymer enties are labeled as ligands. Of important note is the fact that RING, and by extension HomologyRing, considers non-peptide polymers such as DNA and RNA as ligands. 
+Once all entities across all structures in a family are collected, the entities are then grouped either by the name of ligand compounds or the gene that non-homolog protein chain was transcribed from. After this group operation, the results are then enumerated --- assigning a numerical identifier to each non-homolog entity. To avoid confusion of these numerical identifiers with the system to identify \texttt{RES} type nodes and unite the system into a single numerical identification system, we add the length of the MSA to non--residue type nodes. 
+
+For example, if a families MSA has 250 columns, and 20 non--homolog chain entities, the resulting hRIN would have 270 nodes. Nodes with id $0$--$249$ will be of type \texttt{RES}, and nodes $250$--$269$ will each be of type either \texttt{LIG} or \texttt{CHAIN} and their ids are assigned by the EIDN system. 
+The node ID is primarially used internally, but exposed to the user for refrence. More practically, the user will be more concerned with either the properties / location of residues families, or other information about compounds identified with the EIDN system. For this reason we provide a map, relating EIDN nodes to the gene a protein chain was transcibed from or the name of a compound a non-residue node represents.
+% This should be divied up between here and the section about the 
+
+We then combine these to systems to identify residue families as given by the MSA and families of chains and ligands given by the EIDN system to define a map $f_x : V_x \to V$ that for a given structure $x$, relates nodes in its RIN $H_x$, to the set of homology-aware nodes in the hRIN which we denote $V$ and take to be the union of nodes identifying residue families given by the MSA and nodes given by EIDN. Alternatively, $V$ can be seen to be the union of the image of all $f_x$: 
+\begin{equation}
+V = \bigcup\limits_{x \in X} f_x(V_x)
+\label{eq:hRIN-V}
+\end{equation}
+
+
+Which includes all MSA columns and all non-homolog entities accross all structures in $X$. 
+
+Observe that $f_x$ is a graph-homomorphism --- Formally, a mapping between (multi)graphs $G_1$ and $G_2$ such that verticies in $G_1$ are mapped to verticies in $G_2$ and edges in $G_1$ are mapped to edges in $G_2$. This is frequently denoted as function of the verticies of the two graphs, $f: V_1 \to V_2$ such that if $(u,v) \in \varphi(E_1)$, then $(f(u), f(v)) \in \varphi(E_2)$. 
+Additionaly observe that taking the family of such maps, given by the family of structures, admits a family of graph-homomorphisms onto a single graph, namely the hRIN of the family. This family is at the core of the definition of the hRIN for a family of structures: 
+\begin{equation}
+F = \{f_x: V_x \to V \mid x \in H\}
+\end{equation}
+%We consider RINs after the node classifications identified in Subsection \ref{subsec:node-types} have already been applied. This means non-homolog protein chains have been collapsed to single nodes identified by the gene they have been transcribed from and ligand nodes are identified by their compound.
+%Ligands are \todo{Either explain this more in detail here or elsewhere}\\
+Simiular to the definition of $V$, we use this family of homomorphisms to define the edgeset of the RIN:
+\begin{equation}
+E = \{(f_x(u), f_x(v)) \mid (u,v) \in E_x, x \in X\}
+\label{eq:hRIN-E}
+\end{equation}
+
+This is then sufficient to give a formal definition of the hRIN object:
+$$
+\mathcal{H} =  (V, E, \varphi, \rho, c)
+$$
+Where $V$ is the set of nodes and $E$ is the set of edges as defined in equations \eqref{eq:hRIN-V} and \eqref{eq:hRIN-E} respectively. $\varphi: E \to V \times V$ is the incidence map, which given an edge $e$ reutrns the pair of nodes the edge connects. Finally, $c: E \to$ is the \emph{edge type map} and is invarient under homomorphism, meaning the type is the same as the edges in the pre-image.%: $c(e) = c(F^{-1}(e))$. %Bad notation --- not explained, f defined on nodes.
+
+Additional notation that proves useful in this paper is the definiton of the $\mathcal{H}_x$. Which can be seen to be the the homology-aware analog of $H_x$: 
+$$
+\mathcal{H}_x = (f_x(V_x), \{(u,v) \mid (u,v) = \varphi(e), e \in E_x\}, \varphi, \rho, c)
+$$
+Where $\rho$ is recalculated on the subset of edges $E_x$. 
+This can also be seen as the subgraph of $\mathcal{H}$ admitted by a pirticular structure of interest $x$ which will only contain nodes corresponding to non-gapped residues in columns of the MSA or entities present in the structure file for $x$.
+% See if you can give an alternate formulation to display this concept.
+
+This is used to define a dissimilarity measure in Section \ref{sec:} to group structures based how simular their interactions are.
+%Comment on the significance of representing all of this as homomorphisms
+
+%An edge will be contained in a subgraph if the corresponding interaction is admitted in the structure. This remains different than the initial RING output, as the subgraphs remain homology aware.
+%$H = \{x: (V_x, E_x)\}$ where $V_x = \{v \in V | (u,v) or (v,u) \in E_x \text{ and } I_\text{non-gap}(v, x)\}$
+
+\section{Usage}
+\subsection{Python}
+Users accustom to carrying out their work in python may find it useful to work with a hRIN, or associated objects as it is implemented internally by HomologyRing directly in python. To accomidate this, the tool exposes objects to be used by the user, including tabular information in numerous Pandas dataframes \ref{pandas} or the networkX MultiGraph representation of the hRIN \ref{networkx}.
+Historically contact plots have proven useful for for use in algormith and ML contexts. 
+AlphaFold did this... % FINSIH
+Our parallel notion of \emph{contact conservation plots} promise similar utility. To accomodate this we provide access to this information in the form of SciPy sparse matricies. 
+Optionally storing contact conservation associated with an hRIN in a sparse \emph{dictionary of keys} (DOK) matricies, provides considerable memory efficiency improvements without sacraficing usablility. 
+%Possibly describe of DOK matricies work.
+We this method of tracking edges in a sparce manner is useful even in visualizing them. When creating said plots we optionally allow the user to plot information for nodes which have contacts according to their sparse representation. This greatly aids usability, as a hRIN may at times have more than 1000 nodes, however, a small fraction of which may actually participate in contacts, the resut, if information of non-interaction nodes is not filtered, is a plot where relevant information is difficult to read.
+
+\subsection{Command Line Interface (CLI)}
+
+Creation of hRINs, either from a user-defined family or by homology search given a query, may be executed via the Python CLI. 
+Following is an example usage for creating an hRIN with \texttt{homologySearch} and the minimal required arguments:
+
+\begin{verbatim}
+python3 homologyRing -q <PATH_TO_CIF> -c A
+\end{verbatim}
+
+\begin{itemize}
+    \item \texttt{-q} : Specifies the query CIF file.
+    \item \texttt{-c} : Specifies the query chain identifier (default: \texttt{label\_asym\_id}).
+\end{itemize}
+
+To create an hRIN from a user-defined family, the \texttt{-F} argument is required to specify either the path of the family TSV file or a directory containing CIF files to be included in the family:
+
+\begin{verbatim}
+python3 homologyRing -q <PATH_TO_CIF> -c A -F <PATH_TO_FAMILY_TSV/DIR>
+\end{verbatim}
+This works well for integration of the output network files with other applications as discuessed in the following Subsection \ref{subsec:file-out}. 
+Detailed doumentation of arguments is accecible by invoking the help argument
+%%% code
+python3 homologyRing --help
+
+\subsection{File Output}
+\label{subsec:file-out}
+Tabular output.\\
+HomologyRing supports outputing a hRIN -- either from an entire network or a user query -- to files which can be directly imported into other applications popular in bioinformatics workflows. 
+Cytoscape is frequently used for the visulization of network information arising from biological contexts, including: protein-protein interaction networks (PPI), metabolic pathways, and more recently Residue Interaction Networks. HomologyRing allows exporting hRIN as a pair of tsv files wich allows them to be visualized and analyzed in cytoscape amoung other software. The hRIN is defined in this context with a node file and an edge file, both of whcich contain identifying and metadata information about the entity. In cytoscape, the user may synthize this information with data from other sources, or perform basic analysis on the network.
+% Cytoscape plot example
+
+\subsection{Interactive Application}
+We have aimed to illustrate thus far how HomologyRing as a tool can be used to gain useful information in a wide range of applications. We do acknowledge, however, that knowledge of python and learning the functionality of the methods required to preform analysis represents significance obsticales in its use. To address this, we have an interactive web application that allows a user to access the core functionality of the software in an rich interactive manner. 
+
+The web app is ran locally from the users machine in implemented in plotlys Dash --- a powerful python framework to build data driven applications in a reactive paradigm where both the front and back end are handeled in Python.
+
+The use of this software allows useres to explore interactions in a protein family in a dynamic and intuitive manner. As a user builds a query spesifying the interaction types, classes, and regions to be included in the hRIN -- The supplamenting visulizations are updated. 
+These visualizations include: A 3D display of the netowrk, a contact conservation score plot, and the contact plot.
+One of the primary appeals of Plotly is the ability to enrich visualizations with additional data such as hover-text to plots. Here, this adis use usability of contact plots and conservation plots, as hovering over a cell, provides the user with information pretaining to a perticular, node, edge, or record corresponding to a structure. 
+To illustrate this usage, 
+Furthermore, there is the addition of click events, wich are utilized by the interactive HomologyRing app to allow the user to create dynamic selections. Should the user click on a cell in the \emph{contact conservation plot}, an set of multi edges associated with that cell become selected; and clicking a cell in the 3D network plot results in a node being selected. 
+A summary of information pertaining to the users current selection is displayed to the right of the 3D Network isualization. Summary content varies depending on the type of object selected. Should a edge be selected, breif information identifying the nodes that edges are between are provided. Additionally interaction conservation score is displayed and information of interaction observations in structures caputred by the edge is displayed in a tabular format below. Observations are grouped by interaction type, and the user has the option of eaither displaying a count of obervations of interactions of that type is provided, or a list of structures said interactions are observed in. Alternatively, should a node be selected, more detailed information about node identifying information is provided. For the different types of nodes this information will vary. % Refrence to EIDEN system and node identification.
+All nodes will display their numberic id used to identify the node within the hRIN. For residue type nodes, this id corresponds to the column of the MSA the node represents. Additionally an amino acid residue from the consensus sequence is given, giving the user indication as to the properties of the residues in that family. 
+Nodes representing protein chains, the gene the protein is transcribed from along with the DB asccention -- typically UniProt or PDB -- is given along side the protein name where the information is available. 
+Finally, names of a selected compounted identified by a \texttt{LIGAND} node is displayed.
+
+The 3D visualization allows users to see nodes and how they generaly releate to eachother spacily. Interactions specified in the user query will be displayed in the graph. It is important to note that only nodes connected by an edge returned by the user query will be displayed in the plot. This reduces visual clutter, and also reflects the internal representation of the custom hRIN defined by the user that may contain information of pirticular interest to their use case. 
+The 3D representation of the network takes position information from the Query chain the user specified when the pipeline was initiated. It is often the case that the MSA will open gaps in the query sequence, and as a result, there will be no position information associated with some nodes for use in the visualization. To solve this issue, the positions of nodes that do not have a member residue in the query chain are linearly interpolated or extrapolated from other nodes position information. 
+Finally, the user can choose to display the `backbone` of the polypeptide chain. this is displayed as a polyline connecting the positions of the alpha carbons in each residue in the chain, allowing the user to see the conformation of the query chain and infer faimily structure when only a sparse subset of nodes may be displayed. 
+
+The query builder functionality is divided into two spaces Edge filtering options are placed to the left of the \emph{contact conservation plot} and node filtering options are placed above the \emph{contact mask plot} which provides a visualization of the MSA that defines the residue type nodes. 
+Filters on the edges include allowing to users to spesify the interaction class as in \ref{sec:}, and the interaction types as discussed in Section \ref{sec:} are the primary tools for spesifying the interactions of interest to be included in the displayed hRIN. The interaction class dropdown allows users to focus their analysis on all possible interactions to form edges, or limit results to intra-chain, inter-chain, or chain-ligand interactions. 
+Just below is a table containing basic information on the types of interactions present in the protein family. This display the number of interactions of each given type and the ability to toggle inclusion of the interactions in the network. % refrence where the query was first discussed.
+
+Above the \emph{contact mask plot} are controls for region filtering. The user may either choose to include all nodes, spesify a range in wich residue nodes will be included, or an occupancy ratio may be given. The ladder most option will trim ends of the MSA and associated nodes from the network where the \emph{occupancy ratio} of the MSA or the fraction of non-gap resodies to total residues that fall below the given ratio. For all node filtering methods, it should be noted that nodes not matched my the node filter will be included in the output network if it is connected to a matched edge by a valid interaction.
